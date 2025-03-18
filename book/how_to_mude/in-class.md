@@ -28,9 +28,17 @@ Find file `in_class_instructions_<XXX>.pptx` (where `<XXX>` is `WED` or `FRI`). 
   - it takes a few extra minutes to log in, so do this as soon as you get to the room
 - You can use your laptop to show the slides as long as you are able to keep them visible on the projector screen. Make sure teams notifications are silenced (or at least that the message text is hidden)
 - Slide transitions:
-  - If there is more than one slide, set up the presentation to transition automatically (after ~5 seconds) and loop back to beginning after the last slide. See the [how to make ppt loop tips below](#how-to-make-powerpoint-slides-loop).
+  - If there is more than one slide, set up the presentation to transition automatically (after ~5 seconds) and loop back to beginning after the last slide. See below
   - If there is only one slide, disable the transitions.
   - Note that transitions behave differently when using the browser-based Powerpoint app versus the desktop-based Powerpoint app. When in doubt, change settings in the desktop-based app.
+
+::::::{admonition} How to Make Powerpoint Slides Loop
+The online Powerpoint app (browser-based app) works differently than the desktop-based app; however, it is generally easier to get the slides online using the browser-based app:
+
+How to set ppt slides to cycle automatically (desktop-based app):
+1.	On “Transitions > Timing” set “Advance Slide” to ~5 sec and click “Apply to All”
+2.	On “Slide Show > Set up” select “Set Up Slide Show” and check box “Loop continuously until Exc”
+::::::
 
 **Be mindful of what is on the projector screen and visible to students.** This means:
 - Don't let students see our Teams page, as there may be sensitive information.
