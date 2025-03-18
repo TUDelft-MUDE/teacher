@@ -41,6 +41,7 @@ parts:
   - caption: How to teach or copy MUDE
     chapters:
     - file: how_to_mude/in-class.md
+    - file: how_to_mude/book.md
     - file: how_to_mude/assignment_repo.md
   - caption: Miscallaneous
     chapters:

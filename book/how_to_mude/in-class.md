@@ -63,13 +63,3 @@ Behavior: what should you do in class?
 
 - _We book 3.69 to decompress, eat lunch, chat about how the session went and plan for the coming days._
 - If you can’t make it please make sure you have communicated any feedback in the feedback document, or via the Teams channel (typos, general suggestions for improvement, observations about what happened in class)
-
-## Miscellaneous (but useful!) Information
-
-### How to Make Powerpoint Slides Loop
-
-The online Powerpoint app (browser-based app) works differently than the desktop-based app; however, it is generally easier to get the slides online using the browser-based app:
-
-How to set ppt slides to cycle automatically (desktop-based app):
-1.	On “Transitions > Timing” set “Advance Slide” to ~5 sec and click “Apply to All”
-2.	On “Slide Show > Set up” select “Set Up Slide Show” and check box “Loop continuously until Exc”
