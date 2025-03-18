@@ -1,5 +1,6 @@
-Title: TU Delft OIT GitHub Template
-author: Author from Delft University of Technology, built with <a href="https://teachbooks.io">TeachBooks</a> and <a href="https://jupyterbook.org/">Jupyter Book</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer"">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""></a> #add your own name here
+Title: MUDE home
+author: MUDE from Delft University of Technology, built with <a href="https://teachbooks.io">TeachBooks</a> and <a href="https://jupyterbook.org/">Jupyter Book</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer"">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""></a>
+logo: _static/MUDE_Logo-small.png
 
 execute:
   execute_notebooks: "off"
@@ -7,7 +8,7 @@ execute:
 only_build_toc_files: true
 
 html:
-  baseurl :  "https://oit.tudelft.nl/" #Replace this with your own URL
+  baseurl :  "https://mude.citg.tudelft.nl/" #Replace this with your own URL
 
 sphinx:
   config:
@@ -18,8 +19,8 @@ sphinx:
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
     html_theme_options:
       logo:
-        text: TU Delft GitHub OIT Template
-      repository_url: "https://github.com/TUDelft-books/repo" #add your own repo URL here
+        text: MUDE
+      repository_url: "https://github.com/TUDelft-MUDE/TUDelft-MUDE.github.io" #add your own repo URL here
       path_to_docs: "book"
       repository_branch: "main"
       use_edit_page_button: true
@@ -34,6 +35,7 @@ sphinx:
       chtml: {
         mtextInheritFont: true # To typeset text within math prettier
       }
+    tud_change_logo: false
   extra_extensions:
     - sphinx.ext.imgconverter
     - jupyterbook_patches
