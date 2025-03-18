@@ -17,11 +17,8 @@ Discussion Channel: check access to in-class discussion, which will be a chat in
 
 **We always put a pptx slide up on the screen with instructions**
 
-Find file `in_class_instructions_<XXX>.pptx` (where `<XXX>` is `WED` or `FRI`). It should be in a place like this in the [MUDE Teams Team](https://tud365.sharepoint.com/:f:/r/sites/MUDE/Gedeelde%20documenten/General/2025-2026%20Classroom%20material?csf=1&web=1&e=CR1Le0), for Week 1.1:
-
-```
-General\2025-2026 Classroom materials\Week_1_1\in_class_instructions_WED.pptx
-```
+Find file `in_class_instructions_<XXX>.pptx` (where `<XXX>` is `WED` or `FRI`). It should be in a place like this in the [MUDE Teams Team](https://tud365.sharepoint.com/:f:/r/sites/MUDE/Gedeelde%20documenten/General/2025-2026%20Classroom%20material?csf=1&web=1&e=CR1Le0), for Week 1.1: `General\2025-2026 Classroom materials\Week_1_1\in_class_instructions_WED.pptx`
+`
 
 **It is critical to open the file directly so updates are visible in all rooms. Don’t copy the file.**
 
