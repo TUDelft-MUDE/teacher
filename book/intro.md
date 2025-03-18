@@ -1,4 +1,4 @@
 (intro)=
 # Welcome to MUDE
 
-This website will contain introduction information about MUDE and a 'How to MUDE' for educators
+MUDE is a module at the Civil Engineering and Geosciences faculty of Delft University of Technology: CEGM1000-25 Modelling, Uncertainty, and Data Analysis for Engineers, taken by all first year students in the MSc degree programs Applied Earth Sciences (AES), Environmental Engineering (EE) and Civil Engineering (CE).

@@ -2,8 +2,45 @@ format: jb-book
 root: intro.md
 
 parts:
-  - caption: How to MUDE?
+  - caption: MUDE 2025-2026
     chapters:
+    - url: https://tudelft-mude.github.io/book/2025/
+      title: Book (temporary URL)
+    - url: https://mude-2025.github.io/workbook/
+      title: Workbook (temporary URL)
+    - url: https://brightspace.tudelft.nl/d2l/home/594596
+      title: Brightspace - announcement, course information, buddycheck, grades (temporary 2024 url)
+    - url: https://answers.citg.tudelft.nl/
+      title: Answers
+  - caption: MUDE archive
+    chapters:
+    - file: archive/2024.md
+      sections:
+      - url: https://mude.citg.tudelft.nl/2024/
+        title: Homepage
+      - url: https://mude.citg.tudelft.nl/2024/book
+        title: Book
+      - url: https://mude.citg.tudelft.nl/2024/files
+        title: Files
+      - url: https://github.com/mude-2024
+        title: Assignment student work (GitHub login required)
+    - file: archive/2023.md
+      sections:
+      - url: https://mude.citg.tudelft.nl/2023/
+        title: Homepage
+      - url: https://mude.citg.tudelft.nl/2023/book
+        title: Book
+      - url: https://mude.citg.tudelft.nl/2023/files
+        title: Files
+      - url: https://gitlab.tudelft.nl/mude-2023-24-q1/
+        title: Student work (TU Delft login required)
+    - file: archive/2022.md
+      sections:
+      - url: https://mude.citg.tudelft.nl/archive-2022
+        title: 
+  - caption: How to teach or copy MUDE?
+    chapters:
+    - file: how_to_mude/in-class.md
     - file: how_to_mude/assignment_repo.md
   - caption: Miscallaneous
     chapters:
