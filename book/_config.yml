@@ -18,8 +18,6 @@ sphinx:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
     html_theme_options:
-      logo:
-        text: MUDE
       repository_url: "https://github.com/TUDelft-MUDE/TUDelft-MUDE.github.io" #add your own repo URL here
       path_to_docs: "book"
       repository_branch: "main"

@@ -9,7 +9,7 @@ In MUDE, we create assignments in separate private repositories which we share w
    - `GA1.1` for group assignments indicated with `<Q1/Q2>.<week1-8>`
    - `PA1.1` for programming assignments indicated with `<Q1/Q2>.<week1-8>`
 4. Add a `README.md` containing some basic information. In MUDE we start with for example:
-```{md}
+```md
 # Programming assignment 1.1
 
 This repository contains source file for the assignment and will be used a source for student repositories and in the workbook.

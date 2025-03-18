@@ -1,11 +1,5 @@
 # Changelog
 
-## `<latest version>`: `<date>`
-- `<Added/modified/deleted>` [](`<relative link to changed file>`)
-- ...
-- Full Changelog: `[<previous version>...<current version>](<link to diff as provided by GitHub>)`
-
-## `<previous version>`: <...>
-- <...>
-
-<...>
+## v2025.1.0: 18-3-2025
+- Added [](./how_to_mude/assignment_repo.md)
+- Full Changelog: [](https://github.com/TUDelft-MUDE/TUDelft-MUDE.github.io/releases/tag/v2025.1.0)
