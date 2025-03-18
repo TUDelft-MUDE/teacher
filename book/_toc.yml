@@ -38,7 +38,7 @@ parts:
       sections:
       - url: https://mude.citg.tudelft.nl/archive-2022
         title: 
-  - caption: How to teach or copy MUDE?
+  - caption: How to teach or copy MUDE
     chapters:
     - file: how_to_mude/in-class.md
     - file: how_to_mude/assignment_repo.md
