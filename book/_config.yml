@@ -1,4 +1,4 @@
-Title: MUDE home
+Title: How to MUDE?
 author: MUDE from Delft University of Technology, built with <a href="https://teachbooks.io">TeachBooks</a> and <a href="https://jupyterbook.org/">Jupyter Book</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer"">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""></a>
 logo: _static/MUDE_Logo-small.png
 
@@ -18,6 +18,8 @@ sphinx:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
     html_theme_options:
+      logo:
+        text: How to MUDE?
       repository_url: "https://github.com/TUDelft-MUDE/TUDelft-MUDE.github.io" #add your own repo URL here
       path_to_docs: "book"
       repository_branch: "main"
