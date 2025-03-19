@@ -6,7 +6,7 @@ parts:
     chapters:
     - url: https://tudelft-mude.github.io/book/2025/
       title: Book (temporary URL)
-    - url: https://mude-2025.github.io/workbook/
+    - url: https://mude-2025.github.io/workbook-2025/
       title: Workbook (temporary URL)
     - url: https://brightspace.tudelft.nl/d2l/home/594596
       title: Brightspace - announcement, course information, buddycheck, grades (temporary 2024 url)

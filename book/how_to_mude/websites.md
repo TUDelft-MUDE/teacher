@@ -4,7 +4,7 @@ There are four key websites used for MUDE (from a student perspective):
 - **Brightspace**: containing announcement, course information, buddy check and grades
 - [**homepage**](https://tudelft-mude.github.io/) [(tempoary URL `https://tudelft-mude.github.io/`)](https://tudelft-mude.github.io/): an interactive book serving as a landing page for students (of this year and previous years) and teachers (both active and external)
 - [**textbook**](https://tudelft-mude.github.io/book) [(temporary URL `https://tudelft-mude.github.io/book`)](https://tudelft-mude.github.io/book): an interactive book containing course content
-- [**workbook**](https://mude-2025.github.io/workbook) [(temporary URL `https://mude-2025.github.io/workbook`)](https://mude-2025.github.io/workbook) an interactive book containing assignments (in 2022-23 it was called `course-files`, in 2023-2025 it was called `files`)
+- [**workbook**](https://mude-2025.github.io/workbook-2025) [(temporary URL `https://mude-2025.github.io/workbook-2025`)](https://mude-2025.github.io/workbook-2025) an interactive book containing assignments (in 2022-23 it was called `course-files`, in 2023-2025 it was called `files`)
 
 The websites listed above have a special configuration that automatically redirects to a URL containing the current academic year (`.YYYY/`) and provides draft pages for teachers for the textbook and workbook. This is explained in a separate subsection below.
 
