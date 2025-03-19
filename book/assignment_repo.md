@@ -24,4 +24,4 @@ This repository contains source file for the assignment and will be used a sourc
 7. Go to {octicon}`repo-push` `Rules` - `Rulesets`, click `Import a ruleset` and import [this file](./Protect_main.json). This will require pull requests for the main branch with 1 approval, allowing bypass by organization and repo admins
 8. Go to {octicon}`gear` `Settings` - {octicon}`people` `Collaborators and teams` to add the responsible people. In MUDE the responsible teacher of the topic has admin access and can add his topic-colleagues.
 
-Step 4 - 6 have been implemented in a [script](./create_repos.ipynb) for MUDE-2025. For this you need a GitHub Token. My Personal access token (classic) has `repo` permissions.
+Step 4 - 6 have been implemented in a [script](./_static/create_repos.ipynb) for MUDE-2025. For this you need a GitHub Token. My Personal access token (classic) has `repo` permissions.
