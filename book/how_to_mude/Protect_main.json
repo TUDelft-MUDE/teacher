@@ -1,9 +1,9 @@
 {
-  "id": 3693136,
+  "id": 3693282,
   "name": "Protect main",
   "target": "branch",
   "source_type": "Repository",
-  "source": "MUDE-2025/WS1.1",
+  "source": "MUDE-2025/GA1.1",
   "enforcement": "active",
   "conditions": {
     "ref_name": {
@@ -33,6 +33,11 @@
     {
       "actor_id": null,
       "actor_type": "OrganizationAdmin",
+      "bypass_mode": "always"
+    },
+    {
+      "actor_id": 5,
+      "actor_type": "RepositoryRole",
       "bypass_mode": "always"
     }
   ]
