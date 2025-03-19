@@ -10,13 +10,19 @@ We make use of an interactive online textbook to share content with students.The
 
 
 ## Editing the book
-You can edit the book in the gitlab repository: [https://github.com/TUDelft-MUDE/book](https://github.com/TUDelft-MUDE/book). If you don't have access, request for it by asking Tom.
+You can edit the book in the github repository: [https://github.com/TUDelft-MUDE/book](https://github.com/TUDelft-MUDE/book) with the following steps:
+- Create a branch with your edits
+- Open a draft pull request and ask for feedback
+- As soon as it ready, mark the pull request as ready
+- The content coordinator will merge you pull request
+
+If you don't have access to this repository, request for it by asking Tom.
 
 Depending on the type of user you want to be, you need to know only a few details or a bit more. Find out which user type you want to be at [https://teachbooks.tudelft.nl/jupyter-book-manual/installation-and-setup/user_types.html](https://teachbooks.tudelft.nl/jupyter-book-manual/installation-and-setup/user_types.html).
 
 Specifically for this MUDE-book:
 - User type 1/2: review by opening an issue by clicking the lightbulb on the top-right corner of a page
-- User type 3/4/5: edit a file on a new branch and create a merge request to 2025-draft. Request for a merge by asking the content manager (Robert/Jialei).
+- User type 3/4/5: edit a file on a new branch and create a merge request to 2025-draft.
 
 If you've never edited a book before, go through the relevant pages (indicated per user type per page) in the `Your first TeachBooks` part of the [TeachBooks Manual](https://teachbooks.io/manual/intro.html) first.
 

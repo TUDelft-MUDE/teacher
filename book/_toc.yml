@@ -40,9 +40,11 @@ parts:
         title: 
   - caption: How to teach or copy MUDE
     chapters:
-    - file: how_to_mude/in-class.md
+    - file: how_to_mude/websites.md
     - file: how_to_mude/book.md
+    - file: how_to_mude/in-class.md
     - file: how_to_mude/assignment_repo.md
+    - file: how_to_mude/github-classroom.md
   - caption: Miscallaneous
     chapters:
     - file: changelog.md

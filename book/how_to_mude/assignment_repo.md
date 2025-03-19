@@ -1,6 +1,6 @@
 # Prepare assignments on GitHub
 
-In MUDE, we create assignments in separate private repositories which we share with students via a workbook and GitHub Classroom. This page explains how to create assignments
+In MUDE, we create assignments in separate private repositories which we share with students via the workbook and/or GitHub Classroom. This page explains how to create assignment repositories.
 
 1. Create a organization for your assignments. This repository will include source repositories, but also student repositories.
 2. Go to {octicon}`person` `People` to add members. In MUDE, the MUDE MT is added to a team (under {octicon}`people` `Teams`) and has been given All-repository admin rights under {octicon}`gear` `Settings` - {octicon}`organization` `Organization roles` - `Role assignment`.
