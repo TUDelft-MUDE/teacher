@@ -6,7 +6,7 @@
 
 Files/Materials:
 
-- Make sure you have found the assignments in the [workbook](https://mude-2025.github.io/workbook-2025/). If you want access to the course files, visit [the MUDE 2025 assignments organization on GitHub](https://github.com/MUDE-2025).
+- Make sure you have found the assignments in the [workbook (tempoerary URL)](https://tudelft-mude.github.io/workbook-2025). If you want access to the course files, visit [the MUDE 2025 assignments organization on GitHub](https://github.com/MUDE-2025).
 - Make sure you have access to the classroom files on [teams](https://tud365.sharepoint.com/:f:/r/sites/MUDE/Gedeelde%20documenten/General/2025-2026%20Classroom%20material?csf=1&web=1&e=CR1Le0). You must be added manually to the MUDE MS Teams team
 - Bring a power cable if your laptop battery does not last long (especially on Friday)
 - Pick up spare power cables for students to use in class (get them at Service Desk, along with keys)
