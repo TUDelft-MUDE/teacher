@@ -1,9 +1,9 @@
 {
-  "id": 3693282,
+  "id": 4295647,
   "name": "Protect main",
   "target": "branch",
   "source_type": "Repository",
-  "source": "MUDE-2025/GA1.1",
+  "source": "MUDE-2025/GA1.2",
   "enforcement": "active",
   "conditions": {
     "ref_name": {
@@ -18,15 +18,27 @@
       "type": "pull_request",
       "parameters": {
         "required_approving_review_count": 1,
-        "dismiss_stale_reviews_on_push": false,
+        "dismiss_stale_reviews_on_push": true,
         "require_code_owner_review": false,
         "require_last_push_approval": false,
-        "required_review_thread_resolution": false,
+        "required_review_thread_resolution": true,
         "allowed_merge_methods": [
           "merge",
           "squash"
         ]
       }
+    },
+    {
+      "type": "creation"
+    },
+    {
+      "type": "update"
+    },
+    {
+      "type": "deletion"
+    },
+    {
+      "type": "non_fast_forward"
     }
   ],
   "bypass_actors": [

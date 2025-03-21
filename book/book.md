@@ -26,8 +26,17 @@ Specifically for this MUDE-book:
 
 If you've never edited a book before, go through the relevant pages (indicated per user type per page) in the `Your first TeachBooks` part of the [TeachBooks Manual](https://teachbooks.io/manual/intro.html) first.
 
+The yearly and draft branches are protected with [a ruleset](./Protect_main.json). This is requiring pull requests for the with 1 approval (which hare dismissed upon new commits), requiring conversation resolution before merging, merging without rebase and blocking force pushes while allowing bypass by organization admins and the MUDE MT.
+
+## Permissions GitHub
+
+Permissions are managed with GitHub teams and organization roles:
+- Teacher and TAs are added to the 'Content writers' team with an all-repository write role.
+- The MUDE MT team has an all-repository admin role
 
 ## Tags
+
+To be defined for 2025
 
 - `2023-archive`
 - `2023-archive-2`: Hypothesis was removed, so the `-x` numbering scheme was implemented

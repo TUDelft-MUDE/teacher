@@ -24,6 +24,11 @@ This works via the [TeachBooks deploy workflow](https://teachbooks.tudelft.nl/ju
 The URL setup that contains the year (`./YYYY/`) and alternative `draft` address ensures that: 1) material from previous years is always available to students in the future, and 2) teachers can stage and preview online material before releasing it to students. In addition, it means that "archiving" material each year requires minimal effort: 1) create new branches in the book repository and a new workbook repository 2) change the URL redirect (this should happen each year on August 1), and 3) update the [Archive page](https://mude.citg.tudelft.nl/).
 
 
+## Permissions GitHub
+Permissions to the GitHub-based source code are managed with GitHub teams and organization roles:
+- Teacher and TAs are added to the 'Content writers' team with an all-repository write role.
+- The MUDE MT team has an all-repository admin role
+
 <!-- **BELOW THIS IS WORK IN PROGRESS**
 
 ## Behavior, URL structure
