@@ -9,7 +9,7 @@ There are four key websites used for MUDE (from a student perspective):
 The websites listed above have a special configuration that automatically redirects to a URL containing the current academic year (`.YYYY/`) and provides draft pages for teachers for the textbook and workbook. This is explained in a separate subsection below.
 
 In addition, additional websites are built and maintained for specific purposes:
-- [`incoming`](https://tudelft-mude.github.io/incoming) [(broken URL `tudelft-mude.github.io/incoming`)](https://tudelft-mude.github.io/incoming): information for incoming students
+- [`incoming`](https://tudelft-mude.github.io/incoming) [(temporary URL `tudelft-mude.github.io/incoming`)](https://tudelft-mude.github.io/incoming): information for incoming students
 - [`teacher`](https://tudelft-mude.github.io/teacher) [(`temporary URL tudelft-mude.github.io/teacher`)](https://tudelft-mude.github.io/teacher): information for teachers teaching MUDE or others who want to copy (parts of) MUDE. Furthermore, this serves as a documentation page for ourselves.
 
 The websites listed above are not set up for archiving (no redirect or URL with the year) and do not have draft pages.
