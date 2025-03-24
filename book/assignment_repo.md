@@ -1,4 +1,4 @@
-# Prepare assignments on GitHub
+# Assignment files
 
 In MUDE, we have assignments in separate private repositories which we share with students via the workbook and/or GitHub Classroom. This page explains how to work in those repositories and prepare those.
 
