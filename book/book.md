@@ -6,17 +6,17 @@ We make use of an interactive online textbook to share content with students.The
 
 - Material is released to students when a commit is made to the `2025` branch at [https://mude.citg.tudelft.nl/book/2025](https://mude.citg.tudelft.nl/book/2025)
 - Prior to sharing with students, material should be reviewed by making a commit to the `2025-draft` branch. This can be viewed at [https://mude.citg.tudelft.nl/book/2025-draft/](https://mude.citg.tudelft.nl/book/2025-draft/).
-- All other branches can be viewed on GitHub. Default is that the branch name is added after the root URL/repo_name. Actions page which summarizes all the branches and status: [https://github.com/TUDelft-MUDE/book/actions](https://github.com/TUDelft-MUDE/book/actions)
+- All other branches are meant to be 'in development' and can be viewed on GitHub. Default is that the branch name is added after the root URL/repo_name. Actions page which summarizes all the branches and status: [https://github.com/TUDelft-MUDE/book/actions](https://github.com/TUDelft-MUDE/book/actions). As soon as the content is merged with the other content, these temporary branches are removed.
 
 
 ## Editing the book
-You can edit the book in the github repository: [https://github.com/TUDelft-MUDE/book](https://github.com/TUDelft-MUDE/book) with the following steps:
+Anyone with access can edit the book in the github repository: [https://github.com/TUDelft-MUDE/book](https://github.com/TUDelft-MUDE/book) with the following steps:
 - Create a branch with your edits
-- Open a draft pull request and ask for feedback
-- As soon as it ready, mark the pull request as ready
-- The content coordinator will merge you pull request
+- Open a draft pull request and ask for feedback from fellow content experts / TAs / content coordinator / programming coordinator.
+- As soon as it ready, mark the pull request as ready and ask the content coordinator for a review (if you didn't do that before)
+- The content coordinator will merge you pull request and delete your branch.
 
-If you don't have access to this repository, request for it by asking Tom.
+If you don't have access to this repository, request for it by asking Tom (programming coordinator). If you want to start straight away, fork the book instead of creating a fork.
 
 Depending on the type of user you want to be, you need to know only a few details or a bit more. Find out which user type you want to be at [https://teachbooks.tudelft.nl/jupyter-book-manual/installation-and-setup/user_types.html](https://teachbooks.tudelft.nl/jupyter-book-manual/installation-and-setup/user_types.html).
 
