@@ -1,4 +1,4 @@
-# Interactive Online Textbooks
+# Textbooks
 
 We make use of an interactive online textbook to share content with students.Therefore, we make use of the [TeachBooks](https://teachbooks.tudelft.nl/) platform, which is a spin-off of [Jupyter Book](https://jupyterbook.org/en/stable/intro.html).
 
@@ -16,32 +16,25 @@ Anyone with access can edit the book in the github repository: [https://github.c
 - As soon as it ready, mark the pull request as ready and ask the content coordinator for a review (if you didn't do that before)
 - The content coordinator will merge you pull request and delete your branch.
 
-If you don't have access to this repository, request for it by asking Tom (programming coordinator). If you want to start straight away, fork the book instead of creating a fork.
+We identify a few user-types (taken from the [TeachBooks Manual](https://teachbooks.io/manual/installation-and-setup/user_types.html)), pecifically for this MUDE-book:
+- User type 1/2: review by opening an issue by clicking the lightbulb on the top-right corner of a page.
+- User type 3/4/5: edit a file on a new branch and create a merge request to 2025-draft as described above
 
-Depending on the type of user you want to be, you need to know only a few details or a bit more. Find out which user type you want to be at [https://teachbooks.tudelft.nl/jupyter-book-manual/installation-and-setup/user_types.html](https://teachbooks.tudelft.nl/jupyter-book-manual/installation-and-setup/user_types.html).
-
-Specifically for this MUDE-book:
-- User type 1/2: review by opening an issue by clicking the lightbulb on the top-right corner of a page
-- User type 3/4/5: edit a file on a new branch and create a merge request to 2025-draft.
-
-If you've never edited a book before, go through the relevant pages (indicated per user type per page) in the `Your first TeachBooks` part of the [TeachBooks Manual](https://teachbooks.io/manual/intro.html) first.
+Depending on the type of user you want to be, you need to know only a few details or a bit more. If you're completely new, go through the general introduction to these kind of books at platforms in the 'Your first TeachBook!' part of the  [TeachBooks Manual](https://teachbooks.io/manual/intro.html). If you already now the basic, go through  relevant pages (indicated per user type per page) in the `Getting going!` part of the manual.
 
 The yearly and draft branches are protected with [a ruleset](./Protect_main.json). This is requiring pull requests for the with 1 approval (which hare dismissed upon new commits), requiring conversation resolution before merging, merging without rebase and blocking force pushes while allowing bypass by organization admins and the MUDE MT.
 
-## Permissions GitHub
+Starting in the academic year 2025-2026, we apply ['TeachBooks versioning with `academic_year.additions.errata`](https://teachbooks.io/manual/installation-and-setup/versioning_changelog.html). This is coordinated by the content coordinator.
 
+## Copyright and Licenses
+The book is released openly, copyrighted by all of us as employees from Delft University of Technology, with a CC BY License. Please comply to the obvious rules for citations for text and figures and don't use non-licensed (or non compatible with our CC BY license) material from others. Some content has been taken out of the book because of copyright risks in preparation for the 2025-2026 academic year. Read [the TeachBooks manual](https://teachbooks.io/manual/installation-and-setup/copyright.html) for more information about how to deal with copyright.
+
+## Permissions GitHub
 Permissions are managed with GitHub teams and organization roles:
 - Teacher and TAs are added to the 'Content writers' team with an all-repository write role.
 - The MUDE MT team has an all-repository admin role
 
-## Tags
-
-To be defined for 2025
-
-- `2023-archive`
-- `2023-archive-2`: Hypothesis was removed, so the `-x` numbering scheme was implemented
-- `2024-v0` only to id start point. not going to use other `v` numbers
-
+If you don't have access to this repository, request for it by asking Tom (programming coordinator). If you want to start straight away, fork the book instead of creating a fork.
 
 ### A bit of history
 
