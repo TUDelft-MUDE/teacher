@@ -33,7 +33,7 @@ For exercises in the book, we'd like to use:
 - [interactive H5p elements](https://teachbooks.io/manual/features/h5p.html). Ask for access to [shared folder](https://tudelft.h5p.com/content/1292046735045725667) at Tom van Woudenberg
 
 ## FTP storage
-Images and binary or big files should be stored on our FTP-server. More information will follow soon.
+Images and binary or big files should be stored on our FTP-server. More information is available [here](./FTP.md)
 
 ## Attribution
 ````{margin}
