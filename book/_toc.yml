@@ -9,6 +9,12 @@ parts:
     - file: in-class.md
     - file: assignment_repo.md
     - file: github-classroom.md
+    - file: server.md
+      sections:
+      - file: server_setup.md
+      - file: server_access.md
+      - file: gitlab_pipeline.md
+      - file: webserver_tools.md
   - caption: Miscallaneous
     chapters:
     - file: changelog.md
