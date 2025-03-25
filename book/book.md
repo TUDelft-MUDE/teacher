@@ -26,6 +26,15 @@ The yearly and draft branches are protected with [a ruleset](./Protect_main.json
 
 Starting in the academic year 2025-2026, we apply ['TeachBooks versioning with `academic_year.additions.errata`](https://teachbooks.io/manual/installation-and-setup/versioning_changelog.html). This is coordinated by the content coordinator.
 
+## Exercises
+For exercises in the book, we'd like to use:
+- [interactive python code](https://teachbooks.io/manual/features/live_code.html)
+- [interactive HTML/JavaScript elements](https://teachbooks.io/manual/features/HTML_javascript.html)
+- [interactive H5p elements](https://teachbooks.io/manual/features/h5p.html). Ask for access to [shared folder](https://tudelft.h5p.com/content/1292046735045725667) at Tom van Woudenberg
+
+## FTP storage
+Images and binary or big files should be stored on our FTP-server. More information will follow soon.
+
 ## Attribution
 ````{margin}
 ```{attributiongrey} Attribution
