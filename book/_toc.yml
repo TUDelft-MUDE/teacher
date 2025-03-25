@@ -9,6 +9,7 @@ parts:
     - file: in-class.md
     - file: assignment_repo.md
     - file: github-classroom.md
+    - file: FTP.md
     - file: server.md
       sections:
       - file: server_setup.md
