@@ -8,7 +8,7 @@ Add this FTP-server by following [steps 6-18 as shown here for Windows](https://
 
 Add your big and binary files in the `./httpdocs/`-directory. Don't be afraid of things becoming a mess, that's fine! As long as you don't overwrite existing files ;).
 
-To use a file, you can use the url `https://files.mude.citg.tudelft.nl/<filename>`. For example `https://files.mude.citg.tudelft.nl/MUDE_NoTextVector.svg` gives you the image below:
+To use a file, you can use the url `https://files.mude.citg.tudelft.nl/<filename>`. For example the file `MUDE_NoTextVector.svg` in `./httpdocs/` can be referenced by with https://files.mude.citg.tudelft.nl/MUDE_NoTextVector.svg, which gives you the image below:
 
 ![](https://files.mude.citg.tudelft.nl/MUDE_NoTextVector.svg)
 
@@ -21,7 +21,7 @@ Figures can be referenced in any markdown text using the normal syntax for a fig
 Or in a book:
 
 ````md
-```{figure} https://files.mude.citg.tudelft.nl/
+```{figure} https://files.mude.citg.tudelft.nl/<filename>
 ---
 name: figure_label
 ---
