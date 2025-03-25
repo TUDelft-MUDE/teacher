@@ -53,7 +53,16 @@ Written by <author(s)>
 ````
 `````
 
-Add this note to the main page of a chapter on top and to the bottom of each of the subpages.
+Add this note to the main page of a chapter on top.
+
+On the bottom of each of the subpages, we add the same attribution, but not in the margin:
+
+`````md
+```{attributiongrey} Attribution
+:class: attribution
+Written by <author(s)>
+```
+`````
 
 If the page is taken from another book, add the following:
 
