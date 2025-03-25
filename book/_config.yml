@@ -28,7 +28,7 @@ sphinx:
       use_issues_button : true
       launch_buttons:
         thebe: true
-      named_colors_custom_colors: {'attributiongrey':[150,150,150]}
+    named_colors_custom_colors: {'attributiongrey':[150,150,150]}
     html_show_copyright: false
     html_last_updated_fmt: '%B %-d, %Y'
     mathjax3_config:
