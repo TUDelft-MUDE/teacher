@@ -43,7 +43,7 @@ Written by Tom van Woudenberg
 ```
 ````
 
-For every chapter, a note on attribution is added to make clear who are the authors. Therefore, use the following syntax (see example to the left):
+For every chapter, a note on attribution is added to make clear who are the authors. Therefore, use the following syntax (see example on the right sidebar):
 `````md
 ````{margin}
 ```{attributiongrey} Attribution
