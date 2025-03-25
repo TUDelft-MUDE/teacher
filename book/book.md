@@ -59,7 +59,7 @@ This page reuses CC BY content from {cite:t}`<reference in book/_bibliography/re
 ````
 `````
 
-And add relevant external_recourses to `book/credits.md`. To make this possible we use the custom admonitions of [the custom named colors sphinx extension](https://teachbooks.io/manual/external/Sphinx-Named-Colors/README.html#admonitions) in combination with a [custom css file](./_static/attribution.css).
+And add relevant external_recourses to `book/credits.md`. To make this possible we use the custom admonitions of [the custom named colors sphinx extension](https://teachbooks.io/manual/external/Sphinx-Named-Colors/README.html#admonitions) in combination with a [custom css file](./_static/attribution.css) and the line `named_colors_custom_colors: {'attributiongrey':[150,150,150]}` in `_config.yml` under `sphinx: config: `
 
 ## Copyright and Licenses
 The book is released openly, copyrighted by all of us as employees from Delft University of Technology, with a CC BY License. Please comply to the obvious rules for citations for text and figures and don't use non-licensed (or non compatible with our CC BY license) material from others. Some content has been taken out of the book because of copyright risks in preparation for the 2025-2026 academic year. Read [the TeachBooks manual](https://teachbooks.io/manual/installation-and-setup/copyright.html) for more information about how to deal with copyright.

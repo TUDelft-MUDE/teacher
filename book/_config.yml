@@ -28,6 +28,7 @@ sphinx:
       use_issues_button : true
       launch_buttons:
         thebe: true
+      named_colors_custom_colors: {'attributiongrey':[150,150,150]}
     html_show_copyright: false
     html_last_updated_fmt: '%B %-d, %Y'
     mathjax3_config:
@@ -36,10 +37,8 @@ sphinx:
       }
     tud_change_logo: false
   extra_extensions:
-    - sphinx.ext.imgconverter
     - jupyterbook_patches
     - download_link_replacer
-    - sphinx.ext.extlinks
     - sphinx_image_inverter
     - sphinx_iframes
     - sphinx_exercise
