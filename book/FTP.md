@@ -1,0 +1,28 @@
+# FTP-server for big and binary files
+
+To keep our websites small and efficient, we're using a TU-Delft provided FTP-server to host all big (>0.5 MB) and binary files (e.g. .JPEG, .zip). Furthermore, this allows us to share single assignments files without attachments.
+
+Add this FTP-server by following [steps 6-18 as shown here for Windows](https://github.com/tudelft-mude) or [these steps for Mac](https://ftp-mac.com/how-to-use-ftp-on-mac.html). The server is `ftp://files.mude.citg.tudelft.nl` and the username `files.mude`. Tom van Woudenberg can give you the password.
+
+Add your big and binary files in the `./httpdocs/`-directory. Don't be afraid of things becoming a mess, that's fine! As long as you don't overwrite existing files ;).
+
+To use a file, you can use the url `https://files.mude.citg.tudelft.nl/<filename>`. For example `https://files.mude.citg.tudelft.nl/MUDE_NoTextVector.svg` gives you the image below:
+
+![](https://files.mude.citg.tudelft.nl/MUDE_NoTextVector.svg)
+
+Figures can be referenced in any markdown text using the normal syntax for a figure:
+
+```md
+![](https://files.mude.citg.tudelft.nl/<filename>)
+```
+
+Or in a book:
+
+````md
+```{figure} https://files.mude.citg.tudelft.nl/
+---
+name: figure_label
+---
+caption
+```
+````
