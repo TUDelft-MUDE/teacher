@@ -7,6 +7,7 @@ parts:
     - file: websites.md
     - file: book.md
     - file: in-class.md
+    - file: TAs.md
     - file: assignment_repo.md
     - file: github-classroom.md
     - file: server.md
