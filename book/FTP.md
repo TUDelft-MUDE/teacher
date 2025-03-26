@@ -18,13 +18,3 @@ Figures can be referenced in any markdown text using the normal syntax for a fig
 ![](https://files.mude.citg.tudelft.nl/<filename>)
 ```
 
-Or in a book:
-
-````md
-```{figure} https://files.mude.citg.tudelft.nl/<filename>
----
-name: figure_label
----
-caption
-```
-````
