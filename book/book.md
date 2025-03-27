@@ -53,6 +53,8 @@ If you'd like to use the [download link replacer](https://teachbooks.io/manual/e
 ```
 ````
 
+Are you looking for any old images that were deleted? Take a look at the repository on the tag [images_archive](https://github.com/TUDelft-MUDE/book/tree/images_archive).
+
 ## Attribution
 ````{margin}
 ```{attributiongrey} Attribution
