@@ -22,6 +22,9 @@ Assignments should be formatted in such a way that they're readable on:
 
 How to do so properly is to be defined.
 
+## FTP storage
+Images and binary or big files should be stored on our FTP-server. More information is available [here](./FTP.md)
+
 ## Licensing
 
 The assignments are shared with a CC BY license. During the academic year, the source code is hidden and only shared with students via the workbook and github classroom. When the academic year ends, the workbook-repository will be made public. The embedded assignments are converted from a submodule relation to the raw files.
