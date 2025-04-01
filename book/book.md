@@ -43,19 +43,12 @@ Written by Tom van Woudenberg
 ```
 ````
 
-For every chapter, a note on attribution is added to make clear who are the authors. Therefore, use the following syntax (see example on the right sidebar):
-`````md
-````{margin}
 ```{attributiongrey} Attribution
 :class: attribution
 Written by <author(s)>
 ```
-````
-`````
 
-Add this note to the main page of a chapter on top.
-
-On the bottom of each of the subpages, we add the same attribution, but not in the margin:
+For every chapter, a note on attribution is added to make clear who are the authors. Add this note on independent pages on full-width. For chapters with multiple pages: add the note to the main page of a chapter on top in the margin. On the bottom of each of the subpages, we add the same attribution, but on the full width:
 
 `````md
 ```{attributiongrey} Attribution
@@ -77,7 +70,7 @@ This page reuses CC BY content from {cite:t}`<reference in book/_bibliography/re
 ````
 `````
 
-And add relevant external_recourses to `book/credits.md`. To make this possible we use the custom admonitions of [the custom named colors sphinx extension](https://teachbooks.io/manual/external/Sphinx-Named-Colors/README.html#admonitions) in combination with a [custom css file](./_static/attribution.css) in `book/_static/` and the line `named_colors_custom_colors: {'attributiongrey':[150,150,150]}` in `book/_config.yml` under `sphinx: config: `
+More information about these attribution blocks can be found in the [TeachBooks manual](https://teachbooks.io/manual/installation-and-setup/copyright/recommendations.html#format-as-custom-admonition)
 
 ## Copyright and Licenses
 The book is released openly, copyrighted by all of us as employees from Delft University of Technology, with a CC BY License. Please comply to the obvious rules for citations for text and figures and don't use non-licensed (or non compatible with our CC BY license) material from others. Some content has been taken out of the book because of copyright risks in preparation for the 2025-2026 academic year. Read [the TeachBooks manual](https://teachbooks.io/manual/installation-and-setup/copyright.html) for more information about how to deal with copyright.
