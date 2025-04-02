@@ -35,7 +35,7 @@ The assignments are shared with a CC BY license. During the academic year, the s
    - `WS1.1` for workshops assignments indicated with `<Q1/Q2>.<week1-8>`
    - `GA1.1` for group assignments indicated with `<Q1/Q2>.<week1-8>`
    - `PA1.1` for programming assignments indicated with `<Q1/Q2>.<week1-8>`
-5. Add a `README.md` containing some basic information. In MUDE we start with for example:
+5. Add a `README.md` containing some basic information. And add a [tempate notebook](./template.ipynb). In MUDE we start with the `README.md`:
 ```md
 # Programming assignment 1.1
 
