@@ -6,7 +6,7 @@ To access the FTP-server, you must be connected to the TU Delft network or use [
 
 Add this FTP-server by following [steps 6-18 as shown here for Windows](https://github.com/tudelft-mude) or [these steps for Mac](https://ftp-mac.com/how-to-use-ftp-on-mac.html). The server is `ftp://files.mude.citg.tudelft.nl` and the username `files.mude`. Tom van Woudenberg can give you the password.
 
-Add your big and binary files in the `./httpdocs/`-directory. Don't be afraid of things becoming a mess, that's fine! As long as you don't overwrite existing files ;).
+Add your big and binary files in the `./httpdocs/`-directory. Don't be afraid of things becoming a mess, that's fine! As long as you don't overwrite existing files ;). And of course, DON't put any copyrighted material on this FTP server.
 
 To use a file, you can use the url `https://files.mude.citg.tudelft.nl/<filename>`. For example the file `MUDE_NoTextVector.svg` in `./httpdocs/` can be referenced by with https://files.mude.citg.tudelft.nl/MUDE_NoTextVector.svg, which gives you the image below:
 
