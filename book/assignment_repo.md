@@ -16,11 +16,11 @@ To add the files to the workbook, the content coordinator updated the submodule 
 
 ## Formatting assignments
 Assignments should be formatted in such a way that they're readable on:
-- local machines (raw markdown, can be enhanced with HTML)
-- GitHub (raw markdown, can be enhanced differently with HTML)
-- Jupyterbook (raw markdown, can be enhanced with myst and differently with HTML)
+- local machines (raw markdown, notebooks enhanced with HTML)
+- GitHub (raw markdown, notebooks enhanced with HTML)
+- Jupyterbook (raw markdown, notebooks enhanced with HTML and evantually with MyST)
 
-How to do so properly is to be defined.
+To do this, all of the assignment repositories include a [template notebook](./ipynb_template.ipynb).
 
 ## FTP storage
 Images and binary or big files should be stored on our FTP-server. More information is available [here](./FTP.md)
@@ -38,11 +38,19 @@ The assignments are shared with a CC BY license. During the academic year, the s
    - `WS1.1` for workshops assignments indicated with `<Q1/Q2>.<week1-8>`
    - `GA1.1` for group assignments indicated with `<Q1/Q2>.<week1-8>`
    - `PA1.1` for programming assignments indicated with `<Q1/Q2>.<week1-8>`
-5. Add a `README.md` containing some basic information. And add a [tempate notebook](./template.ipynb). In MUDE we start with the `README.md`:
+5. Add a `README.md` containing some basic information. And add a [template notebook](./ipynb_template.ipynb). In MUDE we start with the `README.md`:
 ```md
 # Programming assignment 1.1
 
-This repository contains source file for the assignment and will be used a source for student repositories and in the workbook.
+*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
+
+*Written by: `<author(s)>`*
+
+*Due: `<day of week>`, `<month>` `<day>`, `<year>`.*
+
+`<Only for programming and workshop assignments>:`You can access this assignment with the following link: `classroom.github.com/a/<xxxxxxx>`.
+
+`<This repository contains source file for the assignment and will be used a source for student repositories and in the workbook. Replace this README with appropriate information describing the file types and how it should be submitted in case of a programming or workshop assignment.>`
 
 > Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
 ```

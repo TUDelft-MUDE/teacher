@@ -31,7 +31,14 @@ This repository contains source file for the assignment and will be used a sourc
 """
 new_repo.create_file("README.md", "Add README.md", readme_content)
 
-# Step 6: Update repository settings
+# Step 6: Add ipynb_template.ipynb to the repository
+print("Adding ipynb_template.ipynb to the repository...")
+with open("ipynb_template.ipynb", "r") as file:
+    ipynb_template_content = file.read()
+new_repo.create_file("ipynb_template.ipynb", "Add ipynb_template.ipynb", ipynb_template_content)
+print("ipynb_template.ipynb has been added successfully.")
+
+# Step 7: Update repository settings
 print("Updating repository settings...")
 new_repo.edit(
     is_template=True  # Mark as a template repository
