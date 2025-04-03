@@ -22,11 +22,12 @@ Assignments should be formatted in such a way that they're readable on:
 
 To do this, all of the assignment repositories include a [template notebook](./ipynb_template.ipynb).
 
-An assignment and solution version are created when pushing to the main branch (using [this workflow file](./generate-student-notebook.yml)).
+### Assignment and solution version
+An assignment and solution version is created for all the markdown and notebook files when pushing to the main branch (using [this workflow file](./generate-student-notebook.yml)). Therefore, the main branch should include all information.
 
-Based on the cell tags `solution` and `assignment` and html solution blocks (recognized by color) parts of the notebook are stripped out:
--  An assignment notebook is created by stripping out solution code cells (indication with cell tag `solution`) and cells with solution html boxes.
-- A solution file notebook created by stripping out assignment code cells (indicated with cell tag `assignment`) and runs the notebooks. The workflow will give a warning if the run doesn't succeed.
+Based on the cell tags `solution` and `assignment`, and html solution blocks (recognized by color) parts of the notebook are stripped out:
+- An assignment notebook is created by stripping out solution code cells (indication with cell tag `solution`) and cells with solution html boxes.
+- A solution notebook created by stripping out assignment code cells (indicated with cell tag `assignment`) and runs the notebooks. The workflow will give a warning if the run doesn't succeed.
 
 For markdown documents, two version are created based on comments:
 ```md
