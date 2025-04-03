@@ -22,6 +22,23 @@ Assignments should be formatted in such a way that they're readable on:
 
 To do this, all of the assignment repositories include a [template notebook](./ipynb_template.ipynb).
 
+An assignment and solution version are created when pushing to the main branch (using [this workflow file](./generate-student-notebook.yml)).
+
+Based on the cell tags `solution` and `assignment` and html solution blocks (recognized by color) parts of the notebook are stripped out:
+-  An assignment notebook is created by stripping out solution code cells (indication with cell tag `solution`) and cells with solution html boxes.
+- A solution file notebook created by stripping out assignment code cells (indicated with cell tag `assignment`) and runs the notebooks. The workflow will give a warning if the run doesn't succeed.
+
+For markdown documents, two version are created based on comments:
+```md
+% solution_start
+...
+% solution_end
+```
+- An assignment markdown document is created by stripping out everything between the comments `% solution_start` and `%solution_end` including the comments itself.
+- A solution markdown document is created by stripping just the comments `% solution_start` and `%solution_end`.
+
+An `assignment` and `solution` branch are created / updated with all files in the repository including the stripped notebooks and markdown documents. These branches are protected and cannot be edited.
+
 ## FTP storage
 Images and binary or big files should be stored on our FTP-server. More information is available [here](./FTP.md)
 
@@ -58,8 +75,8 @@ The assignments are shared with a CC BY license. During the academic year, the s
    - under `General`: check `Template repository`
    - under `Features`: uncheck `Wikis`
    - under `Pull requests`: check `Always suggest updating pull request branches Loading` and `Automatically delete head branches`
-7. Go to {octicon}`repo-push` `Rules` - `Rulesets`, click `Import a ruleset` and import [this file](./Protect_main.json). This is requiring pull requests for the default branch with 1 approval (which hare dismissed upon new commits), requiring conversation resolution before merging, merging without rebase, protecting the default branch and blocking force pushes while allowing bypass by organization and repo admins
-8. Go to {octicon}`gear` `Settings` - {octicon}`people` `Collaborators and teams` to add the responsible people. In MUDE the responsible teacher of the topic has admin access and can add his topic-colleagues.
+7. Go to {octicon}`repo-push` `Rules` - `Rulesets`, click `Import a ruleset` and import [this file](./Protect_main.json). This is requiring pull requests for the default branch with 1 approval (which hare dismissed upon new commits), requiring conversation resolution before merging, merging without rebase, protecting the default branch and blocking force pushes while allowing bypass by organization and repo admins. Furthermore, [another ruleset](./protect_assignment_and_solution.json) is imported to protect the `assignment` and `solution` branches.
+8. Go to {octicon}`gear` `Settings` - {octicon}`people` `Collaborators and teams` to add the responsible people. In MUDE the responsible teacher of the topic has admin access and can add his topic-colleagues. To bypass this, a repository secret needs to be added to every repository called `FG_MUDE_2025_TOKEN`, which can be a fine-grained PAT with a least `content` access.
 
 Step 4 - 6 have been implemented in a [script](./create_repos.py) for MUDE-2025. For this you need a GitHub Token. My Personal access token (classic) has `repo` permissions.
 

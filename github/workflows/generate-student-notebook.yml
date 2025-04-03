@@ -1,0 +1,52 @@
+name: Generate Student Notebook
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-notebook:
+    name: Generate Student Version of Notebook
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install nbformat
+
+      - name: Remove solution cells from notebook
+        run: |
+          python -c "
+import nbformat
+
+# Load the notebook
+notebook_file = 'path/to/your/notebook.ipynb'  # Update with your notebook path
+with open(notebook_file) as f:
+    notebook = nbformat.read(f, as_version=4)
+
+# Remove cells tagged with 'solution'
+notebook.cells = [cell for cell in notebook.cells if 'solution' not in cell.metadata.get('tags', [])]
+
+# Save the modified notebook
+with open(notebook_file, 'w') as f:
+    nbformat.write(notebook, f)
+"
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git checkout -b solution
+          git add .
+          git commit -m "Generate student version of notebook"
+          git push origin solution --force
