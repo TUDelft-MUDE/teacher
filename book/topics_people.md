@@ -7,7 +7,7 @@
 | 1.3           | Numerical Modelling 2     | Ronald           |
 | 1.4           | Univariate Distributions  | Max              |
 | 1.5           | Multivariate Distributions| Patricia         |
-| 1.6           | Uncertainty Propagation   | Sandra or ...    |
+| 1.6           | Uncertainty Propagation   | Lotfi            |
 | 1.7           | Observation Theory 1      | Sandra           |
 | 1.8           | Observation Theory 2      | Sandra           |
 | 2.1           | PDE's, FDM, FVM           | Frans            |
