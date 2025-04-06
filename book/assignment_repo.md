@@ -47,7 +47,7 @@ Images and binary or big files should be stored on our FTP-server. More informat
 
 The assignments are shared with a CC BY license. During the academic year, the source code is hidden and only shared with students via the workbook and github classroom. When the academic year ends, the workbook-repository will be made public. The embedded assignments are converted from a submodule relation to the raw files.
 
-## Prepare repositories
+## Prepare repositories as administrator
 
 1. Create a organization for your assignments. This repository will include source repositories, but also student repositories.
 2. Go to {octicon}`person` `People` to add members. In MUDE, the MUDE MT is added to a team (under {octicon}`people` `Teams`) and has been given All-repository admin rights under {octicon}`gear` `Settings` - {octicon}`organization` `Organization roles` - `Role assignment`.
@@ -56,22 +56,7 @@ The assignments are shared with a CC BY license. During the academic year, the s
    - `WS1.1` for workshops assignments indicated with `<Q1/Q2>.<week1-8>`
    - `GA1.1` for group assignments indicated with `<Q1/Q2>.<week1-8>`
    - `PA1.1` for programming assignments indicated with `<Q1/Q2>.<week1-8>`
-5. Add a `README.md` containing some basic information. And add a [template notebook](./ipynb_template.ipynb) and [template report](./report_template.md). In MUDE we start with the `README.md`:
-```md
-# Programming assignment 1.1
-
-*[CEGM1000 MUDE](http://mude.citg.tudelft.nl/)*
-
-*Written by: `<author(s)>`*
-
-*Due: `<day of week>`, `<month>` `<day>`, `<year>`.*
-
-`<Only for programming and workshop assignments>:`You can access this assignment with the following link: `classroom.github.com/a/<xxxxxxx>`.
-
-`<This repository contains source file for the assignment and will be used a source for student repositories and in the workbook. Replace this README with appropriate information describing the file types and how it should be submitted in case of a programming or workshop assignment.>`
-
-> Copyright 2025 MUDE, Delft University of Technology. This work is licensed under a CC BY 4.0 License
-```
+5. Add a `README.md` containing some basic information. And add a citatoin file, template notebook, license file, template report, readme requirements file and github workflow for stripping out assignment and solution blocks. All of these files are combined in a [zip](./create_repos.zip) including a py script to uplodd each of these. Note that you need to move the workflow file manually as the script doesn't allow adding files with a dot.
 6. Go to {octicon}`gear` `Settings` - {octicon}`gear` General:
    - under `General`: check `Template repository`
    - under `Features`: uncheck `Wikis`
