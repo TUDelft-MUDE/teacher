@@ -6,12 +6,12 @@ parts:
     chapters:
     - file: websites.md
     - file: book.md
+    - file: assignment_repo.md
+    - file: FTP.md
+    - file: github-classroom.md
     - file: in-class.md
     - file: topics_people.md
     - file: TAs.md
-    - file: assignment_repo.md
-    - file: github-classroom.md
-    - file: FTP.md
     - file: server.md
       sections:
       - file: server_setup.md
