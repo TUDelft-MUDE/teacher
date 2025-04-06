@@ -10,7 +10,7 @@ GitLab Runner is used to execute the CI/CD (Continuous Integration and Continuou
 
 Currently, most of the mude repositories are using the runner #1020 (rU9Qxsz9J).
 
-### Runner Information
+## Runner Information
 
 | **System ID**    | **Status** | **Version**           | **IP Address**     | **Executor** | **Arch/Platform**  |
 |------------------|------------|-----------------------|--------------------|--------------|-------------------|

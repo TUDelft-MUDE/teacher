@@ -31,17 +31,17 @@ This is the example of the subdomain:
 
 All you need to do to set up the new subdomain is to write exactly as the example shows.
 
-### Configuration Details
+## Configuration Details
 
-#### Alias
-```nginx
+### Alias
+```
 alias /var/www/html/{domain name};
 ```
 This sets the alias for the `/ {domain name}` location to the directory `/var/www/html/{domain name}`. When a request matches `/ {domain name}`, Nginx serves the files from this directory.
 
 If you `cd /var/www/html`, you could see nothing except the default Nginx `index.html` file on the `mude.citg.tudelft.nl` Linux server. This is because the server is using a proxy. `/var/web_server/htdocs/` is where the actual contents stay.
 
-#### Index Files
+### Index Files
 ```nginx
 index index.html index.htm intro.html;
 ```
@@ -56,13 +56,13 @@ sudo nano {domain name}/index.html
 
 Write down anything in the `index.html` file. Press `(Ctrl+X -> Y)` to save and exit from the nano text editor. In this way, your `index.html` file will be created successfully.
 
-#### Try Files
+### Try Files
 ```nginx
 try_files $uri $uri/ =404;
 ```
 This directive attempts to serve the requested URI as a file or a directory. If neither exists, it returns a 404 error.
 
-### Restarting Docker
+## Restarting Docker
 
 After you finish the setup above, you need to restart the Docker container with the following commands:
 
@@ -210,7 +210,7 @@ With these steps completed, your webhook will automatically trigger the deployme
 
 
 
-# `interactivetextbooks` setup
+## `interactivetextbooks` setup
 This has a GitLab CI/CD pipeline configuration file that automates the process of building a Docker image, pushing it to a Docker registry, and deploying it in a containerized environment. Here's a breakdown of the stages and commands:
 
 ### Stages
@@ -247,7 +247,7 @@ This has a GitLab CI/CD pipeline configuration file that automates the process o
 - In the **build** stage, it builds a Docker image and pushes it to a local Docker registry at `localhost:5000`.
 - In the **deploy** stage, it stops and removes any existing container, then runs a new container with the built image, exposing port `8007` on the host machine.
 
-# `SSL Certificate Setup` Guide
+## `SSL Certificate Setup` Guide
 ### Before You Begin
 
 - **Authentication:** Use your NetID login credentials for all server access.
