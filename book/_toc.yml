@@ -18,6 +18,7 @@ parts:
       - file: server_access.md
       - file: gitlab_pipeline.md
       - file: webserver_tools.md
+    - file: IT_training.md
   - caption: Miscallaneous
     chapters:
     - file: changelog.md
