@@ -8,12 +8,12 @@ We make use of an interactive online textbook to share content with students.The
 - Prior to sharing with students, material should be reviewed by making a commit to the `2025-draft` branch. This can be viewed at [https://mude.citg.tudelft.nl/book/2025-draft/](https://mude.citg.tudelft.nl/book/2025-draft/).
 - All other branches are meant to be 'in development' and can be viewed on GitHub. Default is that the branch name is added after the root URL/repo_name. Actions page which summarizes all the branches and status: [https://github.com/TUDelft-MUDE/book/actions](https://github.com/TUDelft-MUDE/book/actions). As soon as the content is merged with the other content, these temporary branches are removed.
 
-
+(book-edit_workflow)=
 ## Editing the book
 Anyone with access can edit the book in the github repository: [https://github.com/TUDelft-MUDE/book](https://github.com/TUDelft-MUDE/book) with the following steps:
-- Create a branch with your edits
-- Open a draft pull request and ask for feedback from fellow content experts / TAs / content coordinator / programming coordinator.
-- As soon as it ready, mark the pull request as ready and ask the content coordinator for a review (if you didn't do that before)
+- Create a branch with your edits and open a draft pull request. Eventually name issues which this pull request might solve.
+- Ask for feedback from fellow content experts / TAs / content coordinator / programming coordinator.
+- As soon as it ready, mark the pull request as ready and ask the content coordinator for a merge.
 - The content coordinator will merge you pull request and delete your branch.
 
 We identify a few user-types (taken from the [TeachBooks Manual](https://teachbooks.io/manual/installation-and-setup/user_types.html)), pecifically for this MUDE-book:

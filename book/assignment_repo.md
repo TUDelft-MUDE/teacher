@@ -8,9 +8,9 @@ In MUDE we have three types of assignments (next to assignments in the book):
 - Workshop assignments, to be made individually or in groups during our Wednesday session. Not submitted, not graded but solutions are provided after the session.
 - Group assignments, to be made in groups during our Friday sessions, submitted via GitHub Classroom and graded manually. Solutions are not provided.
 
-For each of these assignments a repository has been made in [the MUDE-2025 GitHub organization](https://github.com/MUDE-2025) and are initiated as explained below. Content leaders can add others as they like and can define their own way of collaboration (although it's advised to use a git-workflow with branches and pull-request as there is for the book).
+For each of these assignments a repository has been made in [the MUDE-2025 GitHub organization](https://github.com/MUDE-2025) and are initiated as explained below. Content leaders can add others as they like and can define their own way of collaboration (although it's advised to use [a git-workflow with branches and pull-request as there is for the book](book-edit_workflow)). By default only the content leader have push and merge access to main, others can have the same permissions when given an admin role.
 
-As soon an assignment is ready, ask the content coordinator (and eventually programming coordinator) for a review. If passed, the assignments is added by the content coordinator and/or programming coordinator to the workbook which shows a preview of the assignments and allows students to download. For programming and group assignments, a [github classroom assignment is initiated too](./github-classroom.md).
+As soon an assignment is ready, ask the content coordinator for a review. If passed, the assignments is added by the content coordinator to the workbook which shows a preview of the assignments and allows students to download. For programming and group assignments, a [github classroom assignment is initiated too](./github-classroom.md).
 
 To add the files to the workbook, the content coordinator updated the submodule in the workbook and adds the relevant files to the `_toc.yml`.
 
@@ -20,7 +20,7 @@ Assignments should be formatted in such a way that they're readable on:
 - GitHub (raw markdown, notebooks enhanced with HTML)
 - Jupyterbook (raw markdown, notebooks enhanced with HTML and evantually with MyST)
 
-To do this, all of the assignment repositories include a [template notebook](./ipynb_template.ipynb).
+To do this, all of the assignment repositories include a template notebook, template readme and template report (as included in this [zip](./create_repos.zip)).
 
 ### Assignment and solution version
 An assignment and solution version is created for all the markdown and notebook files when pushing to the main branch (using [this workflow file](./generate-student-notebook.yml)). Therefore, the main branch should include all information.
@@ -49,7 +49,7 @@ The assignments are shared with a CC BY license. During the academic year, the s
 
 ## Prepare repositories as administrator
 
-1. Create a organization for your assignments. This repository will include source repositories, but also student repositories.
+1. Create an organization for your assignments. This repository will include source repositories, but also student repositories.
 2. Go to {octicon}`person` `People` to add members. In MUDE, the MUDE MT is added to a team (under {octicon}`people` `Teams`) and has been given All-repository admin rights under {octicon}`gear` `Settings` - {octicon}`organization` `Organization roles` - `Role assignment`.
 3. Apply for [a GitHub Education GitHub Team](https://education.github.com/globalcampus/teacher) for your organization to get unlimited workflow minutes in the GitHub classroom repos, allow adding many students to the organization at the same time and GitHub pages (public) for private repositories)
 4. Add a empty repository (if you already have a template repository, you can make it based on that template) and give it a logical name. In MUDE we use:
