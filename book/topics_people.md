@@ -19,3 +19,8 @@
 | 2.7           | Extreme Value Analysis    | Patricia         |
 | 2.8           | Risk Analysis             | Oswaldo          |
 | Programming   |                           | Tom              |
+
+Module manager: Frans
+Content coordinator: Robert
+Planning coordinator: Jialei
+IT coordinator: Tom
