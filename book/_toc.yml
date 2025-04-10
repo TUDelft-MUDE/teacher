@@ -9,6 +9,7 @@ parts:
     - file: assignment_repo.md
     - file: FTP.md
     - file: github-classroom.md
+    - file: schedule.md
     - file: in-class.md
     - file: topics_people.md
     - file: TAs.md
