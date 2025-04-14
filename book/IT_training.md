@@ -6,6 +6,8 @@ During the IT-training, you'll get a short overview of the different systems and
 ```{video} https://www.youtube.com/watch?v=j34D4i5JEvc
 ```
 
+Watch out, this video is long and confusing, better just continue reading and doing it yourself!
+
 After this demo, you'll practise with the systems yourself with the following steps:
 
 1. Ask for access to the book and assignment repositories at the IT coordinator with your GitHub username, FTP access with a provided password and H5p shared folder access with your TU Delft email (first activate account as explained [here](https://www.tudelft.nl/teaching-support/educational-tools/h5p#first-time-use))
