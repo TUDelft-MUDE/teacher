@@ -2,7 +2,7 @@
 
 | Week          | Topic                     | Content Leader   |
 |---------------|---------------------------|------------------|
-| 1.1           | Modelling Concepts        | Jialei           |
+| 1.1           | Modelling Concepts        | ???              |
 | 1.2           | Numerical Modelling 1     | Ronald           |
 | 1.3           | Numerical Modelling 2     | Ronald           |
 | 1.4           | Univariate Distributions  | Max              |
@@ -19,3 +19,8 @@
 | 2.7           | Extreme Value Analysis    | Patricia         |
 | 2.8           | Risk Analysis             | Oswaldo          |
 | Programming   |                           | Tom              |
+
+Module manager: Frans
+Content coordinator: Robert
+Planning coordinator: Jialei
+IT coordinator: Tom
