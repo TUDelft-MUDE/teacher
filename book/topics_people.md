@@ -10,7 +10,7 @@
 | 1.6           | Uncertainty Propagation   | Lotfi            |
 | 1.7           | Observation Theory 1      | Sandra           |
 | 1.8           | Observation Theory 2      | Sandra           |
-| 2.1           | PDE's, FDM, FVM           | Frans            |
+| 2.1           | PDE's, FDM, FVM           | Marcel           |
 | 2.2           | FEM                       | Frans            |
 | 2.3           | Signal Processing         | Christian        |
 | 2.4           | Time Series Analysis      | Christian        |
