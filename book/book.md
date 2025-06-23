@@ -104,7 +104,7 @@ If you don't have access to this repository, request for it by asking Tom (progr
 
 ### A bit of history
 
-- 2022-23: we made a Jupyter Book to archive of all material; students did not use an online book, only Brightspace
-- 2023-24: we made our first Jupyter Book, which used the draft-release workflow to release material
-- 2024-25: goal is to make the book open with a CC-BY license. GitHub (TeachBooks) is used to mirror the repo and facilitate a large number of draft versions of the book that can be used for review via the github actions workflow
-- 2025-26: all the book stuff is moved to GitHub to ease the deployment flow.
+- 2022-23: we made one Jupyter Book for a small part of MUDE (weeks 2.7 and 2.8) used by students (everything else was on Brightspace), then a second book to archive all material (not used by students; the 2022 archive is password protected because it contains some student work).
+- 2023-24: we made our first Jupyter Book, which used (and pioneered) the draft-release workflow to release material and Sphinx Thebe interactive Python pages. Experience in MUDE inspires the creation of TeachBooks in Spring 2024.
+- 2024-25: this will be the first version of the book to be released with a CC-BY license. GitHub (TeachBooks) was used to mirror the repo and facilitate a large number of draft versions of the book that can be used for review via the github actions workflow.
+- 2025-26: all the book stuff is moved to GitHub to ease the deployment workflow (prior versions of the book used GitLab).
