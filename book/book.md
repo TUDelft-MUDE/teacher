@@ -16,7 +16,7 @@ Anyone with access can edit the book in the github repository: [https://github.c
 - As soon as it ready, mark the pull request as ready and ask the content coordinator for a merge.
 - The content coordinator will merge you pull request and delete your branch.
 
-We identify a few user-types (taken from the [TeachBooks Manual](https://teachbooks.io/manual/installation-and-setup/user_types.html)), pecifically for this MUDE-book:
+We identify a few user-types (taken from the [TeachBooks Manual](https://teachbooks.io/manual/installation-and-setup/user_types.html)), specifically for this MUDE-book:
 - User type 1/2: review by opening an issue by clicking the lightbulb on the top-right corner of a page.
 - User type 3/4/5: edit a file on a new branch and create a merge request to 2025-draft as described above
 
