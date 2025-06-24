@@ -18,3 +18,16 @@ Figures can be referenced in any markdown text using the normal syntax for a fig
 ![](https://files.mude.citg.tudelft.nl/<filename>)
 ```
 
+If you want to have students download files from a `.ipynb`-file, you can use the following lines of code:
+
+```python
+import os
+from urllib.request import urlretrieve
+
+def findfile(fname):
+    if not os.path.isfile(fname):
+        print(f"Downloading {fname}...")
+        urlretrieve('http://files.mude.citg.tudelft.nl/'+fname, fname)
+
+findfile('<filename>')
+```
