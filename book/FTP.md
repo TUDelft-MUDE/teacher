@@ -31,3 +31,5 @@ def findfile(fname):
 
 findfile('<filename>')
 ```
+
+If you use the code above, add the file to the `.gitignore` to make sure it will not get synced with github.
