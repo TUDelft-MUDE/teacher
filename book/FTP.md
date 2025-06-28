@@ -4,7 +4,7 @@ To keep our websites small and efficient, we're using a TU-Delft provided FTP-se
 
 To access the FTP-server, you must be connected to the TU Delft network or use [a VPN](https://intranet.tudelft.nl/-/openvpn)
 
-Add this FTP-server by following [steps 6-18 as shown here for Windows](https://github.com/tudelft-mude) or [these steps for Mac](https://ftp-mac.com/how-to-use-ftp-on-mac.html). The server is `ftp://files.mude.citg.tudelft.nl` and the username `files.mude`. Tom van Woudenberg can give you the password.
+Add this FTP-server by following [as shown here for Windows](https://www.wintips.org/how-to-connect-to-an-ftp-server-from-windows-explorer/) or [these steps for Mac](https://ftp-mac.com/how-to-use-ftp-on-mac.html). The server is `ftp://files.mude.citg.tudelft.nl` and the username `files.mude`. Tom van Woudenberg can give you the password.
 
 Add your big and binary files in the `./httpdocs/`-directory. Don't be afraid of things becoming a mess, that's fine! As long as you don't overwrite existing files ;). And of course, DON't put any copyrighted material on this FTP server.
 
@@ -18,3 +18,18 @@ Figures can be referenced in any markdown text using the normal syntax for a fig
 ![](https://files.mude.citg.tudelft.nl/<filename>)
 ```
 
+If you want to have students download files from a `.ipynb`-file, you can use the following lines of code:
+
+```python
+import os
+from urllib.request import urlretrieve
+
+def findfile(fname):
+    if not os.path.isfile(fname):
+        print(f"Downloading {fname}...")
+        urlretrieve('http://files.mude.citg.tudelft.nl/'+fname, fname)
+
+findfile('<filename>')
+```
+
+If you use the code above, add the file to the `.gitignore` to make sure it will not get synced with github.

@@ -20,7 +20,15 @@
 | 2.8           | Risk Analysis             | Oswaldo          |
 | Programming   |                           | Tom              |
 
-Module manager: Frans
-Content coordinator: Robert
-Planning coordinator: Jialei
-IT coordinator: Tom
+- Module manager: Frans
+- Content coordinator: Jialei
+- IT coordinator: Tom
+
+TA's:
+
+- Berend Bouvy
+- Daniel van der Hoorn
+- Giorgi Nareshelashvili
+- Isabel Slingerland
+- Rifa Amaliah Suaedi (focus on planning)
+- Rosa Schnebli (focus on planning)
