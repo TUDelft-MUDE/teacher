@@ -14,6 +14,7 @@ As soon an assignment is ready, ask the content coordinator for a review. If pas
 
 To add the files to the workbook, the content coordinator updated the submodule in the workbook and adds the relevant files to the `_toc.yml`.
 
+(formatting_assignments)=
 ## Formatting assignments
 Assignments should be formatted in such a way that they're readable on:
 - local machines (raw markdown, notebooks enhanced with HTML)
