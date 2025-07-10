@@ -26,9 +26,13 @@
 
 TA's:
 
+- Ahmet Tekin
 - Berend Bouvy
 - Daniel van der Hoorn
 - Giorgi Nareshelashvili
+- Hanyu Cheng
 - Isabel Slingerland
+- Korina Detsi
+- Kwangjin Lee
 - Rifa Amaliah Suaedi (focus on planning)
 - Rosa Schnebli (focus on planning)
