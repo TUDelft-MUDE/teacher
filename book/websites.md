@@ -28,6 +28,7 @@ The URL setup that contains the year (`./YYYY/`) and alternative `draft` address
 Permissions to the GitHub-based source code are managed with GitHub teams and organization roles:
 - Teacher and TAs are added to the 'Content writers' team with an all-repository write role.
 - The MUDE MT team has an all-repository admin role
+- The content leader is codeowner for the book and workbook, and the MUDE MT for the other websites. A review is required from them for a merge into the versions shared with students
 
 <!-- **BELOW THIS IS WORK IN PROGRESS**
 
