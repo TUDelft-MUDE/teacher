@@ -17,7 +17,7 @@
 | 2.5           | Optimization              | Nadia Pourmohammadzia |
 | 2.6           | Machine Learning          | Iuri Rocha       |
 | 2.7           | Extreme Value Analysis    | Patricia Mares Nasarre |
-| 2.8           | Risk Analysis             | Oswaldo Morales  |
+| 2.8           | Risk Analysis             | Oswaldo Morales Napoles |
 | Programming   |                           | Tom van Woudenberg |
 
 - Module manager: Frans van der Meer
