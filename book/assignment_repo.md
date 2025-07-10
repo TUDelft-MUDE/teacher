@@ -62,7 +62,7 @@ The assignments are shared with a CC BY license. During the academic year, the s
    - under `General`: check `Template repository`
    - under `Features`: uncheck `Wikis`
    - under `Pull requests`: check `Always suggest updating pull request branches Loading` and `Automatically delete head branches`
-7. Go to {octicon}`repo-push` `Rules` - `Rulesets`, click `Import a ruleset` and import [this file](./Protect_main.json). This is requiring pull requests for the default branch with 1 approval (which hare dismissed upon new commits), requiring conversation resolution before merging, merging without rebase, protecting the default branch and blocking force pushes while allowing bypass by organization and repo admins. Furthermore, [another ruleset](./protect_assignment_and_solution.json) is imported to protect the `assignment` and `solution` branches.
+7. Go to {octicon}`repo-push` `Rules` - `Rulesets`, click `Import a ruleset` and import [this file](./protect_assignment_and_solution.json). This is imported to protect the `assignment` and `solution` branches which should be read-only.
 8. Go to {octicon}`gear` `Settings` - {octicon}`people` `Collaborators and teams` to add the responsible people. In MUDE the responsible teacher of the topic has admin access and can add his topic-colleagues. To bypass this, a repository secret needs to be added to every repository called `FG_MUDE_2025_TOKEN`, which can be a fine-grained PAT with a least `content` access.
 
 Step 4 - 6 have been implemented in a [py script included in the zip](./create_repos.py) for MUDE-2025. For this you need a GitHub Token. My Personal access token (classic) has `repo` permissions.
@@ -97,7 +97,7 @@ The same `GH_PAT` is added to the repository dependabot secrets to allow access 
 Permissions are managed with GitHub teams and organization roles:
 - Teacher and TAs are added with an all-repository read role
 - The MUDE MT team (child team of the 'Teacher and TAs'-team) has an all-repository admin role
-- Child teams of the 'Teacher and TAs'-team are created for every topic. The content leaders are added to these teams. These teams are assigned admin rights for their specific assignment repositories, allowing them full control over their repositories.
+- Child teams of the 'Teacher and TAs'-team are created for every topic. The content leaders are added to these teams. These teams are assigned admin rights for their specific assignment repositories, allowing them full control over their repositories (except for editing the assignment and solution branch).
 
 The base permission of the organisation is set to 'no permissions', repository and pages creation is disabled ( {octicon}`gear` `Settings` - {octicon}`people` `Member privileges`). Furthermore, admin repository permissions are all disabled ( {octicon}`gear` `Settings` - {octicon}`people` `Collaborators and teams` - Admin repository permissions).
 
