@@ -22,7 +22,7 @@ We identify a few user-types (taken from the [TeachBooks Manual](https://teachbo
 
 Depending on the type of user you want to be, you need to know only a few details or a bit more. If you're completely new, go through the general introduction to these kind of books at platforms in the 'Your first TeachBook!' part of the  [TeachBooks Manual](https://teachbooks.io/manual/intro.html). If you already now the basic, go through  relevant pages (indicated per user type per page) in the `Getting going!` part of the manual.
 
-The yearly and draft branches are protected with [a ruleset](./Protect_main.json). This is requiring pull requests for the with 1 approval (which hare dismissed upon new commits), requiring conversation resolution before merging, merging without rebase and blocking force pushes while allowing bypass by organization admins and the MUDE MT.
+The yearly and draft branches are protected with [a ruleset](./Protect_main.json). This is requiring pull requests for the with 1 approval from the content leader(which hare dismissed upon new commits), requiring conversation resolution before merging, merging without rebase and blocking force pushes while allowing bypass by organization admins and the MUDE MT.
 
 Starting in the academic year 2025-2026, we apply ['TeachBooks versioning with `academic_year.additions.errata`](https://teachbooks.io/manual/installation-and-setup/versioning_changelog.html). This is coordinated by the content coordinator.
 
@@ -96,9 +96,10 @@ More information about these attribution blocks can be found in the [TeachBooks 
 The book is released openly, copyrighted by all of us as employees from Delft University of Technology, with a CC BY License. Please comply to the obvious rules for citations for text and figures and don't use non-licensed (or non compatible with our CC BY license) material from others. Some content has been taken out of the book because of copyright risks in preparation for the 2025-2026 academic year. Read [the TeachBooks manual](https://teachbooks.io/manual/installation-and-setup/copyright.html) for more information about how to deal with copyright.
 
 ## Permissions GitHub
-Permissions are managed with GitHub teams and organization roles:
+Permissions are managed with GitHub teams, organization roles and CODEOWNERS:
 - Teacher and TAs are added to the 'Content writers' team with an all-repository write role.
 - The MUDE MT team has an all-repository admin role
+- The content leader is the CODEOWNER of the book, requiring reviews by this person for merges.
 
 If you don't have access to this repository, request for it by asking Tom (programming coordinator). If you want to start straight away, fork the book instead of creating a fork.
 
