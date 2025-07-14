@@ -5,7 +5,7 @@ We make use of an interactive online textbook to share content with students.The
 ## Viewing the book
 
 - Material is released to students when a commit is made to the `2025` branch at [https://mude.citg.tudelft.nl/book/2025](https://mude.citg.tudelft.nl/book/2025)
-- Prior to sharing with students, material should be reviewed by making a commit to the `2025-draft` branch. This can be viewed at [https://mude.citg.tudelft.nl/book/2025-draft/](https://mude.citg.tudelft.nl/book/2025-draft/).
+- Prior to sharing with students, material should be reviewed by making a commit to the `2025-draft` branch. This can be viewed at [https://mude.citg.tudelft.nl/book/2025-draft/](https://mude.citg.tudelft.nl/book/2025-draft/). `2025` is kept in sync with `2025-draft`, only chapters indicated between `# START REMOVE-FROM-PUBLISH` and `END REMOVE-FROM-PUBLISH` are removed from the `2025` version.
 - All other branches are meant to be 'in development' and can be viewed on GitHub. Default is that the branch name is added after the root URL/repo_name. Actions page which summarizes all the branches and status: [https://github.com/TUDelft-MUDE/book/actions](https://github.com/TUDelft-MUDE/book/actions). As soon as the content is merged with the other content, these temporary branches are removed.
 
 (book-edit_workflow)=
