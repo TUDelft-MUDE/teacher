@@ -8,7 +8,7 @@ execute:
 only_build_toc_files: true
 
 html:
-  baseurl :  "https://tudelft-mude.github.io/teacher" #Replace this with your own URL
+  baseurl :  "https://mude.citg.tudelft.nl/teacher" #Replace this with your own URL
 
 sphinx:
   config:
