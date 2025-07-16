@@ -11,6 +11,7 @@ The websites listed above have a special configuration that automatically redire
 In addition, additional websites are built and maintained for specific purposes:
 - **published textbook** [(`mude.citg.tudelft.nl/book/2024`)](https://mude.citg.tudelft.nl/book/2024): the most-recent complete textbook to showcase the content of MUDE.
 - **incoming** [(`mude.citg.tudelft.nl/incoming`)](https://mude.citg.tudelft.nl/incoming): information for incoming students
+- **Fundamental concepts** [(`mude.citg.tudelft.nl/fundamental-concepts`)](https://mude.citg.tudelft.nl/fundamental-concepts): fundamental concepts which are prerequisites, referred to from actual book
 - **teacher** [(`mude.citg.tudelft.nl/teacher`)](https://mude.citg.tudelft.nl/teacher): information for teachers teaching MUDE or others who want to copy (parts of) MUDE. Furthermore, this serves as a documentation page for ourselves.
 
 The websites listed above are not set up for archiving (no redirect or URL with the year) and do not have draft pages.
