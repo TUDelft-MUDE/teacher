@@ -45,12 +45,14 @@
 
 ## MUDE Management Team 2023-2024
 - Module Manager: Robert Lanzafame
+- Justin Pittman
 - Sandra Verhagen
 - Patricia Mares Nasarre
 - Tom van Woudenberg
 
 ## MUDE Management Team 2022-2023
 - Module Manager: Sandra Verhagen
+- Justin Pittman
 - ...
 
 ## Former TA's
