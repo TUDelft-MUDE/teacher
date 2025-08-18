@@ -20,11 +20,12 @@
 | 2.8           | Risk Analysis             | Oswaldo Morales Napoles |
 | Programming   |                           | Tom van Woudenberg |
 
+## MUDE Management Team 2025-2026
 - Module manager: Frans van der Meer
 - Content coordinator: Jialei Ding
 - IT coordinator: Tom van Woudenberg
 
-TA's:
+## TA's 2025-2026
 
 - Ahmet Tekin
 - Berend Bouvy
@@ -36,3 +37,35 @@ TA's:
 - Kwangjin Lee
 - Rifa Amaliah Suaedi (focus on planning)
 - Rosa Schnebli (focus on planning)
+
+## MUDE Management Team 2024-2025
+- Module Manager: Robert Lanzafame
+- Jialei Ding
+- Tom van Woudenberg
+
+## MUDE Management Team 2023-2024
+- Module Manager: Robert Lanzafame
+- Sandra Verhagen
+- Patricia Mares Nasarre
+- Tom van Woudenberg
+
+## MUDE Management Team 2022-2023
+- Module Manager: Sandra Verhagen
+- ...
+
+## Former TA's
+- Anastasios Stamou
+- Antonio Magherini
+- Caspar Jungbacker
+- Gabriel Follet
+- Guilherme Ferreira Sêco de Alvarenga
+- Isabel Slingerland
+- Jelle Knibbe
+- João Moura Pereira de Lucas Teixeira
+- Max Guichard
+- Mona Devos
+- Nora Kovacs
+- Renat Piscorschi
+- Rok Stular
+- Sophie Keemink
+- Thirza Feenstra
