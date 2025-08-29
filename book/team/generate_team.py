@@ -2,6 +2,7 @@ import os
 import yaml
 
 INPUT_DIR = "book/team/team_info"     # folder containing individual md files
+TEMPLATE_FILE = "book/team/template.md"    # template for individual team cards
 OUTPUT_FILE = "book/team/topics_people.md"     # existing overview file
 PLACEHOLDER = "{{TEAM_CARDS}}"        # placeholder in team.md
 
@@ -33,11 +34,21 @@ def generate_card(person):
 
 
 def generate_all_cards(people):
-    """Generate the full HTML for all team cards, grouped by role."""
+    """Generate the full HTML for all team cards, grouped by role in custom order."""
     grouped = {}
     for p in people:
         grouped.setdefault(p["role"], []).append(p)
-    grouped = dict(sorted(grouped.items()))
+
+    # Define the desired role order
+    role_order = ["Management Team", "Instructor", "Teaching Assistant"]
+
+    # Sort grouped roles according to role_order
+    grouped_sorted = {role: grouped[role] for role in role_order if role in grouped}
+
+    # Include any roles not in role_order at the end (alphabetically)
+    remaining_roles = sorted(set(grouped.keys()) - set(grouped_sorted.keys()))
+    for role in remaining_roles:
+        grouped_sorted[role] = grouped[role]
 
     cards_html = ""
 
@@ -90,7 +101,7 @@ def generate_all_cards(people):
 
     cards_html += "# Our Team\n\n"
 
-    for role, members in grouped.items():
+    for role, members in grouped_sorted.items():
         cards_html += f"## {role}\n\n<div class='team-container'>"
         for m in members:
             cards_html += generate_card(m)
@@ -116,12 +127,12 @@ def main():
     cards_html = generate_all_cards(people)
 
     # Read existing file
-    with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
+    with open(TEMPLATE_FILE, "r", encoding="utf-8") as f:
         content = f.read()
 
     # Replace placeholder
     if PLACEHOLDER not in content:
-        print(f"⚠️ Placeholder {PLACEHOLDER} not found in {OUTPUT_FILE}")
+        print(f"⚠️ Placeholder {PLACEHOLDER} not found in {TEMPLATE_FILE}")
         return
 
     content = content.replace(PLACEHOLDER, cards_html)

@@ -2,11 +2,6 @@
 
 For general questions, please contact the Management Team on [MUDE-CEG@tudelft.nl](mailto:MUDE-CEG@tudelft.nl)
 
-## MUDE Management Team 2025-2026
-- Module manager: Frans van der Meer
-- Content coordinator: Jialei Ding
-- IT coordinator: Tom van Woudenberg
-
 <style>
 .team-container {
   display: flex;
@@ -55,6 +50,39 @@ For general questions, please contact the Management Team on [MUDE-CEG@tudelft.n
 
 # Our Team
 
+## Management Team
+
+<div class='team-container'><div class="team-card">
+<img src="https://files.mude.citg.tudelft.nl/Frans.jpg" alt="Frans van der Meer" class="dark-light">
+<div class="team-info">
+<h3>Frans van der Meer</h3>
+<p><em>Management Team</em></p>
+<p>Module Manager.
+Numerical Analysis, FEM (Week 2.2).</p>
+<a href="mailto:F.P.vanderMeer@tudelft.nl">Email</a>
+</div>
+</div><div class="team-card">
+<img src="https://files.mude.citg.tudelft.nl/jialei.jpg" alt="Jialei Ding" class="dark-light">
+<div class="team-info">
+<h3>Jialei Ding</h3>
+<p><em>Management Team</em></p>
+<p>Content Coordinator.
+Modelling Concepts (Week 1.1).</p>
+<a href="mailto:J.D.Ding@tudelft.nl">Email</a>
+</div>
+</div><div class="team-card">
+<img src="https://files.mude.citg.tudelft.nl/Tom.jpg" alt="Tom van Woudenberg" class="dark-light">
+<div class="team-info">
+<h3>Tom van Woudenberg</h3>
+<p><em>Management Team</em></p>
+<p>IT Coordinator.
+Programming</p>
+<a href="mailto:T.R.vanWoudenberg@tudelft.nl">Email</a>
+</div>
+</div></div>
+
+---
+
 ## Instructor
 
 <div class='team-container'><div class="team-card">
@@ -67,28 +95,12 @@ Time Series Analysis (Week 2.4).</p>
 <a href="mailto:C.C.J.M.Tiberius@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/Frans.jpg" alt="Frans van der Meer" class="dark-light">
-<div class="team-info">
-<h3>Frans van der Meer</h3>
-<p><em>Instructor</em></p>
-<p>Numerical Analysis, FEM (Week 2.2).</p>
-<a href="mailto:F.P.vanderMeer@tudelft.nl">Email</a>
-</div>
-</div><div class="team-card">
 <img src="https://files.mude.citg.tudelft.nl/Iuri.webp" alt="Iuri Rocha" class="dark-light">
 <div class="team-info">
 <h3>Iuri Rocha</h3>
 <p><em>Instructor</em></p>
 <p>Machine Learning (Week 2.6).</p>
 <a href="mailto:I.Rocha@tudelft.nl">Email</a>
-</div>
-</div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/jialei.jpg" alt="Jialei Ding" class="dark-light">
-<div class="team-info">
-<h3>Jialei Ding</h3>
-<p><em>Instructor</em></p>
-<p>Modelling Concepts (Week 1.1).</p>
-<a href="mailto:J.D.Ding@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
 <img src="https://files.mude.citg.tudelft.nl/lotfi.jpg" alt="Lotfi Massarweh" class="dark-light">
@@ -153,14 +165,6 @@ Time Series Analysis (Week 2.4).</p>
 <p><em>Instructor</em></p>
 <p>Observation Theory (Week 1.7 and 1.8).</p>
 <a href="mailto:Sandra.Verhagen@tudelft.nl">Email</a>
-</div>
-</div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/Tom.jpg" alt="Tom van Woudenberg" class="dark-light">
-<div class="team-info">
-<h3>Tom van Woudenberg</h3>
-<p><em>Instructor</em></p>
-<p>Programming</p>
-<a href="mailto:T.R.vanWoudenberg@tudelft.nl">Email</a>
 </div>
 </div></div>
 
