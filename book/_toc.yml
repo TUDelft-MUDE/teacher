@@ -11,7 +11,7 @@ parts:
     - file: github-classroom.md
     - file: schedule.md
     - file: in-class.md
-    - file: topics_people.md
+    - file: team/topics_people.md
     - file: TAs.md
     - file: server.md
       sections:
