@@ -50,7 +50,7 @@ For general questions, please contact the MUDE guides on [MUDE-CEG@tudelft.nl](m
 
 # Our Team
 
-## MUDE guides
+## Management Team
 
 <div class='team-container'><div class="team-card">
 <img src="https://files.mude.citg.tudelft.nl/Frans.jpg" alt="Frans van der Meer" class="dark-light">
@@ -83,7 +83,7 @@ Programming</p>
 
 ---
 
-## Instructors
+## Instructor
 
 <div class='team-container'><div class="team-card">
 <img src="https://files.mude.citg.tudelft.nl/Christian.jpg" alt="Christian Tiberius" class="dark-light">
@@ -203,6 +203,14 @@ Time Series Analysis (Week 2.4).</p>
 <p><em>Teaching Assistant</em></p>
 <p>Computer Science / Software Development</p>
 <a href="mailto:K.lee-5@student.tudelft.nl">Email</a>
+</div>
+</div><div class="team-card">
+<img src="https://files.mude.citg.tudelft.nl/Photo_Rsuaedi.jpg" alt="Rifa Amaliah Suaedi" class="dark-light">
+<div class="team-info">
+<h3>Rifa Amaliah Suaedi</h3>
+<p><em>Teaching Assistant</em></p>
+<p>Civil Engineering / Hydraulic Engineering</p>
+<a href="mailto:rsuaedi@tudelft.nl">Email</a>
 </div>
 </div></div>
 
