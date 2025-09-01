@@ -1,22 +1,22 @@
 # Topics and people
 
-For general questions, please contact the Management Team on [MUDE-CEG@tudelft.nl](mailto:MUDE-CEG@tudelft.nl)
+For general questions, please contact the MUDE guides on [MUDE-CEG@tudelft.nl](mailto:MUDE-CEG@tudelft.nl)
 
 {{TEAM_CARDS}}
 
-## MUDE Management Team 2024-2025
+## MUDE guides 2024-2025
 - Module Manager: Robert Lanzafame
 - Jialei Ding
 - Tom van Woudenberg
 
-## MUDE Management Team 2023-2024
+## MUDE guides 2023-2024
 - Module Manager: Robert Lanzafame
 - Justin Pittman
 - Sandra Verhagen
 - Patricia Mares Nasarre
 - Tom van Woudenberg
 
-## MUDE Management Team 2022-2023
+## MUDE guides 2022-2023
 - Module Manager: Sandra Verhagen
 - Justin Pittman
 - ...
