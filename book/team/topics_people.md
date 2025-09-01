@@ -39,6 +39,13 @@ For general questions, please contact the MUDE guides on [MUDE-CEG@tudelft.nl](m
 .team-info p {
   margin: 2px 0;
 }
+.resized {
+  max-width: 100px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+}
+
 /* Responsive: 2 per row on tablets, 1 per row on mobile */
 @media (max-width: 900px) {
   .team-card { flex: 1 1 calc(50% - 15px); }
@@ -50,31 +57,31 @@ For general questions, please contact the MUDE guides on [MUDE-CEG@tudelft.nl](m
 
 # Our Team
 
-## MUDE guides
+## MUDE guide
 
 <div class='team-container'><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/Frans.jpg" alt="Frans van der Meer" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/Frans.jpg" alt="Frans van der Meer" class="dark-light resized">
 <div class="team-info">
 <h3>Frans van der Meer</h3>
-<p><em>Management Team</em></p>
+<p><em>MUDE guide</em></p>
 <p>Module Manager.
 Numerical Analysis, FEM (Week 2.2).</p>
 <a href="mailto:F.P.vanderMeer@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/jialei.jpg" alt="Jialei Ding" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/jialei.jpg" alt="Jialei Ding" class="dark-light resized">
 <div class="team-info">
 <h3>Jialei Ding</h3>
-<p><em>Management Team</em></p>
+<p><em>MUDE guide</em></p>
 <p>Content Coordinator.
 Modelling Concepts (Week 1.1).</p>
 <a href="mailto:J.D.Ding@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/Tom.jpg" alt="Tom van Woudenberg" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/Tom.jpg" alt="Tom van Woudenberg" class="dark-light resized">
 <div class="team-info">
 <h3>Tom van Woudenberg</h3>
-<p><em>Management Team</em></p>
+<p><em>MUDE guide</em></p>
 <p>IT Coordinator.
 Programming</p>
 <a href="mailto:T.R.vanWoudenberg@tudelft.nl">Email</a>
@@ -83,10 +90,10 @@ Programming</p>
 
 ---
 
-## Instructors
+## Instructor
 
 <div class='team-container'><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/Christian.jpg" alt="Christian Tiberius" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/Christian.jpg" alt="Christian Tiberius" class="dark-light resized">
 <div class="team-info">
 <h3>Christian Tiberius</h3>
 <p><em>Instructor</em></p>
@@ -95,7 +102,7 @@ Time Series Analysis (Week 2.4).</p>
 <a href="mailto:C.C.J.M.Tiberius@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/Iuri.webp" alt="Iuri Rocha" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/Iuri.webp" alt="Iuri Rocha" class="dark-light resized">
 <div class="team-info">
 <h3>Iuri Rocha</h3>
 <p><em>Instructor</em></p>
@@ -103,7 +110,7 @@ Time Series Analysis (Week 2.4).</p>
 <a href="mailto:I.Rocha@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/lotfi.jpg" alt="Lotfi Massarweh" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/lotfi.jpg" alt="Lotfi Massarweh" class="dark-light resized">
 <div class="team-info">
 <h3>Lotfi Massarweh</h3>
 <p><em>Instructor</em></p>
@@ -111,7 +118,7 @@ Time Series Analysis (Week 2.4).</p>
 <a href="mailto:L.Massarweh@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/marcel.webp" alt="Marcel Zijlema" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/marcel.webp" alt="Marcel Zijlema" class="dark-light resized">
 <div class="team-info">
 <h3>Marcel Zijlema</h3>
 <p><em>Instructor</em></p>
@@ -119,7 +126,7 @@ Time Series Analysis (Week 2.4).</p>
 <a href="mailto:M.Zijlema@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/Max.png" alt="Max Rambgraber" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/Max.png" alt="Max Rambgraber" class="dark-light resized">
 <div class="team-info">
 <h3>Max Rambgraber</h3>
 <p><em>Instructor</em></p>
@@ -127,7 +134,7 @@ Time Series Analysis (Week 2.4).</p>
 <a href="mailto:M.Rambgraber@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/nadia.webp" alt="Nadia Pourmohammadzia" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/nadia.webp" alt="Nadia Pourmohammadzia" class="dark-light resized">
 <div class="team-info">
 <h3>Nadia Pourmohammadzia</h3>
 <p><em>Instructor</em></p>
@@ -135,7 +142,7 @@ Time Series Analysis (Week 2.4).</p>
 <a href="mailto:N.Pourmohammadzia@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/oswaldo.webp" alt="Oswaldo Morales Napoles" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/oswaldo.webp" alt="Oswaldo Morales Napoles" class="dark-light resized">
 <div class="team-info">
 <h3>Oswaldo Morales Napoles</h3>
 <p><em>Instructor</em></p>
@@ -143,7 +150,7 @@ Time Series Analysis (Week 2.4).</p>
 <a href="mailto:O.MoralesNapoles@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/Patricia.jpg" alt="Patricia Mares Nasarre" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/Patricia.jpg" alt="Patricia Mares Nasarre" class="dark-light resized">
 <div class="team-info">
 <h3>Patricia Mares Nasarre</h3>
 <p><em>Instructor</em></p>
@@ -151,7 +158,7 @@ Time Series Analysis (Week 2.4).</p>
 <a href="mailto:P.MaresNasarre@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/Ronald.jpg" alt="Ronald Brinkgreve" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/Ronald.jpg" alt="Ronald Brinkgreve" class="dark-light resized">
 <div class="team-info">
 <h3>Ronald Brinkgreve</h3>
 <p><em>Instructor</em></p>
@@ -159,7 +166,7 @@ Time Series Analysis (Week 2.4).</p>
 <a href="mailto:R.B.J.Brinkgreve@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/sandra.jpg" alt="Sandra Verhagen" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/sandra.jpg" alt="Sandra Verhagen" class="dark-light resized">
 <div class="team-info">
 <h3>Sandra Verhagen</h3>
 <p><em>Instructor</em></p>
@@ -173,7 +180,7 @@ Time Series Analysis (Week 2.4).</p>
 ## Teaching Assistant
 
 <div class='team-container'><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/berend.jpg" alt="Berend Bouvy" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/berend.jpg" alt="Berend Bouvy" class="dark-light resized">
 <div class="team-info">
 <h3>Berend Bouvy</h3>
 <p><em>Teaching Assistant</em></p>
@@ -181,7 +188,7 @@ Time Series Analysis (Week 2.4).</p>
 <a href="mailto:b.n.bouvy@student.tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/Daniel.jpg" alt="Daniel van der Hoorn" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/Daniel.jpg" alt="Daniel van der Hoorn" class="dark-light resized">
 <div class="team-info">
 <h3>Daniel van der Hoorn</h3>
 <p><em>Teaching Assistant</em></p>
@@ -189,7 +196,7 @@ Time Series Analysis (Week 2.4).</p>
 <a href="mailto:D.J.vanderhoorn@student.tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/Isabel.jpg" alt="Isabel Slingerland" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/Isabel.jpg" alt="Isabel Slingerland" class="dark-light resized">
 <div class="team-info">
 <h3>Isabel Slingerland</h3>
 <p><em>Teaching Assistant</em></p>
@@ -197,12 +204,20 @@ Time Series Analysis (Week 2.4).</p>
 <a href="mailto:I.C.SLingerland-1@student.tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/Kwangjin.jpg" alt="Kwangjin Lee" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/Kwangjin.jpg" alt="Kwangjin Lee" class="dark-light resized">
 <div class="team-info">
 <h3>Kwangjin Lee</h3>
 <p><em>Teaching Assistant</em></p>
 <p>Computer Science / Software Development</p>
 <a href="mailto:K.lee-5@student.tudelft.nl">Email</a>
+</div>
+</div><div class="team-card">
+<img src="https://files.mude.citg.tudelft.nl/Photo_Rsuaedi.jpg" alt="Rifa Amaliah Suaedi" class="dark-light resized">
+<div class="team-info">
+<h3>Rifa Amaliah Suaedi</h3>
+<p><em>Teaching Assistant</em></p>
+<p>Civil Engineering / Hydraulic Engineering</p>
+<a href="mailto:rsuaedi@tudelft.nl">Email</a>
 </div>
 </div></div>
 

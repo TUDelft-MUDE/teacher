@@ -1,6 +1,6 @@
 ---
 name: Tom van Woudenberg
-role: Management Team
+role: MUDE guide
 email: T.R.vanWoudenberg@tudelft.nl
 photo: Tom.jpg
 ---

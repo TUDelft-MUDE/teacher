@@ -1,6 +1,6 @@
 ---
 name: Frans van der Meer
-role: Management Team
+role: MUDE guide
 email: F.P.vanderMeer@tudelft.nl
 photo: Frans.jpg
 ---
