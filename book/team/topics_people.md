@@ -1,6 +1,6 @@
 # Topics and people
 
-For general questions, please contact the Management Team on [MUDE-CEG@tudelft.nl](mailto:MUDE-CEG@tudelft.nl)
+For general questions, please contact the MUDE guides on [MUDE-CEG@tudelft.nl](mailto:MUDE-CEG@tudelft.nl)
 
 <style>
 .team-container {
