@@ -23,7 +23,7 @@ def read_person(filepath):
 def generate_card(person):
     """Generate HTML for a neat horizontal person card."""
     return f"""<div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/{person['photo']}" alt="{person['name']}" class="dark-light">
+<img src="https://files.mude.citg.tudelft.nl/{person['photo']}" alt="{person['name']}" class="dark-light resized">
 <div class="team-info">
 <h3>{person['name']}</h3>
 <p><em>{person['role']}</em></p>
@@ -90,6 +90,13 @@ def generate_all_cards(people):
 .team-info p {
   margin: 2px 0;
 }
+.resized {
+  max-width: 100px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+}
+
 /* Responsive: 2 per row on tablets, 1 per row on mobile */
 @media (max-width: 900px) {
   .team-card { flex: 1 1 calc(50% - 15px); }
