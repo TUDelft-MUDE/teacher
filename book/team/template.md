@@ -1,4 +1,4 @@
-# Topics and people
+# MUDE team
 
 For general questions, please contact the MUDE guides on [MUDE-CEG@tudelft.nl](mailto:MUDE-CEG@tudelft.nl)
 
