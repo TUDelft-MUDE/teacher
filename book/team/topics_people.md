@@ -57,22 +57,13 @@ For general questions, please contact the MUDE guides on [MUDE-CEG@tudelft.nl](m
 
 # Our Team
 
-## Management Team
+## MUDE guide
 
 <div class='team-container'><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/Frans.jpg" alt="Frans van der Meer" class="dark-light resized">
-<div class="team-info">
-<h3>Frans van der Meer</h3>
-<p><em>Management Team</em></p>
-<p>Module Manager.
-Numerical Analysis, FEM (Week 2.2).</p>
-<a href="mailto:F.P.vanderMeer@tudelft.nl">Email</a>
-</div>
-</div><div class="team-card">
 <img src="https://files.mude.citg.tudelft.nl/jialei.jpg" alt="Jialei Ding" class="dark-light resized">
 <div class="team-info">
 <h3>Jialei Ding</h3>
-<p><em>Management Team</em></p>
+<p><em>MUDE guide</em></p>
 <p>Content Coordinator.
 Modelling Concepts (Week 1.1).</p>
 <a href="mailto:J.D.Ding@tudelft.nl">Email</a>
@@ -81,7 +72,7 @@ Modelling Concepts (Week 1.1).</p>
 <img src="https://files.mude.citg.tudelft.nl/Tom.jpg" alt="Tom van Woudenberg" class="dark-light resized">
 <div class="team-info">
 <h3>Tom van Woudenberg</h3>
-<p><em>Management Team</em></p>
+<p><em>MUDE guide</em></p>
 <p>IT Coordinator.
 Programming</p>
 <a href="mailto:T.R.vanWoudenberg@tudelft.nl">Email</a>
@@ -218,6 +209,21 @@ Time Series Analysis (Week 2.4).</p>
 <p><em>Teaching Assistant</em></p>
 <p>Civil Engineering / Hydraulic Engineering</p>
 <a href="mailto:rsuaedi@tudelft.nl">Email</a>
+</div>
+</div></div>
+
+---
+
+## Management Team
+
+<div class='team-container'><div class="team-card">
+<img src="https://files.mude.citg.tudelft.nl/Frans.jpg" alt="Frans van der Meer" class="dark-light resized">
+<div class="team-info">
+<h3>Frans van der Meer</h3>
+<p><em>Management Team</em></p>
+<p>Module Manager.
+Numerical Analysis, FEM (Week 2.2).</p>
+<a href="mailto:F.P.vanderMeer@tudelft.nl">Email</a>
 </div>
 </div></div>
 

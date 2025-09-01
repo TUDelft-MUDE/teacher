@@ -1,6 +1,6 @@
 ---
 name: Jialei Ding
-role: Management Team
+role: MUDE guide
 pronouns: MUDE Guide
 email: J.D.Ding@tudelft.nl
 photo: jialei.jpg

@@ -40,7 +40,7 @@ def generate_all_cards(people):
         grouped.setdefault(p["role"], []).append(p)
 
     # Define the desired role order
-    role_order = ["Management Team", "Instructor", "Teaching Assistant"]
+    role_order = ["MUDE guide", "Instructor", "Teaching Assistant"]
 
     # Sort grouped roles according to role_order
     grouped_sorted = {role: grouped[role] for role in role_order if role in grouped}
