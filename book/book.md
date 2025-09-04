@@ -5,7 +5,7 @@ We make use of an interactive online textbook to share content with students.The
 ## Viewing the book
 
 - Material is released to students when a commit is made to the `2025` branch at [https://mude.citg.tudelft.nl/book/2025](https://mude.citg.tudelft.nl/book/2025)
-- Prior to sharing with students, material should be reviewed by making a commit to the `2025-draft` branch. This can be viewed at [https://mude.citg.tudelft.nl/book/2025-draft/](https://mude.citg.tudelft.nl/book/2025-draft/).
+- Prior to sharing with students, material should be reviewed by making a commit to the `2025-draft` branch. This can be viewed at [https://mude.citg.tudelft.nl/book/2025-draft/](https://mude.citg.tudelft.nl/book/2025-draft/). `2025` is kept in sync with `2025-draft`, only chapters indicated between `# START REMOVE-FROM-PUBLISH` and `END REMOVE-FROM-PUBLISH` are removed from the `2025` version.
 - All other branches are meant to be 'in development' and can be viewed on GitHub. Default is that the branch name is added after the root URL/repo_name. Actions page which summarizes all the branches and status: [https://github.com/TUDelft-MUDE/book/actions](https://github.com/TUDelft-MUDE/book/actions). As soon as the content is merged with the other content, these temporary branches are removed.
 
 (book-edit_workflow)=
@@ -16,13 +16,13 @@ Anyone with access can edit the book in the github repository: [https://github.c
 - As soon as it ready, mark the pull request as ready and ask the content coordinator for a merge.
 - The content coordinator will merge you pull request and delete your branch.
 
-We identify a few user-types (taken from the [TeachBooks Manual](https://teachbooks.io/manual/installation-and-setup/user_types.html)), pecifically for this MUDE-book:
+We identify a few user-types (taken from the [TeachBooks Manual](https://teachbooks.io/manual/installation-and-setup/user_types.html)), specifically for this MUDE-book:
 - User type 1/2: review by opening an issue by clicking the lightbulb on the top-right corner of a page.
 - User type 3/4/5: edit a file on a new branch and create a merge request to 2025-draft as described above
 
 Depending on the type of user you want to be, you need to know only a few details or a bit more. If you're completely new, go through the general introduction to these kind of books at platforms in the 'Your first TeachBook!' part of the  [TeachBooks Manual](https://teachbooks.io/manual/intro.html). If you already now the basic, go through  relevant pages (indicated per user type per page) in the `Getting going!` part of the manual.
 
-The yearly and draft branches are protected with [a ruleset](./Protect_main.json). This is requiring pull requests for the with 1 approval (which hare dismissed upon new commits), requiring conversation resolution before merging, merging without rebase and blocking force pushes while allowing bypass by organization admins and the MUDE MT.
+The yearly and draft branches are protected with [a ruleset](./Protect_main.json). This is requiring pull requests for the with 1 approval from the content leader(which hare dismissed upon new commits), requiring conversation resolution before merging, merging without rebase and blocking force pushes while allowing bypass by organization admins and the MUDE MT.
 
 Starting in the academic year 2025-2026, we apply ['TeachBooks versioning with `academic_year.additions.errata`](https://teachbooks.io/manual/installation-and-setup/versioning_changelog.html). This is coordinated by the content coordinator.
 
@@ -96,15 +96,28 @@ More information about these attribution blocks can be found in the [TeachBooks 
 The book is released openly, copyrighted by all of us as employees from Delft University of Technology, with a CC BY License. Please comply to the obvious rules for citations for text and figures and don't use non-licensed (or non compatible with our CC BY license) material from others. Some content has been taken out of the book because of copyright risks in preparation for the 2025-2026 academic year. Read [the TeachBooks manual](https://teachbooks.io/manual/installation-and-setup/copyright.html) for more information about how to deal with copyright.
 
 ## Permissions GitHub
-Permissions are managed with GitHub teams and organization roles:
+Permissions are managed with GitHub teams, organization roles and CODEOWNERS:
 - Teacher and TAs are added to the 'Content writers' team with an all-repository write role.
 - The MUDE MT team has an all-repository admin role
+- The content leader is the CODEOWNER of the book, requiring reviews by this person for merges.
 
 If you don't have access to this repository, request for it by asking Tom (programming coordinator). If you want to start straight away, fork the book instead of creating a fork.
 
-### A bit of history
+## A bit of history
 
-- 2022-23: we made a Jupyter Book to archive of all material; students did not use an online book, only Brightspace
-- 2023-24: we made our first Jupyter Book, which used the draft-release workflow to release material
-- 2024-25: goal is to make the book open with a CC-BY license. GitHub (TeachBooks) is used to mirror the repo and facilitate a large number of draft versions of the book that can be used for review via the github actions workflow
-- 2025-26: all the book stuff is moved to GitHub to ease the deployment flow.
+- 2022-23: we made one Jupyter Book for a small part of MUDE (weeks 2.7 and 2.8) used by students (everything else was on Brightspace), then a second book to archive all material (not used by students; the 2022 archive is password protected because it contains some student work).
+- 2023-24: we made our first Jupyter Book, which used (and pioneered) the draft-release workflow to release material and Sphinx Thebe interactive Python pages. Experience in MUDE inspires the creation of TeachBooks in Spring 2024.
+- 2024-25: this will be the first version of the book to be released with a CC-BY license. GitHub (TeachBooks) was used to mirror the repo and facilitate a large number of draft versions of the book that can be used for review via the github actions workflow.
+- 2025-26: all the book stuff is moved to GitHub to ease the deployment workflow (prior versions of the book used GitLab).
+
+## Preparation of 2024 Release
+
+Preparation of the book for release under a CC BY license took longer than expected (because Robert was in charge, of course ;)). The change requires updating the credits page, attributing each chapter/page appropriately, removing copyrighted material (e.g., images) and writing scripts to automate this process. Several things should be noted as the necessary changes are made to the book:
+
+1. The branch `2024` in the GitHub repository will be used to stage this work [**describe/confirm tag/commit from which this branch was made this later**].
+1. Tags will be used to denote the `2024` version (with a release, when ready) with [TeachBooks versioning](https://teachbooks.io/manual/installation-and-setup/versioning_changelog.html) `2024.1.0` denoting the first open release under CC BY.
+1. The GitLab repository can be completely ignored, as the artifact from a tag `2024.X.X` will be used for the website files.
+1. The website files for the 2024 book will be manually added to the repository `github.com/tudelft-mude/2024` repository, in the `book` branch.
+1. There may be some commits that are already made to the `2025` and/or `2025-draft` branch that should be incorporated in the 2024 version [**check this later**].
+1. Once the attribution and credits pages are finalized, scripts can be made to automate this process (e.g., the attribution scripts and table of contents on steroids features).
+1. This process will be repeated for the 2024 assignments

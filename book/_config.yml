@@ -8,7 +8,7 @@ execute:
 only_build_toc_files: true
 
 html:
-  baseurl :  "https://tudelft-mude.github.io/teacher" #Replace this with your own URL
+  baseurl :  "https://mude.citg.tudelft.nl/teacher" #Replace this with your own URL
 
 sphinx:
   config:
@@ -45,6 +45,7 @@ sphinx:
     - sphinx_tudelft_theme
     - teachbooks_sphinx_tippy
     - sphinx_named_colors
+    - sphinx_accessibility
 
 bibtex_bibfiles: 
   - references.bib

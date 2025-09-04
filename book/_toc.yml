@@ -9,8 +9,9 @@ parts:
     - file: assignment_repo.md
     - file: FTP.md
     - file: github-classroom.md
+    - file: schedule.md
     - file: in-class.md
-    - file: topics_people.md
+    - file: team/topics_people.md
     - file: TAs.md
     - file: server.md
       sections:
@@ -19,6 +20,7 @@ parts:
       - file: gitlab_pipeline.md
       - file: webserver_tools.md
     - file: IT_training.md
+    - file: changes_2024_2025.md
   - caption: Miscallaneous
     chapters:
     - file: changelog.md

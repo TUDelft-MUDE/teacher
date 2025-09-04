@@ -14,16 +14,17 @@ As soon an assignment is ready, ask the content coordinator for a review. If pas
 
 To add the files to the workbook, the content coordinator updated the submodule in the workbook and adds the relevant files to the `_toc.yml`.
 
+(formatting_assignments)=
 ## Formatting assignments
 Assignments should be formatted in such a way that they're readable on:
 - local machines (raw markdown, notebooks enhanced with HTML)
 - GitHub (raw markdown, notebooks enhanced with HTML)
 - Jupyterbook (raw markdown, notebooks enhanced with HTML and evantually with MyST)
 
-To do this, all of the assignment repositories include a template notebook, template readme and template report (as included in this [zip](./create_repos.zip)).
+To do this, all of the assignment repositories include a template notebook, template readme and template report (as included in this [zip](./repo_template.zip)).
 
 ### Assignment and solution version
-An assignment and solution version is created for all the markdown and notebook files when pushing to the main branch (using [this workflow file](./generate-student-notebook.yml)). Therefore, the main branch should include all information.
+An assignment and solution version is created for all the markdown and notebook files when pushing to the main branch (using [the workflow file included in repo_template](./repo_template.zip)). Therefore, the main branch should include all information.
 
 Based on the cell tags `solution` and `assignment`, and html solution blocks (recognized by color) parts of the notebook are stripped out:
 - An assignment notebook is created by stripping out solution code cells (indication with cell tag `solution`) and cells with solution html boxes.
@@ -56,15 +57,15 @@ The assignments are shared with a CC BY license. During the academic year, the s
    - `WS1.1` for workshops assignments indicated with `<Q1/Q2>.<week1-8>`
    - `GA1.1` for group assignments indicated with `<Q1/Q2>.<week1-8>`
    - `PA1.1` for programming assignments indicated with `<Q1/Q2>.<week1-8>`
-5. Add a `README.md` containing some basic information. And add a citatoin file, template notebook, license file, template report, readme requirements file and github workflow for stripping out assignment and solution blocks. All of these files are combined in a [zip](./create_repos.zip) including a py script to uplodd each of these. Note that you need to move the workflow file manually as the script doesn't allow adding files with a dot.
+5. Add a `README.md` containing some basic information. And add a citation file, template notebook, license file, template report, readme requirements file and github workflow for stripping out assignment and solution blocks. All of these files are combined in a [zip](./repo_template.zip) including a py script to upload each of these [here](./create_repos.py). Note that you need to move the workflow file manually as the script doesn't allow adding files with a dot.
 6. Go to {octicon}`gear` `Settings` - {octicon}`gear` General:
    - under `General`: check `Template repository`
    - under `Features`: uncheck `Wikis`
    - under `Pull requests`: check `Always suggest updating pull request branches Loading` and `Automatically delete head branches`
-7. Go to {octicon}`repo-push` `Rules` - `Rulesets`, click `Import a ruleset` and import [this file](./Protect_main.json). This is requiring pull requests for the default branch with 1 approval (which hare dismissed upon new commits), requiring conversation resolution before merging, merging without rebase, protecting the default branch and blocking force pushes while allowing bypass by organization and repo admins. Furthermore, [another ruleset](./protect_assignment_and_solution.json) is imported to protect the `assignment` and `solution` branches.
+7. Go to {octicon}`repo-push` `Rules` - `Rulesets`, click `Import a ruleset` and import [this file](./protect_assignment_and_solution.json). This is imported to protect the `assignment` and `solution` branches which should be read-only.
 8. Go to {octicon}`gear` `Settings` - {octicon}`people` `Collaborators and teams` to add the responsible people. In MUDE the responsible teacher of the topic has admin access and can add his topic-colleagues. To bypass this, a repository secret needs to be added to every repository called `FG_MUDE_2025_TOKEN`, which can be a fine-grained PAT with a least `content` access.
 
-Step 4 - 6 have been implemented in a [py script included in the zip](./create_repos.zip) for MUDE-2025. For this you need a GitHub Token. My Personal access token (classic) has `repo` permissions.
+Step 4 - 6 have been implemented in a [py script included in the zip](./create_repos.py) for MUDE-2025. For this you need a GitHub Token. My Personal access token (classic) has `repo` permissions.
 
 ## Combine assignments in workbook
 The workbook has all the assignment repos as [submodules](https://teachbooks.io/manual/external/Nested-Books/README.html) so that it can use those files to create previews in the book. To be able to clone those submodules during the build, a personal access token is added as `GH_PAT` to the repository action secrets with 'repo' scope, as explained [in the TeachBooks Manual](https://teachbooks.io/manual/external/deploy-book-workflow/README.html#private-submodules). Furthermore, a [`.github/dependabot.yml`](https://teachbooks.io/manual/external/Nested-Books/README.html#the-external-book-is-updated) was added to allow automatic updates:
@@ -96,7 +97,7 @@ The same `GH_PAT` is added to the repository dependabot secrets to allow access 
 Permissions are managed with GitHub teams and organization roles:
 - Teacher and TAs are added with an all-repository read role
 - The MUDE MT team (child team of the 'Teacher and TAs'-team) has an all-repository admin role
-- Child teams of the 'Teacher and TAs'-team are created for every topic. The content leaders are added to these teams. These teams are assigned admin rights for their specific assignment repositories, allowing them full control over their repositories.
+- Child teams of the 'Teacher and TAs'-team are created for every topic. The content leaders are added to these teams. These teams are assigned admin rights for their specific assignment repositories, allowing them full control over their repositories (except for editing the assignment and solution branch).
 
 The base permission of the organisation is set to 'no permissions', repository and pages creation is disabled ( {octicon}`gear` `Settings` - {octicon}`people` `Member privileges`). Furthermore, admin repository permissions are all disabled ( {octicon}`gear` `Settings` - {octicon}`people` `Collaborators and teams` - Admin repository permissions).
 
