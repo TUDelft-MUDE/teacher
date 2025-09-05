@@ -1,8 +1,8 @@
 ---
-name: Max Rambgraber
+name: Max Ramgraber
 role: Instructor
 pronouns: Assistant Professor
-email: M.Rambgraber@tudelft.nl
+email: M.Ramgraber@tudelft.nl
 photo: Max.png
 detail: max
 ---

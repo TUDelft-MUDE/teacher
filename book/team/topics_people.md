@@ -93,6 +93,14 @@ Programming</p>
 ## Instructor
 
 <div class='team-container'><div class="team-card">
+<img src="https://files.mude.citg.tudelft.nl/anna.png" alt="Anna Störiko" class="dark-light resized">
+<div class="team-info">
+<h3>Anna Störiko</h3>
+<p><em>Instructor</em></p>
+<p>Numerical Modelling (Week 1.2 and 1.3).</p>
+<a href="mailto:a.storiko@tudelft.nl">Email</a>
+</div>
+</div><div class="team-card">
 <img src="https://files.mude.citg.tudelft.nl/Christian.jpg" alt="Christian Tiberius" class="dark-light resized">
 <div class="team-info">
 <h3>Christian Tiberius</h3>
@@ -126,12 +134,12 @@ Time Series Analysis (Week 2.4).</p>
 <a href="mailto:M.Zijlema@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/Max.png" alt="Max Rambgraber" class="dark-light resized">
+<img src="https://files.mude.citg.tudelft.nl/Max.png" alt="Max Ramgraber" class="dark-light resized">
 <div class="team-info">
-<h3>Max Rambgraber</h3>
+<h3>Max Ramgraber</h3>
 <p><em>Instructor</em></p>
 <p>Univariate Distributions (Week 1.4).</p>
-<a href="mailto:M.Rambgraber@tudelft.nl">Email</a>
+<a href="mailto:M.Ramgraber@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
 <img src="https://files.mude.citg.tudelft.nl/nadia.webp" alt="Nadia Pourmohammadzia" class="dark-light resized">
@@ -194,6 +202,14 @@ Time Series Analysis (Week 2.4).</p>
 <p><em>Teaching Assistant</em></p>
 <p></p>
 <a href="mailto:D.J.vanderhoorn@student.tudelft.nl">Email</a>
+</div>
+</div><div class="team-card">
+<img src="https://files.mude.citg.tudelft.nl/eliz.png" alt="Eliz-Mari Lourens" class="dark-light resized">
+<div class="team-info">
+<h3>Eliz-Mari Lourens</h3>
+<p><em>Teaching Assistant</em></p>
+<p>Engineering Structures & Hydraulic Engineering</p>
+<a href="mailto:e.lourens@tudelft.nl">Email</a>
 </div>
 </div><div class="team-card">
 <img src="https://files.mude.citg.tudelft.nl/Isabel.jpg" alt="Isabel Slingerland" class="dark-light resized">
