@@ -92,6 +92,15 @@ updates:
 
 The same `GH_PAT` is added to the repository dependabot secrets to allow access to the assignment repositories.
 
+## Release assignment
+
+How to release an assignment to students in the workbook is shown below:
+
+```{video} https://www.youtube.com/watch?v=ryhD623UqZ0
+```
+
+To share the solution, change the branch `assignment` to `solution` in the `.gitmodules` file and retrigger the dependabot as shown in shown in the video above (and merge pull request,update changelog and add version number)
+
 ## Permissions GitHub
 
 Permissions are managed with GitHub teams and organization roles:

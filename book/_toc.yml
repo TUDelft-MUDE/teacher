@@ -23,5 +23,4 @@ parts:
     - file: changes_2024_2025.md
   - caption: Miscallaneous
     chapters:
-    - file: changelog.md
     - file: credits.md
