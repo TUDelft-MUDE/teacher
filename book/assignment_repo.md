@@ -92,7 +92,7 @@ updates:
 
 The same `GH_PAT` is added to the repository dependabot secrets to allow access to the assignment repositories.
 
-## Release assignment
+## Release assignment in workbook
 
 How to release an assignment to students in the workbook is shown below:
 
