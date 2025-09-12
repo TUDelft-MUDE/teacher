@@ -101,6 +101,13 @@ How to release an assignment to students in the workbook is shown below:
 
 To share the solution, change the branch `assignment` to `solution` in the `.gitmodules` file and retrigger the dependabot as shown in shown in the video above (and merge pull request,update changelog and add version number)
 
+To release an assignment via github classroom, the workflow is shown below:
+
+```{video} https://youtu.be/dph6VI3f-Qo
+```
+
+Which should then be followed by the same steps as shown above to add the assignment to the workbook.
+
 ## Permissions GitHub
 
 Permissions are managed with GitHub teams and organization roles:
