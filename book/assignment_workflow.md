@@ -113,7 +113,7 @@ To share the solution, change the branch `assignment` to `solution` in the `.git
 
 To release an assignment via github classroom, the workflow is shown below:
 
-```{video} https://youtu.be/dph6VI3f-Qo
+```{video} https://www.youtube.com/watch?v=dph6VI3f-Qo
 ```
 
 Which should then be followed by the same steps as shown above to add the assignment to the workbook.
