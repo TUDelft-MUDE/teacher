@@ -45,7 +45,13 @@ More details below
     - Set cutoff date a few minutes in the future
     - Make assignment inactive
 
-More details below
+More details below.
+
+Solutions are shared for/on:
+
+- Workshop assignments after processing the feedback collected for the workshop, preferably on the same day.
+- Group assignments after grading
+- Programming assignments after deadline: preferable on Saturday after Friday deadline.
 
 ## Prepare repositories as administrator
 
