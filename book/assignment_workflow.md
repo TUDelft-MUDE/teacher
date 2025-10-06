@@ -44,6 +44,11 @@ More details below
 7. if GH classroom assignment:
     - Set cutoff date a few minutes in the future
     - Make assignment inactive
+8. If group assignment, start grading process
+9. If programming assignment, process grades:
+    - Download grades from GH classroom
+    - Import grades to Brightspace as described [here](https://www.tudelft.nl/en/teaching-support/educational-tools/brightspace/assessing-assignments-grading/manage-grades#exportingimporting-grades), not a friendly process
+    - Some students won't be recognized although they are in BS, you'll get prompted with a list of those and have to enter those manually
 
 More details below.
 
