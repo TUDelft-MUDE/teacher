@@ -20,6 +20,7 @@ sphinx:
     html_theme_options:
       logo:
         text: How to MUDE?
+        link: "https://mude.citg.tudelft.nl/"
       repository_url: "https://github.com/TUDelft-MUDE/teacher" #add your own repo URL here
       path_to_docs: "book"
       repository_branch: "main"
