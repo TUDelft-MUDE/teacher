@@ -38,14 +38,16 @@ More details below
 1. Update assignment repository
 2. If solution to be published: change branch name in `.gitmodules` file. Eventually add new solution-`.py`-files which were not included before.
 3. Sync changes by running dependabot under Github - Insights - Dependency graph - Dependabot - "Check for updates". Wait for pull request and merge.
-4. Make assignment repository public
+4. If assignment is finished:
+    - Make assignment repository public
+    - Remove template checkbox on repository
 5. Update changelog in workbook
 6. Add version tag to repository (locally, push changes)
-7. if GH classroom assignment:
+7. If GH classroom assignment starts:
     - Set cutoff date a few minutes in the future
     - Make assignment inactive
-8. If group assignment, start grading process
-9. If programming assignment, process grades:
+8. If group assignment finished, start grading process
+9. If programming assignment finished, process grades:
     - Download grades from GH classroom
     - Import grades to Brightspace as described [here](https://www.tudelft.nl/en/teaching-support/educational-tools/brightspace/assessing-assignments-grading/manage-grades#exportingimporting-grades), not a friendly process
     - Some students won't be recognized although they are in BS, you'll get prompted with a list of those and have to enter those manually
