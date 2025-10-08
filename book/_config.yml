@@ -38,15 +38,10 @@ sphinx:
       }
     tud_change_logo: false
   extra_extensions:
-    - jupyterbook_patches
-    - download_link_replacer
-    - sphinx_image_inverter
-    - sphinx_iframes
-    - sphinx_exercise
+    - sphinx.ext.imgconverter
+    - sphinx.ext.extlinks
+    - teachbooks_favourites
     - sphinx_tudelft_theme
-    - teachbooks_sphinx_tippy
-    - sphinx_named_colors
-    - sphinx_accessibility
 
 bibtex_bibfiles: 
   - references.bib
