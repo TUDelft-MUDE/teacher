@@ -1,8 +1,8 @@
 # Assignment administration workflow
 
 ## Steps to publish assignments:
-1. Prepare `toc.yml` in workbook with all files of the assignment with to be published files in `#START REMOVE-FROM-PUBLISH` en `#END REMOVE-FROM-PUBLISH` gates. The readme is taken as the section header page, the other files are added as subsections. Eventually, .py files can be added as well as subsections of the other files.
-2. Update formatting files if not done yet:
+1. Update formatting files if not done yet:
+
     - Citation file
     - CC BY footer
     - Consistent headers
@@ -11,6 +11,10 @@
     - Binary files (images, datasets) are stored on FTP server
     - No copyright issues
     - Split files into separate tasks where possible
+    - Add markdown version of `.py` files (to be implemented in workflow) in `assignment_book` and `solution_book` branch.
+
+2. Prepare `toc.yml` in workbook with all files of the assignment with to be published files in `#START REMOVE-FROM-PUBLISH` en `#END REMOVE-FROM-PUBLISH` gates. The readme is taken as the section header page, the other files are added as subsections. Eventually, .py files can be added as well as subsections of the other files.
+
 3. If GH classroom assignment:
 
     - Change default branch of assignment repository to `assignment` (Settings - Branches - Default branch - Change default branch)
@@ -26,28 +30,31 @@
 
 4. Update changelog in workbook
 5. Add version tag to repository (locally, push changes)
-6. Sync changes by running dependabot under Github - Insights - Dependency graph - Dependabot - "Check for updates". Wait for pull request and merge.
-7. Check rendering in draft book
-8. Update overview on homepage MUDE
-9. Update changelog and tag for homepage
-10. Share link (including GH classroom link if provided) with students
+6. Check correct version in `.gitmodules` file: `assignment` or `assignment_book` in case of .py files.
+7. Sync changes by running dependabot under Github - Insights - Dependency graph - Dependabot - "Check for updates". Wait for pull request and merge.
+8. Check rendering in draft book
+9. Update overview on homepage MUDE
+10. Update changelog and tag for homepage
+11. Remove `#START REMOVE-FROM-PUBLISH` en `#END REMOVE-FROM-PUBLISH` gates
+12. Share link (including GH classroom link if provided) with students
 
 More details below
 
 ## Steps to update assignments with typos or solution:
-1. Update assignment repository
-2. If solution to be published: change branch name in `.gitmodules` file. Eventually add new solution-`.py`-files which were not included before.
-3. Sync changes by running dependabot under Github - Insights - Dependency graph - Dependabot - "Check for updates". Wait for pull request and merge.
-4. If assignment is finished:
+1. Update assignment repository. Include eventual new `.py` files and their `.md` equivalent in case they should have been created in the assignment.
+2. If solution to be published: change branch name in `.gitmodules` file to `solution` or `solution_book`
+3. In case of new `.md` files for `.py` files as part of a solution, update `_toc.yml`
+4. Sync changes by running dependabot under Github - Insights - Dependency graph - Dependabot - "Check for updates". Wait for pull request and merge.
+5. If assignment is finished:
     - Make assignment repository public
     - Remove template checkbox on repository
-5. Update changelog in workbook
-6. Add version tag to repository (locally, push changes)
-7. If GH classroom assignment starts:
+6. Update changelog in workbook
+7. Add version tag to repository (locally, push changes)
+8. If GH classroom assignment starts:
     - Set cutoff date a few minutes in the future
     - Make assignment inactive
-8. If group assignment finished, start grading process
-9. If programming assignment finished, process grades:
+9. If group assignment finished, start grading process
+10. If programming assignment finished, process grades:
     - Download grades from GH classroom
     - Import grades to Brightspace as described [here](https://www.tudelft.nl/en/teaching-support/educational-tools/brightspace/assessing-assignments-grading/manage-grades#exportingimporting-grades), not a friendly process
     - Some students won't be recognized although they are in BS, you'll get prompted with a list of those and have to enter those manually
