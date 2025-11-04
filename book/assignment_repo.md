@@ -42,7 +42,7 @@ For markdown documents, two version are created based on comments:
 An `assignment` and `solution` branch are created / updated with all files in the repository including the stripped notebooks and markdown documents. These branches are protected and cannot be edited.
 
 ## FTP storage
-Images and binary or big files should be stored on our FTP-server. More information is available [here](./FTP.md)
+Images and binary or big files should be stored on our FTP-server or Git LFS repository. More information is available [on FTP here](./FTP.md) and [on Git LFS here](./LFS.md).
 
 ## Licensing
 

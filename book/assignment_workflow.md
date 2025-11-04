@@ -8,7 +8,7 @@
     - Consistent headers
     - Catchy title in readme, descriptive title for files
     - Readme contains links with relative paths to the other files.
-    - Binary files (images, datasets) are stored on FTP server
+    - Binary files (images, datasets) are stored on FTP server or Git LFS repository.
     - No copyright issues
     - Split files into separate tasks where possible
     - Add markdown version of `.py` files (to be implemented in workflow) in `assignment_book` and `solution_book` branch.

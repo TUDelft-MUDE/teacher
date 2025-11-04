@@ -32,8 +32,8 @@ For exercises in the book, we'd like to use:
 - [interactive HTML/JavaScript elements](https://teachbooks.io/manual/features/HTML_javascript.html)
 - [interactive H5p elements](https://teachbooks.io/manual/features/h5p.html). Ask for access to [shared folder](https://tudelft.h5p.com/content/1292046735045725667) at Tom van Woudenberg
 
-## FTP storage
-Images and binary or big files should be stored on our FTP-server. More information is available [here](./FTP.md). If you add an image using MyST syntax, add the FTP link like this:
+## FTP or Git LFS storage
+Images and binary or big files should be stored on our FTP-server or Git LFS repository. More information is available [here](./FTP.md) and [here](./LFS.md). If you add an image using MyST syntax, add the link like this:
 
 ````md
 ```{figure} https://files.mude.citg.tudelft.nl/<filename>
@@ -44,7 +44,26 @@ caption
 ```
 ````
 
+or
+````md
+```{figure} https://github.com/TUDelft-MUDE/source-files/raw/main/file/<filename>
+---
+name: figure_label
+---
+caption
+```
+````
+
 If you'd like to use the [download link replacer](https://teachbooks.io/manual/external/Download-Link-Replacer/README.html) to add a button to download custom files, add those files to the FTP-server too:
+
+````md
+```{custom_download_link} https://files.mude.citg.tudelft.nl/<path to file>
+:text: "Custom text"
+:replace_default: "False"
+```
+````
+
+or 
 
 ````md
 ```{custom_download_link} https://files.mude.citg.tudelft.nl/<path to file>
