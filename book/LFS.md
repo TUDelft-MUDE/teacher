@@ -8,7 +8,7 @@ To keep our websites small and efficient, we're storing our big (>0.5 MB) and bi
 
 To access the Git LFS repository, you must be added to the 'content writers' team in the MUDE GitHub organization. Tom van Woudenberg can add you to this team.
 
-Add your big and binary files in the `./file/`-directory. Don't be afraid of things becoming a mess, that's fine! As long as you don't delete existing files, although GitHub shouldn't allow you to do so ;). And of course, DON't put any copyrighted material on this FTP server.
+Add your big and binary files in the `./file/`-directory. Don't be afraid of things becoming a mess, that's fine! As long as you don't delete existing files, although GitHub shouldn't allow you to do so ;). And of course, DON't put any copyrighted material on this FTP server. You need to add files from your local computer, uploading in the github interface online doesn't work.
 
 To use a file, you can use the url `https://github.com/TUDelft-MUDE/source-files/raw/main/file/<filename>`. For example the file `MUDE_Logo-small.png` in `./file/` can be referenced by with `https://github.com/TUDelft-MUDE/source-files/raw/main/file/MUDE_Logo-small.png`, which gives you the image below:
 
