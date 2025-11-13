@@ -34,7 +34,7 @@ Students are able to create groups themselves. To predefine groups, you've to mi
 1. Create a dummy assignment with new category group names
 2. Open dummy assignment from invitation link 
 3. skip student id selection
-4. Create a new team with the desired group name
+4. Create a new team with the desired group name (there's no need to create a repository for this team)
 5. in another tab, go to Teams on GitHub and remove yourself from the team you just created
 6. Go back to the GH classroom tab, and go back one page where you created the team, and refresh.
 7. Now add a new team and repeat steps 5-6 until you have successfully created all teams.
