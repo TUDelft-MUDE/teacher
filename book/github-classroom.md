@@ -38,3 +38,11 @@ Students are able to create groups themselves. To predefine groups, you've to mi
 5. in another tab, go to Teams on GitHub and remove yourself from the team you just created
 6. Go back to the GH classroom tab, and go back one page where you created the team, and refresh.
 7. Now add a new team and repeat steps 5-6 until you have successfully created all teams.
+
+## Students selected wrong group
+If a student selected the wrong team we can correct that.
+1. Go to the teams-tab of the organization with all student repositories.
+2. Find the team where the student is not supposed to be in and remove the student.
+3. Find the team where the student is support to be in and add the student.
+
+The teams in this interface are automatically synced with the github classroom teams
