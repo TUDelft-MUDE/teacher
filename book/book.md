@@ -111,6 +111,60 @@ This page reuses CC BY content from {cite:t}`<reference in book/_bibliography/re
 
 More information about these attribution blocks can be found in the [TeachBooks manual](https://teachbooks.io/manual/installation-and-setup/copyright/recommendations.html#format-as-custom-admonition)
 
+## Attribution figures and source files for figures
+If you're using figures from others or have the source files of figures stored somewhere, please make use of the [Sphinx-Metadata-figure](https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-Metadata-Figure/main/MANUAL.html)-extension. The following non-default configuration options are set for the MUDE book:
+
+```yaml
+sphinx:
+  config:
+    metadata_figure_settings:
+      style:
+        admonition_class: attributiongrey
+      license:
+        summaries: true
+        strict_check: true
+        substitute_missing: true
+      author:
+        substitute_missing: true
+        default_author: MUDE Teachers and the Student Army
+      copyright:
+        substitute_missing: true
+        default_copyright: Delft University of Technology
+```
+
+### Attribution figure from others
+
+If you include an image, include the following:
+
+````md
+```{figure} <link to figure>
+:author: <authors>
+:date: <date>
+:license: <license>
+:source: <source>
+:copyright: <copyright>
+:placement: margin
+<other options>
+
+<caption text>
+```
+````
+
+### Source files
+
+If you've an image for which you've used a source file which is different than the image file itselt, indicate the source of the figure. Preferable you store the source file of the figure on the [](./LFS.md). Use the following syntax:
+
+````md
+```{figure} <link to figure>
+:source: https://github.com/TUDelft-MUDE/source-files/tree/main/file/<path to file>
+<other options>
+
+<caption text>
+```
+````
+
+This source doesn't show up in the online book, but makes the source visible for future authors
+
 ## Copyright and Licenses
 The book is released openly, copyrighted by all of us as employees from Delft University of Technology, with a CC BY License. Please comply to the obvious rules for citations for text and figures and don't use non-licensed (or non compatible with our CC BY license) material from others. Some content has been taken out of the book because of copyright risks in preparation for the 2025-2026 academic year. Read [the TeachBooks manual](https://teachbooks.io/manual/installation-and-setup/copyright.html) for more information about how to deal with copyright.
 
