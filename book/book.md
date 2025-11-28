@@ -150,9 +150,11 @@ If you include an image, include the following:
 ```
 ````
 
+See [this page](https://mude.citg.tudelft.nl/book/2025/time_series/intro.html) as an example.
+
 ### Source files
 
-If you've an image for which you've used a source file which is different than the image file itselt, indicate the source of the figure. Preferable you store the source file of the figure on the [](./LFS.md). Use the following syntax:
+If you've an image for which you've used a source file which is different than the image file itself, indicate the source of the figure. Preferable you store the source file of the figure on the [](./LFS.md). Use the following syntax:
 
 ````md
 ```{figure} <link to figure>
@@ -163,7 +165,7 @@ If you've an image for which you've used a source file which is different than t
 ```
 ````
 
-This source doesn't show up in the online book, but makes the source visible for future authors
+This source doesn't show up in the online book, but makes the source visible for future authors. See [this file](https://github.com/TUDelft-MUDE/book/blob/2025-draft/book/time_series/examples_PSD.ipynb) as an example.
 
 ## Copyright and Licenses
 The book is released openly, copyrighted by all of us as employees from Delft University of Technology, with a CC BY License. Please comply to the obvious rules for citations for text and figures and don't use non-licensed (or non compatible with our CC BY license) material from others. Some content has been taken out of the book because of copyright risks in preparation for the 2025-2026 academic year. Read [the TeachBooks manual](https://teachbooks.io/manual/installation-and-setup/copyright.html) for more information about how to deal with copyright.
