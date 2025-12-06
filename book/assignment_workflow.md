@@ -13,9 +13,7 @@
     - Split files into separate tasks where possible
     - Add markdown version of `.py` files (to be implemented in workflow) in `assignment_book` and `solution_book` branch.
 
-2. Prepare `toc.yml` in workbook with all files of the assignment with to be published files in `#START REMOVE-FROM-PUBLISH` en `#END REMOVE-FROM-PUBLISH` gates. The readme is taken as the section header page, the other files are added as subsections. Eventually, .py files can be added as well as subsections of the other files.
-
-3. If GH classroom assignment:
+2. If GH classroom assignment:
 
     - Change default branch of assignment repository to `assignment` (Settings - Branches - Default branch - Change default branch)
     - Make new assignment in GH classroom based on the assignment repository
@@ -28,15 +26,14 @@
         - Protect file paths of tests and classroom workflow
     - Add GH classroom link to readme of assignment repository
 
-4. Update changelog in workbook
-5. Add version tag to repository (locally, push changes)
-6. Check correct version in `.gitmodules` file: `assignment` or `assignment_book` in case of .py files.
-7. Sync changes by running dependabot under Github - Insights - Dependency graph - Dependabot - "Check for updates". Wait for pull request and merge.
-8. Check rendering in draft book
-9. Update overview on homepage MUDE
-10. Update changelog and tag for homepage
-11. Remove `#START REMOVE-FROM-PUBLISH` en `#END REMOVE-FROM-PUBLISH` gates
-12. Share link (including GH classroom link if provided) with students
+3. Check correct version in `.gitmodules` file: `assignment` or `assignment_book` in case of .py files.
+4. Adjust `toc.yml` in workbook with all files of the assignment. The readme is taken as the section header page, the other files are added as subsections. Eventually, .py files can be added as well as subsections of the other files.
+5. Update changelog in workbook
+6. Add version tag to repository (locally, push changes)
+7. Check rendering in book
+8. Update overview on homepage MUDE
+9. Update changelog and tag for homepage
+10. Share link (including GH classroom link if provided) with students
 
 More details below
 
@@ -44,17 +41,16 @@ More details below
 1. Update assignment repository. Include eventual new `.py` files and their `.md` equivalent in case they should have been created in the assignment.
 2. If solution to be published: change branch name in `.gitmodules` file to `solution` or `solution_book`
 3. In case of new `.md` files for `.py` files as part of a solution, update `_toc.yml`
-4. Sync changes by running dependabot under Github - Insights - Dependency graph - Dependabot - "Check for updates". Wait for pull request and merge.
-5. If assignment is finished:
+4. If assignment is finished:
     - Make assignment repository public
     - Remove template checkbox on repository
-6. Update changelog in workbook
-7. Add version tag to repository (locally, push changes)
-8. If GH classroom assignment starts:
+5. Update changelog in workbook
+6. Add version tag to repository (locally, push changes)
+7. If GH classroom assignment starts:
     - Set cutoff date a few minutes in the future
     - Make assignment inactive
-9. If group assignment finished, start grading process
-10. If programming assignment finished, process grades:
+8. If group assignment finished, start grading process
+9. If programming assignment finished, process grades:
     - Download grades from GH classroom
     - Import grades to Brightspace as described [here](https://www.tudelft.nl/en/teaching-support/educational-tools/brightspace/assessing-assignments-grading/manage-grades#exportingimporting-grades), not a friendly process
     - Some students won't be recognized although they are in BS, you'll get prompted with a list of those and have to enter those manually
@@ -87,40 +83,18 @@ Solutions are shared for/on:
 Step 4 - 6 have been implemented in a [py script included in the zip](./create_repos.py) for MUDE-2025. For this you need a GitHub Token. My Personal access token (classic) has `repo` permissions.
 
 ## Combine assignments in workbook
-The workbook has all the assignment repos as [submodules](https://teachbooks.io/manual/external/Nested-Books/README.html) so that it can use those files to create previews in the book. To be able to clone those submodules during the build, a personal access token is added as `GH_PAT` to the repository action secrets with 'repo' scope, as explained [in the TeachBooks Manual](https://teachbooks.io/manual/external/deploy-book-workflow/README.html#private-submodules). Furthermore, a [`.github/dependabot.yml`](https://teachbooks.io/manual/external/Nested-Books/README.html#the-external-book-is-updated) was added to allow automatic updates:
-
-```yaml
-version: 2
-registries:
-  submodule1-registry:
-    type: "git"
-    url: https://github.com/
-    username: x-access-token
-    password: ${{secrets.GH_PAT}}
-    
-updates:
-  - package-ecosystem: "gitsubmodule" # See documentation for possible values
-    directory: "/" # Location of package manifests
-    schedule:
-      interval: "monthly"
-      day: "sunday"
-      time: "23:59"
-    registries:
-      - submodule1-registry
-```
-
-The same `GH_PAT` is added to the repository dependabot secrets to allow access to the assignment repositories.
+The workbook has all the assignment repos as [submodules](https://teachbooks.io/manual/external/Nested-Books/README.html) so that it can use those files to create previews in the book. To be able to clone those submodules during the build, a personal access token is added as `GH_PAT` to the repository action secrets with 'repo' scope, as explained [in the TeachBooks Manual](https://teachbooks.io/manual/external/deploy-book-workflow/README.html#private-submodules). Furthermore, a step in the [workflow](https://github.com/TUDelft-MUDE/workbook-2025/blob/release/.github/workflows/deploy-book.yml) is included to update submodules.
 
 ## Release assignment in workbook
 
-How to release an assignment to students in the workbook is shown below:
+How to release an assignment to students in the workbook is shown below (note that this video includes a deprecated implementation of github dependabot):
 
 ```{video} https://www.youtube.com/watch?v=ryhD623UqZ0
 ```
 
 To share the solution, change the branch `assignment` to `solution` in the `.gitmodules` file and retrigger the dependabot as shown in shown in the video above (and merge pull request,update changelog and add version number)
 
-To release an assignment via github classroom, the workflow is shown below:
+To release an assignment via github classroom, the workflow is shown below ((note that this video includes a deprecated implementation of github dependabot):
 
 ```{video} https://www.youtube.com/watch?v=dph6VI3f-Qo
 ```
