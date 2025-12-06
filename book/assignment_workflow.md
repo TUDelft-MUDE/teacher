@@ -30,10 +30,11 @@
 4. Adjust `toc.yml` in workbook with all files of the assignment. The readme is taken as the section header page, the other files are added as subsections. Eventually, .py files can be added as well as subsections of the other files.
 5. Update changelog in workbook
 6. Add version tag to repository (locally, push changes)
-7. Check rendering in book
-8. Update overview on homepage MUDE
-9. Update changelog and tag for homepage
-10. Share link (including GH classroom link if provided) with students
+7. Check whether automatic commits don't include undesired changes from other assignment repositories.
+8. Check rendering in book
+9. Update overview on homepage MUDE
+10. Update changelog and tag for homepage
+11. Share link (including GH classroom link if provided) with students
 
 More details below
 
@@ -46,11 +47,13 @@ More details below
     - Remove template checkbox on repository
 5. Update changelog in workbook
 6. Add version tag to repository (locally, push changes)
-7. If GH classroom assignment starts:
+7. Check whether automatic commits don't include undesired changes from other assignment repositories.
+8. Check rendering in book
+9. If GH classroom assignment starts:
     - Set cutoff date a few minutes in the future
     - Make assignment inactive
-8. If group assignment finished, start grading process
-9. If programming assignment finished, process grades:
+10. If group assignment finished, start grading process
+11. If programming assignment finished, process grades:
     - Download grades from GH classroom
     - Import grades to Brightspace as described [here](https://www.tudelft.nl/en/teaching-support/educational-tools/brightspace/assessing-assignments-grading/manage-grades#exportingimporting-grades), not a friendly process
     - Some students won't be recognized although they are in BS, you'll get prompted with a list of those and have to enter those manually
