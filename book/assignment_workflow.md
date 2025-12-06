@@ -40,20 +40,21 @@ More details below
 
 ## Steps to update assignments with typos or solution:
 1. Update assignment repository. Include eventual new `.py` files and their `.md` equivalent in case they should have been created in the assignment.
-2. If solution to be published: change branch name in `.gitmodules` file to `solution` or `solution_book`
+2. If solution to be published: change branch name in `.gitmodules` file to `solution` or `solution_book`.
 3. In case of new `.md` files for `.py` files as part of a solution, update `_toc.yml`
 4. If assignment is finished:
     - Make assignment repository public
     - Remove template checkbox on repository
 5. Update changelog in workbook
 6. Add version tag to repository (locally, push changes)
-7. Check whether automatic commits don't include undesired changes from other assignment repositories.
-8. Check rendering in book
-9. If GH classroom assignment starts:
+7. If no changes have been made to the workbook-repository, but you want to update the workbook with the updated assignment repositories: trigger the build workflow manually from [the workflow tab](https://github.com/TUDelft-MUDE/workbook-2025/actions/workflows/deploy-book.yml)
+8. Check whether automatic commits don't include undesired changes from other assignment repositories.
+9. Check rendering in book
+10. If GH classroom assignment starts:
     - Set cutoff date a few minutes in the future
     - Make assignment inactive
-10. If group assignment finished, start grading process
-11. If programming assignment finished, process grades:
+11. If group assignment finished, start grading process
+12. If programming assignment finished, process grades:
     - Download grades from GH classroom
     - Import grades to Brightspace as described [here](https://www.tudelft.nl/en/teaching-support/educational-tools/brightspace/assessing-assignments-grading/manage-grades#exportingimporting-grades), not a friendly process
     - Some students won't be recognized although they are in BS, you'll get prompted with a list of those and have to enter those manually
