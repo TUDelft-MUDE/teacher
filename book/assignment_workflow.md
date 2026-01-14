@@ -72,19 +72,16 @@ Solutions are shared for/on:
 1. Create an organization for your assignments. This repository will include source repositories, but also student repositories.
 2. Go to {octicon}`person` `People` to add members. In MUDE, the MUDE MT is added to a team (under {octicon}`people` `Teams`) and has been given All-repository admin rights under {octicon}`gear` `Settings` - {octicon}`organization` `Organization roles` - `Role assignment`.
 3. Apply for [a GitHub Education GitHub Team](https://education.github.com/globalcampus/teacher) for your organization to get unlimited workflow minutes in the GitHub classroom repos, allow adding many students to the organization at the same time and GitHub pages (public) for private repositories)
-4. Add a empty repository (if you already have a template repository, you can make it based on that template) and give it a logical name. In MUDE we use:
+4. Create forks from the template repsitory: https://github.com/TUDelft-MUDE/assignment_repo_template. This template contains a `README.md` containing some basic information, a citation file, template notebook, license file, template report, requirements file and github workflow for stripping out assignment and solution blocks. In MUDE we use:
    - `WS1.1` for workshops assignments indicated with `<Q1/Q2>.<week1-8>`
    - `GA1.1` for group assignments indicated with `<Q1/Q2>.<week1-8>`
    - `PA1.1` for programming assignments indicated with `<Q1/Q2>.<week1-8>`
-5. Add a `README.md` containing some basic information. And add a citation file, template notebook, license file, template report, readme requirements file and github workflow for stripping out assignment and solution blocks. All of these files are combined in a [zip](./repo_template.zip) including a py script to upload each of these [here](./create_repos.py). Note that you need to move the workflow file manually as the script doesn't allow adding files with a dot.
-6. Go to {octicon}`gear` `Settings` - {octicon}`gear` General:
+5. Go to {octicon}`gear` `Settings` - {octicon}`gear` General:
    - under `General`: check `Template repository`
    - under `Features`: uncheck `Wikis`
    - under `Pull requests`: check `Always suggest updating pull request branches Loading` and `Automatically delete head branches`
-7. Go to {octicon}`repo-push` `Rules` - `Rulesets`, click `Import a ruleset` and import [this file](./protect_assignment_and_solution.json). This is imported to protect the `assignment` and `solution` branches which should be read-only.
-8. Go to {octicon}`gear` `Settings` - {octicon}`people` `Collaborators and teams` to add the responsible people. In MUDE the responsible teacher of the topic has admin access and can add his topic-colleagues. To bypass this, a repository secret needs to be added to every repository called `FG_MUDE_2025_TOKEN`, which can be a fine-grained PAT with a least `content` access.
-
-Step 4 - 6 have been implemented in a [py script included in the zip](./create_repos.py) for MUDE-2025. For this you need a GitHub Token. My Personal access token (classic) has `repo` permissions.
+6. Go to {octicon}`repo-push` `Rules` - `Rulesets`, click `Import a ruleset` and import [this file](./protect_assignment_and_solution.json). This is imported to protect the `assignment` and `solution` branches which should be read-only.
+7. Go to {octicon}`gear` `Settings` - {octicon}`people` `Collaborators and teams` to add the responsible people. In MUDE the responsible teacher of the topic has admin access and can add his topic-colleagues. To bypass this, a repository secret needs to be added to every repository called `FG_MUDE_2025_TOKEN`, which can be a fine-grained PAT with a least `content` access.
 
 ## Combine assignments in workbook
 The workbook has all the assignment repos as [submodules](https://teachbooks.io/manual/external/Nested-Books/README.html) so that it can use those files to create previews in the book. To be able to clone those submodules during the build, a personal access token is added as `GH_PAT` to the repository action secrets with 'repo' scope, as explained [in the TeachBooks Manual](https://teachbooks.io/manual/external/deploy-book-workflow/README.html#private-submodules). Furthermore, a step in the [workflow](https://github.com/TUDelft-MUDE/workbook-2025/blob/release/.github/workflows/deploy-book.yml) is included to update submodules.
