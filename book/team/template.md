@@ -4,6 +4,11 @@ For general questions, please contact the MUDE guides on [MUDE-CEG@tudelft.nl](m
 
 {{TEAM_CARDS}}
 
+## MUDE guides 2025-2026
+- Module Manager: Frans van der Meer
+- Content Coordinator: Jialei Ding
+- IT Coordinator: Tom van Woudenberg
+
 ## MUDE guides 2024-2025
 - Module Manager: Robert Lanzafame
 - Jialei Ding
