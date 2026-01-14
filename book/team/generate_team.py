@@ -23,7 +23,7 @@ def read_person(filepath):
 def generate_card(person):
     """Generate HTML for a neat horizontal person card."""
     return f"""<div class="team-card">
-<img src="https://files.mude.citg.tudelft.nl/{person['photo']}" alt="{person['name']}" class="dark-light resized">
+<img src="https://github.com/TUDelft-MUDE/source-files/raw/main/file/{person['photo']}" alt="{person['name']}" class="dark-light resized">
 <div class="team-info">
 <h3>{person['name']}</h3>
 <p><em>{person['role']}</em></p>

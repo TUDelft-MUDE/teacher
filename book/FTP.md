@@ -12,14 +12,14 @@ Add this FTP-server by following [as shown here for Windows](https://www.wintips
 
 Add your big and binary files in the `./httpdocs/`-directory. Don't be afraid of things becoming a mess, that's fine! As long as you don't overwrite existing files ;). And of course, DON't put any copyrighted material on this FTP server.
 
-To use a file, you can use the url `https://files.mude.citg.tudelft.nl/<filename>`. For example the file `MUDE_NoTextVector.svg` in `./httpdocs/` can be referenced by with https://files.mude.citg.tudelft.nl/MUDE_NoTextVector.svg, which gives you the image below:
+To use a file, you can use the url `https://github.com/TUDelft-MUDE/source-files/raw/main/file/<filename>`. For example the file `MUDE_NoTextVector.svg` in `./httpdocs/` can be referenced by with https://github.com/TUDelft-MUDE/source-files/raw/main/file/MUDE_NoTextVector.svg, which gives you the image below:
 
-![](https://files.mude.citg.tudelft.nl/MUDE_NoTextVector.svg)
+![](https://github.com/TUDelft-MUDE/source-files/raw/main/file/MUDE_NoTextVector.svg)
 
 Figures can be referenced in any markdown text using the normal syntax for a figure:
 
 ```md
-![](https://files.mude.citg.tudelft.nl/<filename>)
+![](https://github.com/TUDelft-MUDE/source-files/raw/main/file/<filename>)
 ```
 
 If you want to have students download files from a `.ipynb`-file, you can use the following lines of code:

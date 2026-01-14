@@ -36,7 +36,7 @@ For exercises in the book, we'd like to use:
 Images and binary or big files should be stored on our FTP-server or Git LFS repository. More information is available [here](./FTP.md) and [here](./LFS.md). If you add an image using MyST syntax, add the link like this:
 
 ````md
-```{figure} https://files.mude.citg.tudelft.nl/<filename>
+```{figure} https://github.com/TUDelft-MUDE/source-files/raw/main/file/<filename>
 ---
 name: figure_label
 ---
@@ -57,7 +57,7 @@ caption
 If you'd like to use the [download link replacer](https://teachbooks.io/manual/external/Download-Link-Replacer/README.html) to add a button to download custom files, add those files to the FTP-server too:
 
 ````md
-```{custom_download_link} https://files.mude.citg.tudelft.nl/<path to file>
+```{custom_download_link} https://github.com/TUDelft-MUDE/source-files/raw/main/file/<path to file>
 :text: "Custom text"
 :replace_default: "False"
 ```
@@ -66,7 +66,7 @@ If you'd like to use the [download link replacer](https://teachbooks.io/manual/e
 or 
 
 ````md
-```{custom_download_link} https://files.mude.citg.tudelft.nl/<path to file>
+```{custom_download_link} https://github.com/TUDelft-MUDE/source-files/raw/main/file/<path to file>
 :text: "Custom text"
 :replace_default: "False"
 ```
