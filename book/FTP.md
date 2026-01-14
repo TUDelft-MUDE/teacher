@@ -1,7 +1,7 @@
-# FTP-server for big and binary files
+# (Deprecated) FTP-server for big and binary files
 
 ```{note}
-There's an alternative to using the Git LFS repository described in [LFS.md](./LFS.md). We aim to phase out this FTP-server in the future.
+There's an alternative to using the Git LFS repository described in [LFS.md](./LFS.md). This FTP-server is now phased out.
 ```
 
 To keep our websites small and efficient, we're using a TU-Delft provided FTP-server to host all big (>0.5 MB) and binary files (e.g. .JPEG, .zip). Furthermore, this allows us to share single assignments files without attachments.
