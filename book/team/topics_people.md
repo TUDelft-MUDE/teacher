@@ -240,6 +240,10 @@ Time Series Analysis (Week 2.4).</p>
 ---
 
 
+## MUDE guides 2025-2026
+- Module Manager: Frans van der Meer
+- Content Coordinator: Jialei Ding
+- IT Coordinator: Tom van Woudenberg
 
 ## MUDE guides 2024-2025
 - Module Manager: Robert Lanzafame
