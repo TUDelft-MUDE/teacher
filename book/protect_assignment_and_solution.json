@@ -1,9 +1,9 @@
 {
-  "id": 4654173,
-  "name": "protect assignment and solution",
+  "id": 14876600,
+  "name": "Protect assignment and solution",
   "target": "branch",
   "source_type": "Repository",
-  "source": "MUDE-2025/WS1.1",
+  "source": "MUDE-2026/PA1.1",
   "enforcement": "active",
   "conditions": {
     "ref_name": {
@@ -22,16 +22,16 @@
       "type": "non_fast_forward"
     },
     {
-      "type": "creation"
+      "type": "update"
     },
     {
-      "type": "update"
+      "type": "creation"
     }
   ],
   "bypass_actors": [
     {
-      "actor_id": 12220652,
-      "actor_type": "Team",
+      "actor_id": 3324589,
+      "actor_type": "Integration",
       "bypass_mode": "always"
     }
   ]
