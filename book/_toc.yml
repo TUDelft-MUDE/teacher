@@ -7,8 +7,9 @@ parts:
     - file: websites.md
     - file: book.md
     - file: assignment_repo.md
-    - file: FTP.md
     - file: LFS.md
+      sections:
+      - file: FTP.md
     - file: github-classroom.md
     - file: assignment_workflow.md
     - file: schedule.md
