@@ -51,7 +51,7 @@ IT Coordinator. Programming.
 
 ## Instructor
 
-::::{grid} 2 3 4 5
+::::{grid} 2 3 4 4
 :gutter: 3
 
 :::{grid-item-card} Anna Störiko
@@ -203,7 +203,7 @@ Univariate Distributions (Week 1.4).
 
 ## Teaching Assistant
 
-::::{grid} 2 3 4 5
+::::{grid} 2 3 4 4
 :gutter: 3
 
 :::{grid-item-card} Kwangjin Lee
