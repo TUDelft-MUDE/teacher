@@ -23,6 +23,7 @@ parts:
       - file: gitlab_pipeline.md
       - file: webserver_tools.md
     - file: IT_training.md
+    - file: changes_2025_2026.md
     - file: changes_2024_2025.md
   - caption: Miscallaneous
     chapters:
