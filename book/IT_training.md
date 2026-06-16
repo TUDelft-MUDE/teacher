@@ -10,19 +10,23 @@ Watch out, this video is long and confusing, better just continue reading and do
 
 After this demo, you'll practise with the systems yourself with the following steps:
 
-1. Ask for access to the book and assignment repositories at the IT coordinator with your GitHub username, FTP access with a provided password and H5p shared folder access with your TU Delft email (first activate account as explained [here](https://www.tudelft.nl/teaching-support/educational-tools/h5p#first-time-use))
+1. Ask for access to the book and assignment repositories at the IT coordinator with your GitHub username.
 1. Read [](./book.md), [](./assignment_repo.md), [](./FTP.md) and [](./LFS.md).
-1. If you've no experiences with books and git: go through ['Your first TeachBook' part of the TeachBooks manual](https://teachbooks.io/manual/) which includes the ['TeachBooks workflow' exercises of the TeachBooks template](https://teachbooks.io/template/exercises.html). Exercise 7 can be skipped if you've already access to book and assignment repositories.
+1. If you've no experiences with books and git: go through ['Your first TeachBook' part of the TeachBooks manual](https://teachbooks.io/manual/) which includes the ['TeachBooks workflow' exercises of the TeachBooks template](https://teachbooks.io/template/exercises.html). Exercise 6 can be skipped and for exercise 7 you can try one of the assignment repositories as 'your friends repo'
+1. Try and make edits to the teachers book with the following:
+   - Add you profile picture to the Git LFS repository
+   - Add your profile picture in the teacher's page in the teacher's book
+   - Ask for a review.
 1. Try and make edits on new branches in the MUDE-book / your own book from the previous step:
    - Only text
-   - [H5p exercise](https://teachbooks.io/manual/features/h5p.html)
+   - [Interactive questions](https://teachbooks.io/manual/_git/github.com_TeachBooks_TeachBooks-Questions/main/MANUAL.html)
    - If you've python skills: [interactive python code](https://teachbooks.io/manual/features/live_code.html)
-   - Figure on the FTP server or Git LFS repository.
+   - Figure (stored on the Git LFS repository).
    - Attribution note
    - Note in changelog
-   - Ask for a review from the content coordinator
+   - Ask for a review
 1. Try and make an edits to the assignment using:
    - Only text in report
    - If you've python skills: assignment file with assignment and solution cells
-   - Figure on FTP server or Git LFS repository.
-   - Ask for a review from the content leader and content coordinator
+   - Figure on Git LFS repository.
+   - Ask for a review

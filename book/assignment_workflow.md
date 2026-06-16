@@ -12,52 +12,36 @@
     - No copyright issues
     - Split files into separate tasks where possible
     - Add markdown version of `.py` files (to be implemented in workflow) in `assignment_book` and `solution_book` branch.
+    - Placeholders in `README.md` are replaced with the actual assignment name.
 
-2. If GH classroom assignment:
+2. If programming assignment:
 
     - Change default branch of assignment repository to `assignment` (Settings - Branches - Default branch - Change default branch)
-    - Make new assignment in GH classroom based on the assignment repository
-    - Change default branch back to `main`.
-    - Create GH classroom assignment:
-        - Set hard cutoff date
-        - Private repositories
-        - No admin access
-        - No github codespaces
-        - Protect file paths of tests and classroom workflow
-    - Add GH classroom link to readme of assignment repository
+    - Create new assignment based on this template assignment with the same name but with `_template` after it (so for example `PA1.1_template`).
 
-3. Check correct version in `.gitmodules` file: `assignment` or `assignment_book` in case of .py files.
-4. Adjust `toc.yml` in workbook with all files of the assignment. The readme is taken as the section header page, the other files are added as subsections. Eventually, .py files can be added as well as subsections of the other files.
+3. Check correct version in `.gitmodules` file: `assignment`.
+4. Adjust `toc.yml` in workbook with all files of the assignment. The readme is taken as the section header page, the other files are added as subsections.
 5. Update changelog in workbook
 6. Add version tag to repository (locally, push changes)
 7. Check whether automatic commits don't include undesired changes from other assignment repositories.
 8. Check rendering in book
 9. Update overview on homepage MUDE
 10. Update changelog and tag for homepage
-11. Share link (including GH classroom link if provided) with students
+11. Share link with students
 
 More details below
 
 ## Steps to update assignments with typos or solution:
-1. Update assignment repository. Include eventual new `.py` files and their `.md` equivalent in case they should have been created in the assignment.
-2. If solution to be published: change branch name in `.gitmodules` file to `solution` or `solution_book`.
-3. In case of new `.md` files for `.py` files as part of a solution, update `_toc.yml`
-4. If assignment is finished:
+1. Update assignment repository.
+2. If solution to be published: change branch name in `.gitmodules` file to `solution`.
+3. If assignment is finished:
     - Make assignment repository public
-    - Remove template checkbox on repository
-5. Update changelog in workbook
-6. Add version tag to repository (locally, push changes)
-7. If no changes have been made to the workbook-repository, but you want to update the workbook with the updated assignment repositories: trigger the build workflow manually from [the workflow tab](https://github.com/TUDelft-MUDE/workbook-2025/actions/workflows/deploy-book.yml)
-8. Check whether automatic commits don't include undesired changes from other assignment repositories.
-9. Check rendering in book
-10. If GH classroom assignment starts:
-    - Set cutoff date a few minutes in the future
-    - Make assignment inactive
-11. If group assignment finished, start grading process
-12. If programming assignment finished, process grades:
-    - Download grades from GH classroom
-    - Import grades to Brightspace as described [here](https://www.tudelft.nl/en/teaching-support/educational-tools/brightspace/assessing-assignments-grading/manage-grades#exportingimporting-grades), not a friendly process
-    - Some students won't be recognized although they are in BS, you'll get prompted with a list of those and have to enter those manually
+4. Update changelog in workbook
+5. Add version tag to workbook repository (locally, push changes)
+6. If no changes have been made to the workbook-repository, but you want to update the workbook with the updated assignment repositories: trigger the build workflow manually from [the workflow tab](https://github.com/TUDelft-MUDE/workbook-2026/actions/workflows/deploy-book.yml)
+7. Check whether automatic commits don't include undesired changes from other assignment repositories.
+8. Check rendering in book
+9. If group assignment finished, start grading process
 
 More details below.
 
@@ -94,11 +78,6 @@ How to release an assignment to students in the workbook is shown below (note th
 ```
 
 To share the solution, change the branch `assignment` to `solution` in the `.gitmodules` file and retrigger the dependabot as shown in shown in the video above (and merge pull request,update changelog and add version number)
-
-To release an assignment via github classroom, the workflow is shown below ((note that this video includes a deprecated implementation of github dependabot):
-
-```{video} https://www.youtube.com/watch?v=dph6VI3f-Qo
-```
 
 Which should then be followed by the same steps as shown above to add the assignment to the workbook.
 

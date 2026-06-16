@@ -1,4 +1,4 @@
-# GitHub Classroom
+# Deprecated: GitHub Classroom
 
 _This is a work in progress. We will try to describe some of these things and more (mostly just giving insight, tips and a links, as most of the topics are well-described on github website anyway):_
 

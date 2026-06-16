@@ -30,9 +30,10 @@ Starting in the academic year 2025-2026, we apply ['TeachBooks versioning with `
 For exercises in the book, we'd like to use:
 - [interactive python code](https://teachbooks.io/manual/features/live_code.html)
 - [interactive HTML/JavaScript elements](https://teachbooks.io/manual/features/HTML_javascript.html)
-- [interactive H5p elements](https://teachbooks.io/manual/features/h5p.html). Ask for access to [shared folder](https://tudelft.h5p.com/content/1292046735045725667) at Tom van Woudenberg
+- [interactie questions](https://teachbooks.io/manual/_git/github.com_TeachBooks_TeachBooks-Questions/main/MANUAL.html)
+- [deprecated: interactive H5p elements](https://teachbooks.io/manual/features/h5p.html). Ask for access to [shared folder](https://tudelft.h5p.com/content/1292046735045725667) at Tom van Woudenberg
 
-## FTP or Git LFS storage
+## Git LFS storage
 Images and binary or big files should be stored on our Git LFS repository. More information is available [here](./LFS.md). If you add an image using MyST syntax, add the link like this:
 
 ````md
@@ -54,7 +55,7 @@ caption
 ```
 ````
 
-If you'd like to use the [download link replacer](https://teachbooks.io/manual/external/Download-Link-Replacer/README.html) to add a button to download custom files, add those files to the FTP-server too:
+If you'd like to use the [download link replacer](https://teachbooks.io/manual/external/Download-Link-Replacer/README.html) to add a button to download custom files, add those files to the Git LFS repository too:
 
 ````md
 ```{custom_download_link} https://github.com/TUDelft-MUDE/source-files/raw/main/file/<path to file>
