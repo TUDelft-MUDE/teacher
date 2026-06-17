@@ -217,6 +217,17 @@ Computer Science / Software Development
 [K.lee-5@student.tudelft.nl](mailto:K.lee-5@student.tudelft.nl)
 :::
 
+:::{grid-item-card} Nanda Najih Habibil Afif
+:img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/nandanajihha.jpeg
+:img-alt: Nanda Najih Habibil Afif
+
+*Teaching Assistant*
+
+Admin TA
++++
+[nandanajihhabibilafif@student.tudelft.nl](mailto:nandanajihhabibilafif@student.tudelft.nl)
+:::
+
 :::{grid-item-card} Gaia ELoisa Fattor
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Eloisa.jpg
 :img-alt: Gaia Eloisa Fattor
