@@ -210,17 +210,16 @@ Univariate Distributions (Week 1.4).
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Kwangjin.jpg
 :img-alt: Kwangjin Lee
 
-
 *Teaching Assistant*
 
 Computer Science / Software Development
 +++
 [K.lee-5@student.tudelft.nl](mailto:K.lee-5@student.tudelft.nl)
 :::
+
 :::{grid-item-card} Gaia ELoisa Fattor
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Eloisa.jpg
 :img-alt: Gaia Eloisa Fattor
-
 
 *Teaching Assistant*
 
@@ -228,6 +227,18 @@ Environmental Engineering / Earth Applied Sciences
 +++
 [G.E.Fattor@student.tudelft.nl](mailto:G.E.Fattor@student.tudelft.nl)
 :::
+
+:::{grid-item-card} Sonya Qaderi
+:img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Sonya_photo.jpeg
+:img-alt: Sonya Qaderi
+
+*Teaching Assistant*
+
+Structural Engineering
++++
+[sqaderi@student.tudelft.nl](mailto:sqaderi@student.tudelft.nl)
+:::
+
 ::::
 
 
