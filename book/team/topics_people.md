@@ -217,10 +217,19 @@ Computer Science / Software Development
 +++
 [K.lee-5@student.tudelft.nl](mailto:K.lee-5@student.tudelft.nl)
 :::
+:::{grid-item-card} Gaia ELoisa Fattor
+:img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Eloisa.jpg
+:img-alt: Gaia Eloisa Fattor
 
+
+*Teaching Assistant*
+
+Environmental Engineering / Earth Applied Sciences
++++
+[G.E.Fattor@student.tudelft.nl](mailto:G.E.Fattor@student.tudelft.nl)
+:::
 ::::
 
----
 
 
 ## MUDE guides 2025-2026
