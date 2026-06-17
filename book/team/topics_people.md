@@ -218,6 +218,18 @@ Computer Science / Software Development
 [K.lee-5@student.tudelft.nl](mailto:K.lee-5@student.tudelft.nl)
 :::
 
+:::{grid-item-card} Nanda Najih Habibil Afif
+:img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/nandanajihha.jpg
+:img-alt: Nanda Najih Habibil Afif
+
+
+*Teaching Assistant*
+
+Computer Science / Software Development
++++
+[nandanajihhabibilafif@student.tudelft.nl](mailto:nandanajihhabibilafif@student.tudelft.nl)
+:::
+
 ::::
 
 ---
