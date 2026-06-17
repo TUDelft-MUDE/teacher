@@ -225,7 +225,7 @@ Computer Science / Software Development
 
 *Teaching Assistant*
 
-Computer Science / Software Development
+Admin TA
 +++
 [nandanajihhabibilafif@student.tudelft.nl](mailto:nandanajihhabibilafif@student.tudelft.nl)
 :::
