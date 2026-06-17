@@ -219,7 +219,7 @@ Computer Science / Software Development
 :::
 
 :::{grid-item-card} Nanda Najih Habibil Afif
-:img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/nandanajihha.jpg
+:img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/nandanajihha.jpeg
 :img-alt: Nanda Najih Habibil Afif
 
 
