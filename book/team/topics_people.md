@@ -230,6 +230,27 @@ Structural Engineering
 [sqaderi@student.tudelft.nl](mailto:sqaderi@student.tudelft.nl)
 :::
 
+:::{grid-item-card} Pelle Mutsaers
+:img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/PellePF.jpg
+:img-alt: Pelle Mutsaers
+
+
+*Teaching Assistant*
+
+Computer Science / Software Development
++++
+[P.S.Mutsaers@student.tudelft.nl](mailto:P.S.Mutsaers@student.tudelft.nl)
+:::
+:img-alt: Pelle Mutsaers
+
+
+*Teaching Assistant*
+
+Computer Science / Software Development
++++
+[K.lee-5@student.tudelft.nl](mailto:K.lee-5@student.tudelft.nl)
+:::
+
 ::::
 
 ---
