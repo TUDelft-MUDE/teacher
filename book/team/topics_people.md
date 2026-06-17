@@ -219,7 +219,7 @@ Computer Science / Software Development
 :::
 
 :::{grid-item-card} Sonya Qaderi
-:img-top: https://github.com/TUDelft-MUDE/source-files/raw/refs/heads/main/file/Sonya_photo.jpeg
+:img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Sonya_photo.jpeg
 :img-alt: Sonya Qaderi
 
 
