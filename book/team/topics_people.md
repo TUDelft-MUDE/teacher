@@ -217,6 +217,18 @@ Computer Science / Software Development
 [K.lee-5@student.tudelft.nl](mailto:K.lee-5@student.tudelft.nl)
 :::
 
+:::{grid-item-card} Mihir Borse
+:img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Mihir_MUDE.jpeg
+:img-alt: Mihir Borse
+
+
+*Teaching Assistant*
+
+Civil Engineering / Structural Engineering
++++
+[mborse@student.tudelft.nl](mailto:M.N.Borse@student.tudelft.nl)
+:::
+
 :::{grid-item-card} Nanda Najih Habibil Afif
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/nandanajihha.jpeg
 :img-alt: Nanda Najih Habibil Afif
