@@ -218,6 +218,18 @@ Computer Science / Software Development
 [K.lee-5@student.tudelft.nl](mailto:K.lee-5@student.tudelft.nl)
 :::
 
+:::{grid-item-card} Sonya Qaderi
+:img-top: https://github.com/TUDelft-MUDE/source-files/blob/main/file/Sonya_photo.jpeg
+:img-alt: Sonya Qaderi
+
+
+*Teaching Assistant*
+
+Structural Engineering
++++
+[sqaderi@student.tudelft.nl](mailto:sqaderi@student.tudelft.nl)
+:::
+
 ::::
 
 ---
