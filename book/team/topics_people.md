@@ -219,7 +219,7 @@ Computer Science / Software Development
 :::
 
 :::{grid-item-card} Mihir Borse
-:img-top: https://github.com/TUDelft-MUDE/source-files/file/Mihir_MUDE.jpg
+:img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Mihir_MUDE.jpg
 :img-alt: Mihir Borse
 
 
