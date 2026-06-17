@@ -218,6 +218,18 @@ Computer Science / Software Development
 [K.lee-5@student.tudelft.nl](mailto:K.lee-5@student.tudelft.nl)
 :::
 
+:::{grid-item-card} Pelle Mutsaers
+:img-top: https://github.com/TUDelft-MUDE/source-files/blob/main/file/PellePF.jpg
+:img-alt: Pelle Mutsaers
+
+
+*Teaching Assistant*
+
+Civil Engineering 
++++
+[P.S.Mutsaers@student.tudelft.nl](mailto:P.S.Mutsaers@student.tudelft.nl)
+:::
+
 ::::
 
 ---
