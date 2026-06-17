@@ -269,18 +269,9 @@ Structural Engineering
 
 *Teaching Assistant*
 
-Computer Science / Software Development
+Civil Engineering
 +++
 [P.S.Mutsaers@student.tudelft.nl](mailto:P.S.Mutsaers@student.tudelft.nl)
-:::
-:img-alt: Pelle Mutsaers
-
-
-*Teaching Assistant*
-
-Computer Science / Software Development
-+++
-[K.lee-5@student.tudelft.nl](mailto:K.lee-5@student.tudelft.nl)
 :::
 
 ::::
