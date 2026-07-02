@@ -274,6 +274,18 @@ Civil Engineering
 [P.S.Mutsaers@student.tudelft.nl](mailto:P.S.Mutsaers@student.tudelft.nl)
 :::
 
+:::{grid-item-card} Renee Li
+:img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/renee.jpg
+:img-alt: Renee
+
+
+*Teaching Assistant*
+
+Earth, Climate and Technology / Earth Observation
++++
+[R.R.Li@student.tudelft.nl](mailto:R.R.Li@student.tudelft.nl)
+:::
+
 ::::
 
 
