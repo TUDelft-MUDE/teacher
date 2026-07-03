@@ -20,7 +20,7 @@
     - Create new assignment based on this template assignment with the same name but with `_template` after it (so for example `PA1.1_template`).
 
 3. Check correct version in `.gitmodules` file: `assignment`.
-4. Adjust `toc.yml` in workbook with all files of the assignment. The readme is taken as the section header page, the other files are added as subsections.
+4. Adjust `toc.yml` in workbook with all files of the assignment. The readme is taken as the section header page, the other files are added as subsections. For GAs: the report is not added in the assignment version.
 5. Update changelog in workbook
 6. Add version tag to repository (locally, push changes)
 7. Check whether automatic commits don't include undesired changes from other assignment repositories.
@@ -36,6 +36,7 @@ More details below
 2. If solution to be published: change branch name in `.gitmodules` file to `solution`.
 3. If assignment is finished:
     - Make assignment repository public
+    - For GAs: add report to `_toc.yml` of the workbook.
 4. Update changelog in workbook
 5. Add version tag to workbook repository (locally, push changes)
 6. If no changes have been made to the workbook-repository, but you want to update the workbook with the updated assignment repositories: trigger the build workflow manually from [the workflow tab](https://github.com/TUDelft-MUDE/workbook-2026/actions/workflows/deploy-book.yml)
@@ -55,7 +56,7 @@ Solutions are shared for/on:
 
 1. Create an organization for your assignments. This repository will include source repositories, but also student repositories.
 2. Go to {octicon}`person` `People` to add members. In MUDE, the MUDE MT is added to a team (under {octicon}`people` `Teams`) and has been given All-repository admin rights under {octicon}`gear` `Settings` - {octicon}`organization` `Organization roles` - `Role assignment`.
-3. Apply for [a GitHub Education GitHub Team](https://education.github.com/globalcampus/teacher) for your organization to get unlimited workflow minutes in the GitHub classroom repos, allow adding many students to the organization at the same time and GitHub pages (public) for private repositories)
+3. Apply for [a GitHub Education GitHub Team](https://education.github.com/globalcampus/teacher) for some useful additional options
 4. Create repositories from the template repsitory with the same git history: https://github.com/TUDelft-MUDE/assignment_repo_template. Therefore clone the template repository and push it to a new remote (it's like a fork, but you cannot create more than one fork). This template contains a `README.md` containing some basic information, a citation file, template notebook, license file, template report, requirements file and github workflow for stripping out assignment and solution blocks. In MUDE we use:
    - `WS1.1` for workshops assignments indicated with `<Q1/Q2>.<week1-8>`
    - `GA1.1` for group assignments indicated with `<Q1/Q2>.<week1-8>`
