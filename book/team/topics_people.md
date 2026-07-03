@@ -235,7 +235,7 @@ Civil Engineering / Structural Engineering
 
 *Teaching Assistant*
 
-Admin TA
+Earth, Climate, and Technology / Geo-Energy Engineering
 +++
 [nandanajihhabibilafif@student.tudelft.nl](mailto:nandanajihhabibilafif@student.tudelft.nl)
 :::
