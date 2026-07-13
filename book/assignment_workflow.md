@@ -16,8 +16,10 @@
 
 2. If programming assignment:
 
-    - Change default branch of assignment repository to `assignment` (Settings - Branches - Default branch - Change default branch)
+    - Change default branch of assignment repository to `assignment_template` (Settings - Branches - Default branch - Change default branch).
     - Create new assignment based on this template assignment with the same name but with `_template` after it (so for example `PA1.1_template`).
+    - Rename branch of the template assignment from `assignment_template` to `assignment`.
+    - Change default branch of the original assignment repository back to `main`.
 
 3. Check correct version in `.gitmodules` file: `assignment`.
 4. Adjust `toc.yml` in workbook with all files of the assignment. The readme is taken as the section header page, the other files are added as subsections. For GAs: the report is not added in the assignment version.
