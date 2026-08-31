@@ -33,6 +33,14 @@
 
 More details below
 
+## Steps to print report questions
+1. Go the assignment repository
+2. Open the assignment_print branch
+3. Open `report.md`
+4. Copy the raw content into https://print.markdown.janqi.com/
+5. Print!
+
+
 ## Steps to update assignments with typos or solution:
 1. Update assignment repository.
 2. If solution to be published: change branch name in `.gitmodules` file to `solution`.
