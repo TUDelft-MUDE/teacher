@@ -18,6 +18,7 @@
 
     - Change default branch of assignment repository to `assignment_template` (Settings - Branches - Default branch - Change default branch).
     - Create new assignment (but this time **public**) based on this template assignment with the same name but with `_template` after it (so for example `PA1.1_template`).
+    - Make this repo a template too.
     - Rename branch of the template assignment from `assignment_template` to `assignment`.
     - Change default branch of the original assignment repository back to `main`.
 
