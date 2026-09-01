@@ -240,7 +240,7 @@ Earth, Climate, and Technology / Geo-Energy Engineering
 [nandanajihhabibilafif@student.tudelft.nl](mailto:nandanajihhabibilafif@student.tudelft.nl)
 :::
 
-:::{grid-item-card} Gaia ELoisa Fattor
+:::{grid-item-card} Gaia Eloisa Fattor
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Eloisa.jpg
 :img-alt: Gaia Eloisa Fattor
 
