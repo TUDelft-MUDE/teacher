@@ -10,7 +10,7 @@ This is the release schedule:
 | Wednesday morning   | 10:30 | Programming assignment solutions<br>Workshop                                  | - Workbook<br>- Homepage           |
 | Wednesday afternoon | 12:30 | Workshop solutions                                                            | Workbook                           |
 | Friday morning      | 8:30  | Group assignment                                                              | - Workbook<br>- Homepage           |
-| Friday afternoon    | 12:30 | - Group assignment report<br>- Group assignment solutions<br>- See above for content of week +1     | - Workbook<br>- Homepage           |
+| Friday afternoon    | 12:30 | - Group assignment report (with and without solutions)<br>- Group assignment solutions<br>- See above for content of week +1     | - Workbook<br>- Homepage           |
 
 Note that the Friday afternoon always contains release of this week and the next one.
 
