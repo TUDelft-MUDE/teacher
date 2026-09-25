@@ -39,12 +39,11 @@ Note that the Friday afternoon always contains release of this week and the next
 3. Check correct version in `.gitmodules` file: `assignment`.
 4. Adjust `toc.yml` in workbook with all files of the assignment. The readme is taken as the section header page, the other files are added as subsections. For GAs: the report is not added in the assignment version.
 5. Update changelog in workbook
-6. Add version tag to repository (locally, push changes)
-7. Check whether automatic commits don't include undesired changes from other assignment repositories.
-8. Check rendering in book
-9. Update overview on homepage MUDE
-10. Update changelog and tag for homepage
-11. Share link with students
+6. Check whether automatic commits don't include undesired changes from other assignment repositories.
+7. Check rendering in book
+8. Update overview on homepage MUDE
+9. Update changelog for homepage
+10. Share link with students
 
 More details below
 
@@ -59,16 +58,11 @@ More details below
 ## Steps to update assignments with typos or solution:
 1. Update assignment repository.
 2. If solution to be published: change branch name in `.gitmodules` file to `solution` in `release` branch
-3. For GAs: In `no_solutions` branch change branch name in `.gitmodules` file to `assignment_with_report` (this itself doesn't trigger the workflow, but the following steps will)
-4. If assignment is finished:
-    - Make assignment repository public
-    - For GAs: add report to `_toc.yml` of the workbook.
-5. Update changelog in workbook
-6. Add version tag to workbook repository (locally, push changes)
-7. If no changes have been made to the workbook-repository, but you want to update the workbook with the updated assignment repositories: trigger the build workflow manually from [the workflow tab](https://github.com/TUDelft-MUDE/workbook-2026/actions/workflows/deploy-book.yml)
-8. Check whether automatic commits don't include undesired changes from other assignment repositories.
-9. Check rendering in book
-10. If group assignment finished, start grading process
+3. If assignment is finished for GAs: add report to `_toc.yml` of the workbook.
+4. Update changelog in workbook
+5. If no changes have been made to the workbook-repository, but you want to update the workbook with the updated assignment repositories: trigger the build workflow manually from [the workflow tab](https://github.com/TUDelft-MUDE/workbook-2026/actions/workflows/deploy-book.yml)
+6. Check whether automatic commits don't include undesired changes from other assignment repositories.
+7. Check rendering in book
 
 More details below.
 
