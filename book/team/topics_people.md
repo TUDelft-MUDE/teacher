@@ -12,6 +12,7 @@ For general questions, please contact the MUDE guides on [MUDE-CEG@tudelft.nl](m
 :::{grid-item-card} Frans van der Meer
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Frans.jpg
 :img-alt: Frans van der Meer
+:class-img-top: dark-light
 
 
 *MUDE guide*
@@ -24,6 +25,7 @@ Module Manager. Numerical Analysis, FEM (Week 2.2).
 :::{grid-item-card} Jialei Ding
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/jialei.jpg
 :img-alt: Jialei Ding
+:class-img-top: dark-light
 
 
 *MUDE guide*
@@ -36,6 +38,7 @@ Content Coordinator. Modelling Concepts (Week 1.1).
 :::{grid-item-card} Tom van Woudenberg
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Tom.jpg
 :img-alt: Tom van Woudenberg
+:class-img-top: dark-light
 
 
 *MUDE guide*
@@ -57,6 +60,7 @@ IT Coordinator. Programming.
 :::{grid-item-card} Anna Störiko
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/anna.png
 :img-alt: Anna Störiko
+:class-img-top: dark-light
 
 
 *Instructor*
@@ -69,6 +73,7 @@ Numerical Modelling (Week 1.2 and 1.3).
 :::{grid-item-card} Christian Tiberius
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Christian.jpg
 :img-alt: Christian Tiberius
+:class-img-top: dark-light
 
 
 *Instructor*
@@ -81,6 +86,7 @@ Signal Processing (Week 2.3), Time Series Analysis (Week 2.4).
 :::{grid-item-card} Iuri Rocha
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Iuri.webp
 :img-alt: Iuri Rocha
+:class-img-top: dark-light
 
 
 *Instructor*
@@ -93,6 +99,7 @@ Machine Learning (Week 2.6).
 :::{grid-item-card} Lotfi Massarweh
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/lotfi.jpg
 :img-alt: Lotfi Massarweh
+:class-img-top: dark-light
 
 
 *Instructor*
@@ -105,6 +112,7 @@ Uncertainty Propagation (Week 1.6).
 :::{grid-item-card} Marcel Zijlema
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/marcel.webp
 :img-alt: Marcel Zijlema
+:class-img-top: dark-light
 
 
 *Instructor*
@@ -117,6 +125,7 @@ PDE's, FDM, FVM (Week 2.1).
 :::{grid-item-card} Max Ramgraber
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Max.png
 :img-alt: Max Ramgraber
+:class-img-top: dark-light
 
 
 *Instructor*
@@ -129,6 +138,7 @@ Univariate Distributions (Week 1.5).
 :::{grid-item-card} Nadia Pourmohammadzia
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/nadia.webp
 :img-alt: Nadia Pourmohammadzia
+:class-img-top: dark-light
 
 
 *Instructor*
@@ -141,6 +151,7 @@ Optimization (Week 2.5).
 :::{grid-item-card} Oswaldo Morales Napoles
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/oswaldo.webp
 :img-alt: Oswaldo Morales Napoles
+:class-img-top: dark-light
 
 
 *Instructor*
@@ -153,6 +164,7 @@ Risk Analysis (Week 2.8).
 :::{grid-item-card} Patricia Mares Nasarre
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Patricia.jpg
 :img-alt: Patricia Mares Nasarre
+:class-img-top: dark-light
 
 
 *Instructor*
@@ -165,6 +177,7 @@ Extreme Value Analysis (Week 2.7).
 :::{grid-item-card} Ronald Brinkgreve
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Ronald.jpg
 :img-alt: Ronald Brinkgreve
+:class-img-top: dark-light
 
 
 *Instructor*
@@ -177,6 +190,7 @@ Numerical Modelling (Week 1.2 and 1.3).
 :::{grid-item-card} Sandra Verhagen
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/sandra.jpg
 :img-alt: Sandra Verhagen
+:class-img-top: dark-light
 
 
 *Instructor*
@@ -189,6 +203,7 @@ Observation Theory (Week 1.7 and 1.8).
 :::{grid-item-card} Zheng Guan
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/zheng.jpg
 :img-alt: Zheng Guan
+:class-img-top: dark-light
 
 *Instructor*
 
@@ -209,6 +224,7 @@ Multivariate Distributions (Week 1.4).
 :::{grid-item-card} Mihir Borse
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Mihir_MUDE.jpeg
 :img-alt: Mihir Borse
+:class-img-top: dark-light
 
 
 *Teaching Assistant*
@@ -221,6 +237,7 @@ Civil Engineering / Structural Engineering
 :::{grid-item-card} Nanda Najih Habibil Afif
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/nandanajihha.jpeg
 :img-alt: Nanda Najih Habibil Afif
+:class-img-top: dark-light
 
 *Teaching Assistant*
 
@@ -232,6 +249,7 @@ Earth, Climate, and Technology / Geo-Energy Engineering
 :::{grid-item-card} Gaia Eloisa Fattor
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Eloisa.jpg
 :img-alt: Gaia Eloisa Fattor
+:class-img-top: dark-light
 
 *Teaching Assistant*
 
@@ -243,6 +261,7 @@ Environmental Engineering / Earth Applied Sciences
 :::{grid-item-card} Sonya Qaderi
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Sonya_photo.jpeg
 :img-alt: Sonya Qaderi
+:class-img-top: dark-light
 
 *Teaching Assistant*
 
@@ -254,6 +273,7 @@ Structural Engineering
 :::{grid-item-card} Pelle Mutsaers
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/PellePF.jpg
 :img-alt: Pelle Mutsaers
+:class-img-top: dark-light
 
 
 *Teaching Assistant*
@@ -266,6 +286,7 @@ Civil Engineering
 :::{grid-item-card} Renee Li
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/renee.jpg
 :img-alt: Renee
+:class-img-top: dark-light
 
 
 *Teaching Assistant*
