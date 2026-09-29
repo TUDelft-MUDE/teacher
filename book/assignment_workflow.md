@@ -47,6 +47,31 @@ Note that the Friday afternoon always contains release of this week and the next
 
 More details below
 
+## Workflow for GA printing, scanning and grading
+See table below, where  **teacher** refers to the content leader and **MUDE MT** refers to content coordinator. 
+
+| What | Who | When |
+|------|-----|------|
+| **During the session** | | |
+| Send email to non-group student | MUDE MT | Thursday/Friday (scheduled email) |
+| Print questions and distribute over rooms | TA | Friday morning (before 9:30) |
+| Get scrap paper from cupboard in one of the rooms and distribute | TA | Friday morning (before 9:30) |
+| **After the session (ASAP)** | | |
+| Scan all papers and store *where?* | TA | Before handover meeting | 
+| Distribute among graders and to responsible Teacher | TA | At handover meeting |
+| Grade the fist batch (~10) and finalize mark scheme | Teacher | Friday afternoon |
+| Send answers from non-group student to grader | MUDE MT | Friday afternoon |
+| **During following week** | | |
+| Draft general feedback to students | Teacher |  |
+| Grading of other reports, collect grades in excel | TA |  |
+| Final check on grades general feedback | Teacher | |
+| Upload grades to brightspace | TA | |
+| Publish grades on brightspace | MUDE MT | |
+| Announcement with general feedback | MUDE MT | |
+| Collect papers for returning to groups at next | TA | |
+
+
+
 ## Steps to print report questions
 1. Go the assignment repository
 2. Open the assignment_print branch
