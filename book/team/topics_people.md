@@ -121,7 +121,7 @@ PDE's, FDM, FVM (Week 2.1).
 
 *Instructor*
 
-Multivariate Distributions (Week 1.5).
+Univariate Distributions (Week 1.5).
 +++
 [M.Ramgraber@tudelft.nl](mailto:M.Ramgraber@tudelft.nl)
 :::
@@ -192,7 +192,7 @@ Observation Theory (Week 1.7 and 1.8).
 
 *Instructor*
 
-Univariate Distributions (Week 1.4).
+Multivariate Distributions (Week 1.4).
 +++
 [Z.GUAN@tudelft.nl](mailto:Z.GUAN@tudelft.nl)
 :::
