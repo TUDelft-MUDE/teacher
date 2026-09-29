@@ -206,17 +206,6 @@ Univariate Distributions (Week 1.4).
 ::::{grid} 2 3 4 4
 :gutter: 3
 
-:::{grid-item-card} Kwangjin Lee
-:img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Kwangjin.jpg
-:img-alt: Kwangjin Lee
-
-*Teaching Assistant*
-
-Computer Science / Software Development
-+++
-[K.lee-5@student.tudelft.nl](mailto:K.lee-5@student.tudelft.nl)
-:::
-
 :::{grid-item-card} Mihir Borse
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Mihir_MUDE.jpeg
 :img-alt: Mihir Borse
