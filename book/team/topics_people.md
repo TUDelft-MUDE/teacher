@@ -296,6 +296,19 @@ Earth, Climate and Technology / Earth Observation
 [R.R.Li@student.tudelft.nl](mailto:R.R.Li@student.tudelft.nl)
 :::
 
+:::{grid-item-card} Muhammad Arif
+:img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Arif.jpg
+:img-alt: Arif
+:class-img-top: dark-light
+
+
+*Teaching Assistant*
+
+Earth, Climate and Technology / Geo-Energy Engineering
++++
+[MuhammadArif@student.tudelft.nl](mailto:MuhammadArif@student.tudelft.nl)
+:::
+
 ::::
 
 
