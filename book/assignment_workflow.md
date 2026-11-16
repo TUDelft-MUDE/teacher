@@ -77,7 +77,7 @@ See table below, where  **teacher** refers to the content leader and **MUDE MT**
 1. Go the assignment repository
 2. Open the assignment_print branch
 3. Open `report.md`
-4. Copy the raw content into https://print.markdown.janqi.com/
+4. Copy the raw content into https://markdownlivepreview.org/tools/markdown-to-pdf
 5. Print!
 
 
