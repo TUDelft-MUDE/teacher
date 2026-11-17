@@ -85,7 +85,7 @@ Numerical Modelling (Week 1.2 and 1.3).
 Signal Processing (Week 2.3), Time Series Analysis (Week 2.4).
 :::{card-footer}
 [C.C.J.M.Tiberius@tudelft.nl](mailto:C.C.J.M.Tiberius@tudelft.nl)
-:::{card-footer}
+:::
 ::::
 
 ::::{grid-item-card} Iuri Rocha
