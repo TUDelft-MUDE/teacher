@@ -6,10 +6,10 @@ For general questions, please contact the MUDE guides on [MUDE-CEG@tudelft.nl](m
 
 ## MUDE guide
 
-::::{grid} 2 3 3 3
+:::::{grid} 2 3 3 3
 :gutter: 3
 
-:::{grid-item-card} Frans van der Meer
+::::{grid-item-card} Frans van der Meer
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Frans.jpg
 :img-alt: Frans van der Meer
 :class-img-top: dark-light
@@ -18,11 +18,12 @@ For general questions, please contact the MUDE guides on [MUDE-CEG@tudelft.nl](m
 *MUDE guide*
 
 Module Manager. Numerical Analysis, FEM (Week 2.2).
-+++
+:::{card-footer}
 [F.P.vanderMeer@tudelft.nl](mailto:F.P.vanderMeer@tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Jialei Ding
+::::{grid-item-card} Jialei Ding
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/jialei.jpg
 :img-alt: Jialei Ding
 :class-img-top: dark-light
@@ -31,11 +32,12 @@ Module Manager. Numerical Analysis, FEM (Week 2.2).
 *MUDE guide*
 
 Content Coordinator. Modelling Concepts (Week 1.1).
-+++
+:::{card-footer}
 [J.D.Ding@tudelft.nl](mailto:J.D.Ding@tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Tom van Woudenberg
+::::{grid-item-card} Tom van Woudenberg
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Tom.jpg
 :img-alt: Tom van Woudenberg
 :class-img-top: dark-light
@@ -44,20 +46,21 @@ Content Coordinator. Modelling Concepts (Week 1.1).
 *MUDE guide*
 
 IT Coordinator. Programming.
-+++
+:::{card-footer}
 [T.R.vanWoudenberg@tudelft.nl](mailto:T.R.vanWoudenberg@tudelft.nl)
 :::
-
 ::::
+
+:::::
 
 ---
 
 ## Instructor
 
-::::{grid} 2 3 4 4
+:::::{grid} 2 3 4 4
 :gutter: 3
 
-:::{grid-item-card} Anna Störiko
+::::{grid-item-card} Anna Störiko
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/anna.png
 :img-alt: Anna Störiko
 :class-img-top: dark-light
@@ -66,11 +69,12 @@ IT Coordinator. Programming.
 *Instructor*
 
 Numerical Modelling (Week 1.2 and 1.3).
-+++
+:::{card-footer}
 [a.storiko@tudelft.nl](mailto:a.storiko@tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Christian Tiberius
+::::{grid-item-card} Christian Tiberius
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Christian.jpg
 :img-alt: Christian Tiberius
 :class-img-top: dark-light
@@ -79,11 +83,12 @@ Numerical Modelling (Week 1.2 and 1.3).
 *Instructor*
 
 Signal Processing (Week 2.3), Time Series Analysis (Week 2.4).
-+++
+:::{card-footer}
 [C.C.J.M.Tiberius@tudelft.nl](mailto:C.C.J.M.Tiberius@tudelft.nl)
-:::
+:::{card-footer}
+::::
 
-:::{grid-item-card} Iuri Rocha
+::::{grid-item-card} Iuri Rocha
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Iuri.webp
 :img-alt: Iuri Rocha
 :class-img-top: dark-light
@@ -92,11 +97,12 @@ Signal Processing (Week 2.3), Time Series Analysis (Week 2.4).
 *Instructor*
 
 Machine Learning (Week 2.6).
-+++
+:::{card-footer}
 [I.Rocha@tudelft.nl](mailto:I.Rocha@tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Lotfi Massarweh
+::::{grid-item-card} Lotfi Massarweh
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/lotfi.jpg
 :img-alt: Lotfi Massarweh
 :class-img-top: dark-light
@@ -105,11 +111,12 @@ Machine Learning (Week 2.6).
 *Instructor*
 
 Uncertainty Propagation (Week 1.6).
-+++
+:::{card-footer}
 [L.Massarweh@tudelft.nl](mailto:L.Massarweh@tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Marcel Zijlema
+::::{grid-item-card} Marcel Zijlema
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/marcel.webp
 :img-alt: Marcel Zijlema
 :class-img-top: dark-light
@@ -118,11 +125,12 @@ Uncertainty Propagation (Week 1.6).
 *Instructor*
 
 PDE's, FDM, FVM (Week 2.1).
-+++
+:::{card-footer}
 [M.Zijlema@tudelft.nl](mailto:M.Zijlema@tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Max Ramgraber
+::::{grid-item-card} Max Ramgraber
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Max.png
 :img-alt: Max Ramgraber
 :class-img-top: dark-light
@@ -131,11 +139,12 @@ PDE's, FDM, FVM (Week 2.1).
 *Instructor*
 
 Univariate Distributions (Week 1.5).
-+++
+:::{card-footer}
 [M.Ramgraber@tudelft.nl](mailto:M.Ramgraber@tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Nadia Pourmohammadzia
+::::{grid-item-card} Nadia Pourmohammadzia
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/nadia.webp
 :img-alt: Nadia Pourmohammadzia
 :class-img-top: dark-light
@@ -144,11 +153,12 @@ Univariate Distributions (Week 1.5).
 *Instructor*
 
 Optimization (Week 2.5).
-+++
+:::{card-footer}
 [N.Pourmohammadzia@tudelft.nl](mailto:N.Pourmohammadzia@tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Oswaldo Morales Napoles
+::::{grid-item-card} Oswaldo Morales Napoles
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/oswaldo.webp
 :img-alt: Oswaldo Morales Napoles
 :class-img-top: dark-light
@@ -157,11 +167,12 @@ Optimization (Week 2.5).
 *Instructor*
 
 Risk Analysis (Week 2.8).
-+++
+:::{card-footer}
 [O.MoralesNapoles@tudelft.nl](mailto:O.MoralesNapoles@tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Patricia Mares Nasarre
+::::{grid-item-card} Patricia Mares Nasarre
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Patricia.jpg
 :img-alt: Patricia Mares Nasarre
 :class-img-top: dark-light
@@ -170,11 +181,12 @@ Risk Analysis (Week 2.8).
 *Instructor*
 
 Extreme Value Analysis (Week 2.7).
-+++
+:::{card-footer}
 [P.MaresNasarre@tudelft.nl](mailto:P.MaresNasarre@tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Ronald Brinkgreve
+::::{grid-item-card} Ronald Brinkgreve
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Ronald.jpg
 :img-alt: Ronald Brinkgreve
 :class-img-top: dark-light
@@ -183,11 +195,12 @@ Extreme Value Analysis (Week 2.7).
 *Instructor*
 
 Numerical Modelling (Week 1.2 and 1.3).
-+++
+:::{card-footer}
 [R.B.J.Brinkgreve@tudelft.nl](mailto:R.B.J.Brinkgreve@tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Sandra Verhagen
+::::{grid-item-card} Sandra Verhagen
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/sandra.jpg
 :img-alt: Sandra Verhagen
 :class-img-top: dark-light
@@ -196,11 +209,12 @@ Numerical Modelling (Week 1.2 and 1.3).
 *Instructor*
 
 Observation Theory (Week 1.7 and 1.8).
-+++
+:::{card-footer}
 [Sandra.Verhagen@tudelft.nl](mailto:Sandra.Verhagen@tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Zheng Guan
+::::{grid-item-card} Zheng Guan
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/zheng.jpg
 :img-alt: Zheng Guan
 :class-img-top: dark-light
@@ -208,20 +222,22 @@ Observation Theory (Week 1.7 and 1.8).
 *Instructor*
 
 Multivariate Distributions (Week 1.4).
-+++
+:::{card-footer}
 [Z.GUAN@tudelft.nl](mailto:Z.GUAN@tudelft.nl)
 :::
 
 ::::
 
+:::::
+
 ---
 
 ## Teaching Assistant
 
-::::{grid} 2 3 4 4
+:::::{grid} 2 3 4 4
 :gutter: 3
 
-:::{grid-item-card} Mihir Borse
+::::{grid-item-card} Mihir Borse
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Mihir_MUDE.jpeg
 :img-alt: Mihir Borse
 :class-img-top: dark-light
@@ -230,11 +246,12 @@ Multivariate Distributions (Week 1.4).
 *Teaching Assistant*
 
 Civil Engineering / Structural Engineering
-+++
+:::{card-footer}
 [mborse@student.tudelft.nl](mailto:M.N.Borse@student.tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Nanda Najih Habibil Afif
+::::{grid-item-card} Nanda Najih Habibil Afif
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/nandanajihha.jpeg
 :img-alt: Nanda Najih Habibil Afif
 :class-img-top: dark-light
@@ -242,11 +259,12 @@ Civil Engineering / Structural Engineering
 *Teaching Assistant*
 
 Earth, Climate, and Technology / Geo-Energy Engineering
-+++
+:::{card-footer}
 [nandanajihhabibilafif@student.tudelft.nl](mailto:nandanajihhabibilafif@student.tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Gaia Eloisa Fattor
+::::{grid-item-card} Gaia Eloisa Fattor
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Eloisa.jpg
 :img-alt: Gaia Eloisa Fattor
 :class-img-top: dark-light
@@ -254,11 +272,12 @@ Earth, Climate, and Technology / Geo-Energy Engineering
 *Teaching Assistant*
 
 Environmental Engineering / Earth Applied Sciences
-+++
+:::{card-footer}
 [G.E.Fattor@student.tudelft.nl](mailto:G.E.Fattor@student.tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Sonya Qaderi
+::::{grid-item-card} Sonya Qaderi
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Sonya_photo.jpeg
 :img-alt: Sonya Qaderi
 :class-img-top: dark-light
@@ -266,11 +285,12 @@ Environmental Engineering / Earth Applied Sciences
 *Teaching Assistant*
 
 Structural Engineering
-+++
+:::{card-footer}
 [sqaderi@student.tudelft.nl](mailto:sqaderi@student.tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Pelle Mutsaers
+::::{grid-item-card} Pelle Mutsaers
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/PellePF.jpg
 :img-alt: Pelle Mutsaers
 :class-img-top: dark-light
@@ -279,11 +299,12 @@ Structural Engineering
 *Teaching Assistant*
 
 Civil Engineering
-+++
+:::{card-footer}
 [P.S.Mutsaers@student.tudelft.nl](mailto:P.S.Mutsaers@student.tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Renee Li
+::::{grid-item-card} Renee Li
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/renee.jpg
 :img-alt: Renee
 :class-img-top: dark-light
@@ -292,11 +313,12 @@ Civil Engineering
 *Teaching Assistant*
 
 Earth, Climate and Technology / Earth Observation
-+++
+:::{card-footer}
 [R.R.Li@student.tudelft.nl](mailto:R.R.Li@student.tudelft.nl)
 :::
+::::
 
-:::{grid-item-card} Muhammad Arif
+::::{grid-item-card} Muhammad Arif
 :img-top: https://github.com/TUDelft-MUDE/source-files/raw/main/file/Arif.jpg
 :img-alt: Arif
 :class-img-top: dark-light
@@ -305,11 +327,12 @@ Earth, Climate and Technology / Earth Observation
 *Teaching Assistant*
 
 Earth, Climate and Technology / Geo-Energy Engineering
-+++
+:::{card-footer}
 [MuhammadArif@student.tudelft.nl](mailto:MuhammadArif@student.tudelft.nl)
 :::
-
 ::::
+
+:::::
 
 
 
