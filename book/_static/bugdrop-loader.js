@@ -84,7 +84,7 @@
     else a.textContent = "Send feedback";
 
     // Use your own hosted icon file in _static
-    var feedbackIconUrl = "_static/icon_bugdrop.png";
+    var feedbackIconUrl = "/_static/icon_bugdrop.png";
 
     // Try to find existing icon container used by the theme
     var iconContainer = a.querySelector(".btn__icon-container");
