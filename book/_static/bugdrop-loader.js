@@ -10,8 +10,15 @@
   function prepareCaptureResources() {
     // html-to-image resolves CSS imports against the page and inserts their
     // contents into the live sheet. Replace this single-import wrapper instead.
+    var viewerCss = new URL("vendor/viewer.min.css", staticUrl);
+    var viewerCssSeen = false;
     document.querySelectorAll('link[rel~="stylesheet"]').forEach(function (link) {
       var url = new URL(link.href);
+      // Jupyter Book and Zoomies can both register the same local stylesheet.
+      if (url.origin === viewerCss.origin && url.pathname === viewerCss.pathname) {
+        if (viewerCssSeen) link.remove();
+        viewerCssSeen = true;
+      }
       if (url.origin !== location.origin || !url.pathname.endsWith("/_static/styles/theme.css")) return;
       if (!link.sheet) {
         console.warn("[BugDrop] Theme stylesheet is not available for screenshot preparation.");
