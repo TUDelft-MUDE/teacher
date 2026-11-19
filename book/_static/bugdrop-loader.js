@@ -1,5 +1,4 @@
 (function () {
-  var staticUrl = new URL(".", document.currentScript.src);
   var FEEDBACK_SVG =
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" ' +
     'fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ' +
@@ -10,15 +9,8 @@
   function prepareCaptureResources() {
     // html-to-image resolves CSS imports against the page and inserts their
     // contents into the live sheet. Replace this single-import wrapper instead.
-    var viewerCss = new URL("vendor/viewer.min.css", staticUrl);
-    var viewerCssSeen = false;
     document.querySelectorAll('link[rel~="stylesheet"]').forEach(function (link) {
       var url = new URL(link.href);
-      // Jupyter Book and Zoomies can both register the same local stylesheet.
-      if (url.origin === viewerCss.origin && url.pathname === viewerCss.pathname) {
-        if (viewerCssSeen) link.remove();
-        viewerCssSeen = true;
-      }
       if (url.origin !== location.origin || !url.pathname.endsWith("/_static/styles/theme.css")) return;
       if (!link.sheet) {
         console.warn("[BugDrop] Theme stylesheet is not available for screenshot preparation.");
@@ -29,15 +21,6 @@
           rules[0].href !== "../basic.css" || rules[0].media.mediaText ||
           rules[0].supportsText || rules[0].layerName) return;
       link.href = new URL(rules[0].href, url).href;
-    });
-
-    var icons = {
-      "https://mirrors.creativecommons.org/presskit/icons/cc.svg": "vendor/cc-logo.svg",
-      "https://mirrors.creativecommons.org/presskit/icons/by.svg": "vendor/cc-by.svg"
-    };
-    document.querySelectorAll("img[src]").forEach(function (img) {
-      var localIcon = icons[img.getAttribute("src")];
-      if (localIcon) img.src = new URL(localIcon, staticUrl).href;
     });
   }
 
