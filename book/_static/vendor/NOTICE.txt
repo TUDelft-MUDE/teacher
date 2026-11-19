@@ -1,0 +1,6 @@
+viewer.min.css: Viewer.js 1.15.2, https://github.com/fengyuanchen/viewerjs
+Copyright 2015-present Chen Fengyuan. See viewer.LICENSE.
+
+cc-logo.svg and cc-by.svg: https://github.com/creativecommons/cc-assets
+Creative Commons trademarks; use is subject to
+https://creativecommons.org/policies#trademark.

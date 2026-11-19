@@ -1,10 +1,38 @@
 (function () {
+  var staticUrl = new URL(".", document.currentScript.src);
   var FEEDBACK_SVG =
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" ' +
     'fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ' +
     'aria-hidden="true" class="bugdrop-feedback-icon">' +
     '<path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>' +
     '<line x1="12" y1="7" x2="12" y2="11"/><line x1="12" y1="14" x2="12.01" y2="14"/></svg>';
+
+  function prepareCaptureResources() {
+    // html-to-image resolves CSS imports against the page and inserts their
+    // contents into the live sheet. Replace this single-import wrapper instead.
+    document.querySelectorAll('link[rel~="stylesheet"]').forEach(function (link) {
+      var url = new URL(link.href);
+      if (url.origin !== location.origin || !url.pathname.endsWith("/_static/styles/theme.css")) return;
+      if (!link.sheet) {
+        console.warn("[BugDrop] Theme stylesheet is not available for screenshot preparation.");
+        return;
+      }
+      var rules = link.sheet.cssRules;
+      if (rules.length !== 1 || rules[0].type !== CSSRule.IMPORT_RULE ||
+          rules[0].href !== "../basic.css" || rules[0].media.mediaText ||
+          rules[0].supportsText || rules[0].layerName) return;
+      link.href = new URL(rules[0].href, url).href;
+    });
+
+    var icons = {
+      "https://mirrors.creativecommons.org/presskit/icons/cc.svg": "vendor/cc-logo.svg",
+      "https://mirrors.creativecommons.org/presskit/icons/by.svg": "vendor/cc-by.svg"
+    };
+    document.querySelectorAll("img[src]").forEach(function (img) {
+      var localIcon = icons[img.getAttribute("src")];
+      if (localIcon) img.src = new URL(localIcon, staticUrl).href;
+    });
+  }
 
   function loadBugDrop() {
     var s = document.createElement("script");
@@ -90,6 +118,7 @@
   }
 
   function start() {
+    prepareCaptureResources();
     loadBugDrop();
 
     // Wait for widget API
